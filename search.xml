@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>linux常用命令</title>
+    <url>/2020/04/09/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p>批量解压<br>zip: sudo find -maxdepth 1 -name  “<em>.zip”|sudo xargs -i unzip -O GBK {}<br>rar: sudo find -maxdepth 1 -name  “</em>.rar”|sudo xargs -i unrar x {}</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>cpp学习笔记</title>
+    <url>/2020/04/03/cpp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p>struct name cpp中用于定义类</p>
+<p>命名空间,防止同名实体.在不同的命令空间使用相同的实体名互不影响.它可以存在多个不同的文件中.<br>namespace 命名空间名<br>{<br>    … 这里的内容都在名字为namespace的作用域下<br>}</p>
+<p>使用命名空间内实体的格式:<br>命名空间名::实体名   —-其中 :: 叫”作用域运算符”</p>
+<p>同时编译的方法:<br>g++ 文件名.cpp 文件名.cpp 文件名.h -o 文件.o<br>即可同时编译</p>
+<p>c++标准库是c++的重要组成部分<br>iostream库 输入输出流<br>命名空间名字:std<br>cout: c out (console output),这是std下的”标准输出”对象<br>&lt;&lt;和cout一起运用时作用被重载为”输出运算符”,不再是”左移”<br>std::endl 和 “\n” 是有区别的,<br>std::endl 是个模板函数名,相当于函数指针<br>std::endl 可以(1)输出换行符 (2)强制刷新输出缓冲区,执行到这里就会输出到屏幕<br>如果不用则会在(1)缓冲区满了 (2)程序执行到main的return (3)系统不太繁忙的时候 三种情况下输出到屏幕<br>每个”std::cout &lt;&lt;”返回的是一个cout对象<br>std::cout &lt;&lt; x– &lt;&lt; x–; //编译器不同执行结果可能不同,有的会输出43有的是34<br>避免在一个表达式中多次改变一个变量的值<br>std::cin 标准输入</p>
+<p>初始化 int a = 1;  等价于 int a {1}; 或 int a = {1}<br>初始化数组 可以直接 int a[] {3,5,7};<br>如果 int a = 3.5f a会直接截断为 a = 3 但 int a {3.5f} 会报错</p>
+<p>auto: 变量的自动类型判断<br>auto可以在声明变量的时候根据变量初始值自动选择相匹配的变量类型,auto在编译期间执行,不会降低程序效率<br>auto a = true; //bool<br>auto a = ‘a’; //char<br>auto a = 1.2f; //float</p>
+<p>头文件防卫<br>头文件互相include的时候可能会造成 重定义 的问题<br>在头文件中使用 ifndef define endif 来保证不会重定义</p>
+<p>引用: 为变量起了另外一个名字,一般用&amp;符号表示,起别名后,别名和变量本身我们就看成是同一个变量<br>int a = 1;<br>int $b = a; // a的别名就是b, &amp;在这里不是求地址运算符, 只是起标识作用,<br>            // 定义引用在编译器看来使用同一块内存<br>            // 定义引用的时候必须初始化<br>int a = 1;<br>int &amp;b = a;  //引用&amp;在=的左边<br>int *p = &a;  //地址符&amp;在 = 右边<br>int b = 1;<br>定义func(int $a),在func中对a修改,调用func(b),会修改b的值.</p>
+<p>常量:<br>const int var = 7; //命名var常量,声明不会去改变,后面直接赋值会报错, ##不要给常量加强制引用<br>constexpr: 也是常量,在编译的时候求值,提升性能<br>constexpr int var =1;<br>constexpr 写在func前就是常量函数</p>
+<p>范围for语句:用于遍历一个序列<br>int v[] {2,3,4,5,6,7,8};<br>for (auto x: v) // 数组ｖ中每个元素，依次拷贝放入ｘ中并打印ｘ值<br>for (auto ＆x: v) // 省了拷贝动作，提高了系统效率<br>{<br>    std::cout &lt;&lt; x &lt;&lt; std::endl;<br>}</p>
+<p>动态内存分配: 供程序使用的存储空间，有程序区，静态存储区，动态存储区<br>ｃ＋＋中，内存详细分为五个区<br>(1)栈　一般函数内的局部变量都会放在这里，由编译器自动分配和释放<br>(2)堆　程序员malloc/new分配,用free/delete来释放.忘记释放会在程序结束时回收<br>(3)全局/静态存储区:放全局变量和静态变量static 程序结束时系统释放<br>(4)常量存储区<br>(5)程序代码区<br>堆和栈不同的用途和区别<br>(1)栈 空间有限.这是系统规定的 int a = 4 分配速度很快<br>(2)堆 只要不超出实际物理内存,也在系统允许分配最大内存大小内,都可以分配,分配速度比栈慢. 随时可以用malloc/new分配,用free/delete来释放,灵活<br>malloc和free 是函数 在c语言中使用. new和delete是关键字 在cpp中使用<br>一般形式 void *malloc(int NumBytes); 分配成功则返回指向被分配内存的指针,分配失败则返回NULL. void *可以接受任何类型的赋值,可以强制转换赋值给任何类型的变量,这个要注意<br>当分配的内存不使用时,用free释放. void free(void *FirstByte)<br>int *p = NULL;<br>p = (int *)malloc(sizeof(int));<br>if(p != NULL)<br>{   // 分配成功<br>    *p = 5;<br>    std::count &lt;&lt; *p &lt;&lt; std::endl;<br>    free(p);<br>}<br>char *p = NULL;<br>p = (char *)malloc(10000 * sizeof(char));<br>if(p != NULL)<br>{   // 分配成功<br>    strcpy(p, “hello”); //c语言下使用,vs2017后不建议使用 ,而且拷贝时内存溢出(溢出导致拷贝到超出分配内存地址的覆盖)也不会报错<br>    strcpy_s(p, “hello”); //cpp中使用,将”hello”拷贝入p, 相比strcpy,使用strcpy_s超出内存会报错, linux g++编译strcpy_s会报错<br>    std::cout &lt;&lt; *p &lt;&lt; std::endl;<br>    free(p);<br>}<br>new和delete: 运算符(标识符) cpp中就用neww和delete不用malloc和free,new和delete在分配和释放内存时还做了更多的事<br>new一般使用格式<br>(1)指针变量名 = new 类型标识符<br>(2)指针类型名 = new 类型标识符(初始值)       //这里是圆括号,代表初始值<br>(3)指针类型名 = new 类型标识符[内存单元个数]  //这里是中括号, 代表分配一个数组<br>int *a = new int(18);<br>cout &lt;&lt; *a &lt;&lt; endl;<br>delete a;<br>int *pa = new int[100]; //开辟一个大小为100的整形数组空间<br>delete[] pa; //new 有 [] 时 delete也得有, delete[]中不写数组大小<br>注意: 配对使用,切忌重复调用</p>
+<p>nullptr: c++ 11 中引入的新关键字,代表的也是空指针<br>char *p = NULL;<br>char *q = nullptr;<br>int a = nullptr; //不可行!<br>int b = NULL; //做if判断时 b==nullptr,<br>int *p = nullptr; //做if判断时 p==NULL,<br>使用nullptr能够避免在整数和指针之间发生混淆h<br>事实上NULL(int类型)和nullptr(std::nullptr_t类型)是不同的类型<br>对于指针的初始化,以及用到和指针有关的NULL的场合,能用nullptr全用nullptr取代NULL</p>
+<p>结构:自定义的数据类型</p>
+]]></content>
+      <tags>
+        <tag>cpp学习笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>写在开始</title>
     <url>/2020/01/22/%E5%86%99%E5%9C%A8%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<p>自工作以来，一直想有地方记录自己的所见所得，遂开此博客。</p>

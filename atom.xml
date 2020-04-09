@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://czkerwin.github.io/"/>
-  <updated>2020-01-22T10:56:10.613Z</updated>
+  <updated>2020-04-09T05:27:55.160Z</updated>
   <id>http://czkerwin.github.io/</id>
   
   <author>
@@ -15,6 +15,55 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>linux常用命令</title>
+    <link href="http://czkerwin.github.io/2020/04/09/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://czkerwin.github.io/2020/04/09/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
+    <published>2020-04-09T05:26:48.000Z</published>
+    <updated>2020-04-09T05:27:55.160Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;批量解压&lt;br&gt;zip: sudo find -maxdepth 1 -name  “&lt;em&gt;.zip”|sudo xargs -i unzip -O GBK {}&lt;br&gt;rar: sudo find -maxdepth 1 -name  “&lt;/em&gt;.rar”|sudo
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>cpp学习笔记</title>
+    <link href="http://czkerwin.github.io/2020/04/03/cpp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://czkerwin.github.io/2020/04/03/cpp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2020-04-03T13:14:38.000Z</published>
+    <updated>2020-04-09T05:26:51.661Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;struct name cpp中用于定义类&lt;/p&gt;
+&lt;p&gt;命名空间,防止同名实体.在不同的命令空间使用相同的实体名互不影响.它可以存在多个不同的文件中.&lt;br&gt;namespace 命名空间名&lt;br&gt;{&lt;br&gt;    …
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="cpp学习笔记" scheme="http://czkerwin.github.io/tags/cpp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>写在开始</title>
