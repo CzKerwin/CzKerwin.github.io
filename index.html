@@ -58,6 +58,96 @@
     
     
     
+    <article id="post-使用github与hexo建个人博客" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/04/12/%E4%BD%BF%E7%94%A8github%E4%B8%8Ehexo%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"
+    >使用github与hexo建个人博客</a
+  >
+</h2>
+  
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2020/04/12/%E4%BD%BF%E7%94%A8github%E4%B8%8Ehexo%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="article-date">
+  <time datetime="2020-04-12T08:40:37.000Z" itemprop="datePublished">2020-04-12</time>
+</a>
+      
+      
+      
+      
+    </div>
+    
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+      
+
+
+      
+
+      
+      <h2 id="写在开始"><a href="#写在开始" class="headerlink" title="写在开始"></a>写在开始</h2><p>个人博客建站,全干货,有基础的看这一篇就够了</p>
+<h2 id="搭建博客主要步骤："><a href="#搭建博客主要步骤：" class="headerlink" title="搭建博客主要步骤："></a>搭建博客主要步骤：</h2><h3 id="1-安装node-js和git-教程百度都是-不赘述"><a href="#1-安装node-js和git-教程百度都是-不赘述" class="headerlink" title="1.安装node.js和git,教程百度都是,不赘述"></a>1.安装node.js和git,教程百度都是,不赘述</h3><p>安装成功后在命令窗口输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git version</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+<p>会返回版本号</p>
+<h3 id="2-安装hexo"><a href="#2-安装hexo" class="headerlink" title="2.安装hexo"></a>2.安装hexo</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-建立本地博客"><a href="#3-建立本地博客" class="headerlink" title="3.建立本地博客"></a>3.建立本地博客</h3><p>新建一个文件夹并将命令窗口路径切换只该文件夹下,执行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br><span class="line">hexo g </span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p>正常情况下会看到</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http:&#x2F;&#x2F;localhost:4000 . Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure>
+<p>打开即可看到初始博客效果<br><a href="https://imgchr.com/i/GLxlvV" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/12/GLxlvV.md.jpg" alt="GLxlvV.md.jpg"></a></p>
+<h3 id="4-注册-GitHub-并创建-库-且生成-GitHub-Pages"><a href="#4-注册-GitHub-并创建-库-且生成-GitHub-Pages" class="headerlink" title="4.注册 GitHub 并创建 库 且生成 GitHub Pages"></a>4.注册 GitHub 并创建 库 且生成 GitHub Pages</h3><ol>
+<li>注册或者登陆GIthub账户</li>
+<li>创建项目代码库命名为 username.github.io</li>
+<li>配置ssh秘钥<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</span><br></pre></td></tr></table></figure>
+连续回车三次,复制生成的秘钥<br><code>clip &lt; ~/.ssh/id_rsa.pub</code><br>打开github,在右上角个人头像-Settings-SSH and GOG keys-SSH keys 中创建SSH key,粘贴刚生成的秘钥</li>
+<li>测试秘钥<br><code>ssh -T git@github.com</code><br>在命令窗口中能看到 Hi xxx! xxx是账户名,即成功</li>
+<li>设置用户信息<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;username&quot;&#x2F;&#x2F;用户名</span><br><span class="line">git config --global user.email  &quot;youremail@163.com&quot;&#x2F;&#x2F;填写自己的邮箱</span><br></pre></td></tr></table></figure></li>
+<li>连接Hexo 和 github<br>点击github项目仓库clone and download复制链接地址<br>修改hexo配置文件 _config.yml</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;condorheroblog&#x2F;condorheroblog.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<p>命令窗口输入<br><code>hexo g -d</code><br>博客就部署到github上了,打开username.github.io即可访问</p>
+<p>补充说明:</p>
+<ol>
+<li>想要多电脑更新同一博客,可以把博客文件夹作为另一个git仓库上传,这样在另一台电脑上clone, npm install之后即可修改博客.<br>注意如果使用了主题要删除主题中的.git文件,并修改删除.gitignore中的_config.yml字段</li>
+<li>有任何问题可以留言咨询</li>
+</ol>
+
+      
+      <!-- 打赏 -->
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://czkerwin.github.io/2020/04/12/%E4%BD%BF%E7%94%A8github%E4%B8%8Ehexo%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-id="ck8wtbmzv0000jnmt75cz9wp3"
+        class="article-share-link">分享</a>
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/blog/" rel="tag">blog</a></li></ul>
+
+    </footer>
+
+  </div>
+
+  
+
+  
+  
+  
+
+  
+
+</article>
+    
     <article id="post-Markdown基本语法" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
@@ -97,16 +187,12 @@
 
       
       <h1 id="一、标题"><a href="#一、标题" class="headerlink" title="一、标题"></a>一、标题</h1><p>#后跟个空格再写文字,支持六级标题。</p>
-<p>例：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 这是二级标题</span><br><span class="line">### 这是三级标题</span><br><span class="line">#### 这是四级标题</span><br><span class="line">##### 这是五级标题</span><br><span class="line">###### 这是六级标题</span><br></pre></td></tr></table></figure>
-<p>效果如下:</p>
-<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><h1 id="二、字体"><a href="#二、字体" class="headerlink" title="二、字体"></a>二、字体</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">**这是加粗的文字**</span><br><span class="line">*这是倾斜的文字*&#96;</span><br><span class="line">***这是斜体加粗的文字***</span><br><span class="line">~~这是加删除线的文字~~</span><br></pre></td></tr></table></figure>
-<p>效果如下:<br><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em>`<br><strong><em>这是斜体加粗的文字</em></strong><br><del>这是加删除线的文字</del></p>
+<h4 id="例："><a href="#例：" class="headerlink" title="例："></a>例：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 这是二级标题</span><br><span class="line">### 这是三级标题</span><br><span class="line">#### 这是四级标题</span><br><span class="line">##### 这是五级标题</span><br><span class="line">###### 这是六级标题</span><br></pre></td></tr></table></figure>
+<h4 id="效果如下"><a href="#效果如下" class="headerlink" title="效果如下:"></a>效果如下:</h4><h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><h1 id="二、字体"><a href="#二、字体" class="headerlink" title="二、字体"></a>二、字体</h1><h4 id="语法："><a href="#语法：" class="headerlink" title="语法："></a>语法：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">**这是加粗的文字**</span><br><span class="line">*这是倾斜的文字*&#96;</span><br><span class="line">***这是斜体加粗的文字***</span><br><span class="line">~~这是加删除线的文字~~</span><br></pre></td></tr></table></figure>
+<h4 id="效果如下-1"><a href="#效果如下-1" class="headerlink" title="效果如下:"></a>效果如下:</h4><p><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em>`<br><strong><em>这是斜体加粗的文字</em></strong><br><del>这是加删除线的文字</del></p>
 <h1 id="三、引用"><a href="#三、引用" class="headerlink" title="三、引用"></a>三、引用</h1><p>文字前加&gt;,可以嵌套</p>
-<p>例：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;这是引用的内容</span><br><span class="line">&gt;&gt;这是引用的内容</span><br><span class="line">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;这是引用的内容</span><br></pre></td></tr></table></figure>
-<p>效果如下:</p>
-<blockquote>
+<h4 id="例：-1"><a href="#例：-1" class="headerlink" title="例："></a>例：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;这是引用的内容</span><br><span class="line">&gt;&gt;这是引用的内容</span><br><span class="line">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;这是引用的内容</span><br></pre></td></tr></table></figure>
+<h4 id="效果如下-2"><a href="#效果如下-2" class="headerlink" title="效果如下:"></a>效果如下:</h4><blockquote>
 <p>这是引用的内容</p>
 <blockquote>
 <p>这是引用的内容</p>
@@ -129,18 +215,94 @@
 </blockquote>
 </blockquote>
 </blockquote>
-<h1 id="四、分割线"><a href="#四、分割线" class="headerlink" title="四、分割线"></a>四、分割线</h1><p>三个或者三个以上的 - 或者 *<br>例：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">----</span><br><span class="line">***</span><br><span class="line">*****</span><br></pre></td></tr></table></figure>
-<h2 id="效果如下"><a href="#效果如下" class="headerlink" title="效果如下:"></a>效果如下:</h2><hr>
+<h1 id="四、分割线"><a href="#四、分割线" class="headerlink" title="四、分割线"></a>四、分割线</h1><p>三个或者三个以上的 * 或者 -</p>
+<h4 id="例：-2"><a href="#例：-2" class="headerlink" title="例："></a>例：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">***</span><br><span class="line">*****</span><br><span class="line">----</span><br></pre></td></tr></table></figure>
+<h4 id="效果如下-3"><a href="#效果如下-3" class="headerlink" title="效果如下:"></a>效果如下:</h4><hr>
 <hr>
 <hr>
-<h1 id="五、图片"><a href="#五、图片" class="headerlink" title="五、图片"></a>五、图片</h1><p>格式</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![图片alt](图片地址 &#39;&#39;图片title&#39;&#39;)</span><br></pre></td></tr></table></figure>
-<p>推荐使用图床<br>图片alt就是显示在图片下面的文字，相当于对图片内容的解释。<br>图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加<br>例:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![测试图片](https:&#x2F;&#x2F;s1.ax1x.com&#x2F;2020&#x2F;04&#x2F;11&#x2F;GbiAtH.jpg)</span><br></pre></td></tr></table></figure>
+<h1 id="五、图片"><a href="#五、图片" class="headerlink" title="五、图片"></a>五、图片</h1><p>推荐使用图床</p>
+<h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">![图片alt](图片地址 &#39;&#39;图片title&#39;&#39;)</span><br><span class="line"></span><br><span class="line">图片alt就是显示在图片下面的文字，相当于对图片内容的解释。</span><br><span class="line">图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加</span><br><span class="line">有的markdown不显示alt和title,但图片一定会正常显示</span><br></pre></td></tr></table></figure>
+<h4 id="例"><a href="#例" class="headerlink" title="例:"></a>例:</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![测试图片](https:&#x2F;&#x2F;s1.ax1x.com&#x2F;2020&#x2F;04&#x2F;11&#x2F;GbiAtH.jpg)</span><br></pre></td></tr></table></figure>
 
-<p>效果如下:</p>
-<p><img src="https://s1.ax1x.com/2020/04/11/GbiAtH.jpg" alt="测试图片"></p>
+<h4 id="效果如下-4"><a href="#效果如下-4" class="headerlink" title="效果如下:"></a>效果如下:</h4><p><img src="https://s1.ax1x.com/2020/04/11/GbiAtH.jpg" alt="测试图片"></p>
+<h1 id="六、超链接"><a href="#六、超链接" class="headerlink" title="六、超链接"></a>六、超链接</h1><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[超链接名](超链接地址 &quot;超链接title&quot;)</span><br><span class="line">title可加可不加</span><br></pre></td></tr></table></figure>
+<h4 id="例-1"><a href="#例-1" class="headerlink" title="例:"></a>例:</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[百度](http:&#x2F;&#x2F;baidu.com)</span><br></pre></td></tr></table></figure>
+<p><a href="http://baidu.com" target="_blank" rel="noopener">百度</a><br>注：Markdown本身语法不支持链接在新页面中打开，有的编辑器做了补充可以在新页面中打开.如果不行的话可以用html语言的a标签代替.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;超链接地址&quot; target&#x3D;&quot;_blank&quot;&gt;超链接名&lt;&#x2F;a&gt;</span><br><span class="line"></span><br><span class="line">示例</span><br><span class="line">&lt;a href&#x3D;&quot;http:&#x2F;&#x2F;baidu.com&quot; target&#x3D;&quot;_blank&quot;&gt;百度&lt;&#x2F;a&gt;</span><br></pre></td></tr></table></figure>
+<p><a href="http://baidu.com" target="_blank">百度</a></p>
+<h1 id="七、列表"><a href="#七、列表" class="headerlink" title="七、列表"></a>七、列表</h1><h3 id="1-无序列表"><a href="#1-无序列表" class="headerlink" title="1 无序列表"></a>1 无序列表</h3><h4 id="语法：-1"><a href="#语法：-1" class="headerlink" title="语法："></a>语法：</h4><p>无序列表用 - + * 任何一种都可以</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">- 列表内容</span><br><span class="line">+ 列表内容</span><br><span class="line">* 列表内容</span><br><span class="line"></span><br><span class="line">注意：- + * 跟内容之间都要有一个空格</span><br></pre></td></tr></table></figure>
+
+<h4 id="效果如下-5"><a href="#效果如下-5" class="headerlink" title="效果如下:"></a>效果如下:</h4><ul>
+<li>列表内容</li>
+</ul>
+<ul>
+<li>列表内容</li>
+</ul>
+<ul>
+<li>列表内容</li>
+</ul>
+<h3 id="2-有序列表"><a href="#2-有序列表" class="headerlink" title="2 有序列表"></a>2 有序列表</h3><p>注:我的blog显示两种列表样式并不一致</p>
+<h4 id="语法：-2"><a href="#语法：-2" class="headerlink" title="语法："></a>语法：</h4><p>数字加点</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1. 列表内容</span><br><span class="line">2. 列表内容</span><br><span class="line">3. 列表内容</span><br><span class="line"></span><br><span class="line">注意：序号跟内容之间要有空格</span><br></pre></td></tr></table></figure>
+
+<h4 id="效果如下-6"><a href="#效果如下-6" class="headerlink" title="效果如下:"></a>效果如下:</h4><ol>
+<li>列表内容</li>
+<li>列表内容</li>
+<li>列表内容</li>
+</ol>
+<h3 id="3-列表嵌套"><a href="#3-列表嵌套" class="headerlink" title="3 列表嵌套"></a>3 列表嵌套</h3><p>上一级和下一级之间敲三个空格即可</p>
+<h4 id="例-2"><a href="#例-2" class="headerlink" title="例:"></a>例:</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">- 列表内容</span><br><span class="line">   - 列表内容</span><br><span class="line">   + 列表内容</span><br><span class="line">   * 列表内容</span><br><span class="line">+ 列表内容</span><br><span class="line">***</span><br><span class="line">1. 列表内容</span><br><span class="line">   1. 列表内容</span><br><span class="line">   2. 列表内容</span><br><span class="line">   3. 列表内容</span><br><span class="line">2. 列表内容</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>列表内容<ul>
+<li>列表内容</li>
+</ul>
+<ul>
+<li>列表内容</li>
+</ul>
+<ul>
+<li>列表内容</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>列表内容</li>
+</ul>
+<hr>
+<ol>
+<li>列表内容<ol>
+<li>列表内容</li>
+<li>列表内容</li>
+<li>列表内容</li>
+</ol>
+</li>
+<li>列表内容</li>
+</ol>
+<h1 id="八、表格"><a href="#八、表格" class="headerlink" title="八、表格"></a>八、表格</h1><h4 id="语法：-3"><a href="#语法：-3" class="headerlink" title="语法："></a>语法：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">表头|表头|表头</span><br><span class="line">---|:--:|---:</span><br><span class="line">内容|内容|内容</span><br><span class="line">内容|内容|内容</span><br><span class="line"></span><br><span class="line">第二行分割表头和内容。</span><br><span class="line">- 有一个就行，为了对齐，多加了几个</span><br><span class="line">文字默认居左</span><br><span class="line">-两边加：表示文字居中</span><br><span class="line">-右边加：表示文字居右</span><br><span class="line">注：原生的语法两边都要用 | 包起来。此处省略</span><br></pre></td></tr></table></figure>
+
+<h4 id="效果如下-7"><a href="#效果如下-7" class="headerlink" title="效果如下:"></a>效果如下:</h4><table>
+<thead>
+<tr>
+<th>表头</th>
+<th align="center">表头</th>
+<th align="right">表头</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>内容</td>
+<td align="center">内容</td>
+<td align="right">内容</td>
+</tr>
+<tr>
+<td>内容</td>
+<td align="center">内容</td>
+<td align="right">内容</td>
+</tr>
+</tbody></table>
+<h1 id="九、代码"><a href="#九、代码" class="headerlink" title="九、代码"></a>九、代码</h1><h4 id="语法：-4"><a href="#语法：-4" class="headerlink" title="语法："></a>语法：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"> &#96;代码内容&#96;  &#x2F;&#x2F;单行代码</span><br><span class="line">(&#96;&#96;&#96;)</span><br><span class="line">    &#x2F;&#x2F;多行代码</span><br><span class="line">(&#96;&#96;&#96;)</span><br><span class="line">注：为了防止转译，前后三个反引号处加了小括号，实际是没有的。这里只是用来演示，实际中去掉两边小括号即可。</span><br></pre></td></tr></table></figure>
+<h4 id="效果如下-8"><a href="#效果如下-8" class="headerlink" title="效果如下:"></a>效果如下:</h4><p> <code>代码内容</code> </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;多行代码</span><br></pre></td></tr></table></figure>
 
       
       <!-- 打赏 -->
@@ -202,17 +364,29 @@
       
 
       
-      <p>第一步：注册一个PyPi帐号<br>PyPi注册网站</p>
+      <h1 id="第一步：注册一个PyPi帐号"><a href="#第一步：注册一个PyPi帐号" class="headerlink" title="第一步：注册一个PyPi帐号"></a>第一步：注册一个PyPi帐号</h1><p>PyPi注册网站：<a href="https://pypi.org" target="_blank" rel="noopener">https://pypi.org</a></p>
 <p>在上边的注册网站上注册一个自已的帐号，注册好后在邮箱激活，一般注册流程都是这么操作了，这里就不多说了。</p>
-<p>第二步：在github上创建一个项目<br>如果你还没有使用过github源码托管网站，可以先注册一个github的帐户再创建项目，我一般创建项目用的是官网提供的桌面工具Github Desktop.</p>
-<p>Github Desktop的下载地址：<a href="https://desktop.github.com" target="_blank" rel="noopener">https://desktop.github.com</a></p>
-<p>github注册和创建新项目，这里也不说了，程序员的基本功。</p>
-<p>第三步：编写自已的python项目<br>我这里只有一个timetool.py和pathtool.py两个文件<br>祥情可以查看我的示例项目：<br><a href="https://github.com/fengmm521/pipProject" target="_blank" rel="noopener">https://github.com/fengmm521/pipProject</a></p>
+<h1 id="第二步：在github上创建一个项目"><a href="#第二步：在github上创建一个项目" class="headerlink" title="第二步：在github上创建一个项目"></a>第二步：在github上创建一个项目</h1><p>github注册和创建新项目，这里不多赘述。<br>cd .</p>
+<h1 id="第三步：编写自已的python项目"><a href="#第三步：编写自已的python项目" class="headerlink" title="第三步：编写自已的python项目"></a>第三步：编写自已的python项目</h1><p>我这里只有一个timetool.py和pathtool.py两个文件<br>祥情可以查看我的示例项目：<br><a href="https://github.com/fengmm521/pipProject" target="_blank" rel="noopener">https://github.com/fengmm521/pipProject</a></p>
 <p>先建一个目录，比如magetool，这个里边放的是你的项目代码</p>
 <p>在这个magetool目录里,新建一个<strong>init</strong>.py，这个文件里可以什么都不用写，然后就是你要发布的.py文件</p>
-<p>第四步：编写setup.py文件<br>这里重点说明一下这个setup.py文件，因为整个pip项目的发布和上传都是基于这个setup.py文件完成的。</p>
+<h1 id="第四步：编写setup-py文件"><a href="#第四步：编写setup-py文件" class="headerlink" title="第四步：编写setup.py文件"></a>第四步：编写setup.py文件</h1><p>这里重点说明一下这个setup.py文件，因为整个pip项目的发布和上传都是基于这个setup.py文件完成的。</p>
 <p>大家可以看一下我示例项目的setup.py是怎么写的，其实我也是从网上下载别人写好的。</p>
-
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">#!&#x2F;usr&#x2F;bin&#x2F;env python</span><br><span class="line">#-*- coding:utf-8 -*-</span><br><span class="line"></span><br><span class="line">#############################################</span><br><span class="line"># File Name: setup.py</span><br><span class="line"># Author: mage</span><br><span class="line"># Mail: mage@woodcol.com</span><br><span class="line"># Created Time:  2018-1-23 19:17:34</span><br><span class="line">#############################################</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">from setuptools import setup, find_packages</span><br><span class="line"></span><br><span class="line">setup(</span><br><span class="line">    name &#x3D; &quot;magetool&quot;,</span><br><span class="line">    version &#x3D; &quot;0.1.0&quot;,</span><br><span class="line">    keywords &#x3D; (&quot;pip&quot;, &quot;pathtool&quot;,&quot;timetool&quot;, &quot;magetool&quot;, &quot;mage&quot;),</span><br><span class="line">    description &#x3D; &quot;time and path tool&quot;,</span><br><span class="line">    long_description &#x3D; &quot;time and path tool&quot;,</span><br><span class="line">    license &#x3D; &quot;MIT Licence&quot;,</span><br><span class="line"></span><br><span class="line">    url &#x3D; &quot;https:&#x2F;&#x2F;github.com&#x2F;fengmm521&#x2F;pipProject&quot;,</span><br><span class="line">    author &#x3D; &quot;mage&quot;,</span><br><span class="line">    author_email &#x3D; &quot;mage@woodcol.com&quot;,</span><br><span class="line"></span><br><span class="line">    packages &#x3D; find_packages(),</span><br><span class="line">    include_package_data &#x3D; True,</span><br><span class="line">    platforms &#x3D; &quot;any&quot;,</span><br><span class="line">    install_requires &#x3D; []</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+<p>setup.py中重要的参数有5个：</p>
+<p>1.name<br>name = “magetool”，这个name参数后边的就是你的项目代码所在目录，也是你pip要上传的项目名称，其他人用pip install xxx来安装时，后边的xxx就是你的这个magetool</p>
+<p>2.version<br>version = “0.1.0”,你工具的版本号，后期你工具更新了，要用pip来更新包的时候，会更新比当前版本号高的新版本。<br>3.packages<br>packages = find_packages(),这个参数是导入目录下的所有<strong>init</strong>.py包</p>
+<p>4.install_requires<br>install_requires = []，这是一个数组，里边包含的是咱的pip项目引用到的第三方库，如果你的项目有用到第三方库，要在这里添上第三方库的包名，如果用的第三方版本不是最新版本，还要有版本号。</p>
+<h1 id="第五步：打包自已的项目"><a href="#第五步：打包自已的项目" class="headerlink" title="第五步：打包自已的项目"></a>第五步：打包自已的项目</h1><p>在代码编写完成，自已测试后没有问题了，就可以打包了。<br>打包使用下边两个命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">python setup.py bdist_egg     # 生成类似 edssdk-0.0.1-py2.7.egg，支持 easy_install </span><br><span class="line">python setup.py sdist         # 生成类似 edssdk-0.0.1.tar.gz，支持 pip</span><br></pre></td></tr></table></figure>
+<p>我使用的是第二个,两个命令打包好之后都会生成build和dist两个目录，打包的文件会放在dist目录下，供后边上传到PyPi服务器</p>
+<h1 id="第六步：上传到PyPi服务器"><a href="#第六步：上传到PyPi服务器" class="headerlink" title="第六步：上传到PyPi服务器"></a>第六步：上传到PyPi服务器</h1><p>在上传前，要建一个文件，$HOME/.pypirc，$HOME目录在linux或者mac系统下就是~/目录。在这里建一个.pypirc文件。里边的内容如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[distutils]</span><br><span class="line">index-servers &#x3D; pypi</span><br><span class="line"></span><br><span class="line">[pypi]</span><br><span class="line">username:你的PyPi用户名</span><br><span class="line">password:你的PyPi密码</span><br><span class="line">~</span><br></pre></td></tr></table></figure>
+<p>因为不能使用python setup.py register进行上传，使用这个上传会报一个410的错误。所以要使用.pypirc文件保存你的PyPi用户信息，这时使用下载的twine就可以直接上传了。</p>
+<p>在别的地方找到的有说上传用python setup.py sdist upload命令，但在我这里用这个命令也会一直失败，所以我用下边的命令上传打包好的pip项目，我上传的是用第五步的，python setup.py sdist命令打包好的项目，</p>
+<p>上传好打包的pip安装包:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">twine upload dist&#x2F;magetool-0.1.0.tar.gz</span><br></pre></td></tr></table></figure>
+<h1 id="第七步-测试pip安装"><a href="#第七步-测试pip安装" class="headerlink" title="第七步:测试pip安装"></a>第七步:测试pip安装</h1>
       
       <!-- 打赏 -->
       
@@ -221,6 +395,8 @@
       <a data-url="http://czkerwin.github.io/2020/04/11/python%E5%8F%91%E5%B8%83%E8%87%AA%E5%B7%B1%E7%9A%84%E5%BA%93%E5%88%B0pip/" data-id="ck8vabmqb0001hrmtfwqac0yr"
         class="article-share-link">分享</a>
       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python-pip/" rel="tag">python, pip</a></li></ul>
+
     </footer>
 
   </div>
