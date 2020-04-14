@@ -60,7 +60,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">962字</span>
+            <span class="post-count">700字</span>
         </span>
     </span>
 
@@ -69,7 +69,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">3分钟</span>
+            <span class="post-count">2分钟</span>
         </span>
     </span>
 </div>
@@ -96,28 +96,27 @@
 
       
       <h1 id="第一步：注册一个PyPi帐号"><a href="#第一步：注册一个PyPi帐号" class="headerlink" title="第一步：注册一个PyPi帐号"></a>第一步：注册一个PyPi帐号</h1><p>PyPi注册网站：<a href="https://pypi.org" target="_blank" rel="noopener">https://pypi.org</a></p>
-<p>在上边的注册网站上注册一个自已的帐号，注册好后在邮箱激活，一般注册流程都是这么操作了，这里就不多说了。</p>
-<h1 id="第二步：在github上创建一个项目"><a href="#第二步：在github上创建一个项目" class="headerlink" title="第二步：在github上创建一个项目"></a>第二步：在github上创建一个项目</h1><p>github注册和创建新项目，这里不多赘述。<br>cd .</p>
-<h1 id="第三步：编写自已的python项目"><a href="#第三步：编写自已的python项目" class="headerlink" title="第三步：编写自已的python项目"></a>第三步：编写自已的python项目</h1><p>我这里只有一个timetool.py和pathtool.py两个文件<br>祥情可以查看我的示例项目：<br><a href="https://github.com/fengmm521/pipProject" target="_blank" rel="noopener">https://github.com/fengmm521/pipProject</a></p>
-<p>先建一个目录，比如magetool，这个里边放的是你的项目代码</p>
+<p>注册自已的帐号，邮箱激活，然后下一步。</p>
+<h1 id="第二步：在github上创建代码仓库"><a href="#第二步：在github上创建代码仓库" class="headerlink" title="第二步：在github上创建代码仓库"></a>第二步：在github上创建代码仓库</h1><p>github注册和创建仓库，这里不多赘述。</p>
+<h1 id="第三步：编写自已的python项目"><a href="#第三步：编写自已的python项目" class="headerlink" title="第三步：编写自已的python项目"></a>第三步：编写自已的python项目</h1><p>祥情可以查看我的示例项目：<br><a href="https://github.com/CzKerwin/uutils.git" target="_blank" rel="noopener">https://github.com/CzKerwin/uutils.git</a></p>
+<p>先建一个目录，比如uutils，这个里边放的是你的项目代码</p>
 <p>在这个magetool目录里,新建一个<strong>init</strong>.py，这个文件里可以什么都不用写，然后就是你要发布的.py文件</p>
 <h1 id="第四步：编写setup-py文件"><a href="#第四步：编写setup-py文件" class="headerlink" title="第四步：编写setup.py文件"></a>第四步：编写setup.py文件</h1><p>这里重点说明一下这个setup.py文件，因为整个pip项目的发布和上传都是基于这个setup.py文件完成的。</p>
 <p>大家可以看一下我示例项目的setup.py是怎么写的，其实我也是从网上下载别人写好的。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">#!&#x2F;usr&#x2F;bin&#x2F;env python</span><br><span class="line">#-*- coding:utf-8 -*-</span><br><span class="line"></span><br><span class="line">#############################################</span><br><span class="line"># File Name: setup.py</span><br><span class="line"># Author: mage</span><br><span class="line"># Mail: mage@woodcol.com</span><br><span class="line"># Created Time:  2018-1-23 19:17:34</span><br><span class="line">#############################################</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">from setuptools import setup, find_packages</span><br><span class="line"></span><br><span class="line">setup(</span><br><span class="line">    name &#x3D; &quot;magetool&quot;,</span><br><span class="line">    version &#x3D; &quot;0.1.0&quot;,</span><br><span class="line">    keywords &#x3D; (&quot;pip&quot;, &quot;pathtool&quot;,&quot;timetool&quot;, &quot;magetool&quot;, &quot;mage&quot;),</span><br><span class="line">    description &#x3D; &quot;time and path tool&quot;,</span><br><span class="line">    long_description &#x3D; &quot;time and path tool&quot;,</span><br><span class="line">    license &#x3D; &quot;MIT Licence&quot;,</span><br><span class="line"></span><br><span class="line">    url &#x3D; &quot;https:&#x2F;&#x2F;github.com&#x2F;fengmm521&#x2F;pipProject&quot;,</span><br><span class="line">    author &#x3D; &quot;mage&quot;,</span><br><span class="line">    author_email &#x3D; &quot;mage@woodcol.com&quot;,</span><br><span class="line"></span><br><span class="line">    packages &#x3D; find_packages(),</span><br><span class="line">    include_package_data &#x3D; True,</span><br><span class="line">    platforms &#x3D; &quot;any&quot;,</span><br><span class="line">    install_requires &#x3D; []</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">#-*- coding:utf-8 -*-</span><br><span class="line"></span><br><span class="line">#############################################</span><br><span class="line"># File Name: setup.py</span><br><span class="line"># Author: CzKerwin</span><br><span class="line"># Mail: czksnk@woodcol.com</span><br><span class="line"># Created Time:  2020-4-12 18:27:16</span><br><span class="line">#############################################</span><br><span class="line"></span><br><span class="line">import setuptools</span><br><span class="line"></span><br><span class="line">setuptools.setup(</span><br><span class="line">    name&#x3D;&quot;uutils&quot;,</span><br><span class="line">    version&#x3D;&quot;0.0.3&quot;,</span><br><span class="line">    author&#x3D;&quot;CzKerwin&quot;,</span><br><span class="line">    author_email&#x3D;&quot;czksnk@outlook.com&quot;,</span><br><span class="line">    description&#x3D;&quot;uutils&quot;,</span><br><span class="line">    long_description&#x3D;&quot;uutils&quot;,</span><br><span class="line">    long_description_content_type&#x3D;&quot;text&#x2F;markdown&quot;,</span><br><span class="line">    url&#x3D;&quot;https:&#x2F;&#x2F;github.com&#x2F;CzKerwin&#x2F;uutils.git&quot;,</span><br><span class="line">    packages&#x3D;setuptools.find_packages(),</span><br><span class="line">    license &#x3D; &quot;MIT Licence&quot;,</span><br><span class="line">    python_requires&#x3D;&#39;&gt;&#x3D;3.5&#39;,</span><br><span class="line">    include_package_data &#x3D; True,</span><br><span class="line">    platforms &#x3D; &quot;any&quot;,</span><br><span class="line">    install_requires &#x3D; [],</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
 <p>setup.py中重要的参数有5个：</p>
-<p>1.name<br>name = “magetool”，这个name参数后边的就是你的项目代码所在目录，也是你pip要上传的项目名称，其他人用pip install xxx来安装时，后边的xxx就是你的这个magetool</p>
-<p>2.version<br>version = “0.1.0”,你工具的版本号，后期你工具更新了，要用pip来更新包的时候，会更新比当前版本号高的新版本。<br>3.packages<br>packages = find_packages(),这个参数是导入目录下的所有<strong>init</strong>.py包</p>
+<p>1.name<br>name = “uutils”，这个name参数后边的就是你的项目代码所在目录，也是你pip要上传的项目名称，其他人用pip install xxx来安装时，后边的xxx就是你的这个uutils</p>
+<p>2.version<br>version = “x.x.x”,你工具的版本号，后期你工具更新了，要用pip来更新包的时候，会更新比当前版本号高的新版本。<br>3.packages<br>packages = find_packages(),这个参数是导入目录下的所有<strong>init</strong>.py包</p>
 <p>4.install_requires<br>install_requires = []，这是一个数组，里边包含的是咱的pip项目引用到的第三方库，如果你的项目有用到第三方库，要在这里添上第三方库的包名，如果用的第三方版本不是最新版本，还要有版本号。</p>
-<h1 id="第五步：打包自已的项目"><a href="#第五步：打包自已的项目" class="headerlink" title="第五步：打包自已的项目"></a>第五步：打包自已的项目</h1><p>在代码编写完成，自已测试后没有问题了，就可以打包了。<br>打包使用下边两个命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">python setup.py bdist_egg     # 生成类似 edssdk-0.0.1-py2.7.egg，支持 easy_install </span><br><span class="line">python setup.py sdist         # 生成类似 edssdk-0.0.1.tar.gz，支持 pip</span><br></pre></td></tr></table></figure>
-<p>我使用的是第二个,两个命令打包好之后都会生成build和dist两个目录，打包的文件会放在dist目录下，供后边上传到PyPi服务器</p>
+<h1 id="第五步：打包项目"><a href="#第五步：打包项目" class="headerlink" title="第五步：打包项目"></a>第五步：打包项目</h1><p>在代码编写完成，自已测试后没有问题了，就可以打包了。<br>打包使用：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python3 setup.py sdist bdist_wheel</span><br></pre></td></tr></table></figure>
+<p>打包的文件会放在dist目录下，供后边上传到PyPi服务器</p>
 <h1 id="第六步：上传到PyPi服务器"><a href="#第六步：上传到PyPi服务器" class="headerlink" title="第六步：上传到PyPi服务器"></a>第六步：上传到PyPi服务器</h1><p>在上传前，要建一个文件，$HOME/.pypirc，$HOME目录在linux或者mac系统下就是~/目录。在这里建一个.pypirc文件。里边的内容如下：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[distutils]</span><br><span class="line">index-servers &#x3D; pypi</span><br><span class="line"></span><br><span class="line">[pypi]</span><br><span class="line">username:你的PyPi用户名</span><br><span class="line">password:你的PyPi密码</span><br><span class="line">~</span><br></pre></td></tr></table></figure>
-<p>因为不能使用python setup.py register进行上传，使用这个上传会报一个410的错误。所以要使用.pypirc文件保存你的PyPi用户信息，这时使用下载的twine就可以直接上传了。</p>
-<p>在别的地方找到的有说上传用python setup.py sdist upload命令，但在我这里用这个命令也会一直失败，所以我用下边的命令上传打包好的pip项目，我上传的是用第五步的，python setup.py sdist命令打包好的项目，</p>
-<p>上传好打包的pip安装包:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">twine upload dist&#x2F;magetool-0.1.0.tar.gz</span><br></pre></td></tr></table></figure>
-<h1 id="第七步-测试pip安装"><a href="#第七步-测试pip安装" class="headerlink" title="第七步:测试pip安装"></a>第七步:测试pip安装</h1>
+<p>安装twine:<br><code>pip3 install twine</code></p>
+<p>上传好打包的pip安装包:<br><code>twine upload dist/*</code></p>
+<h1 id="第七步-测试pip安装"><a href="#第七步-测试pip安装" class="headerlink" title="第七步:测试pip安装"></a>第七步:测试pip安装</h1><p><code>pip3 install uutils</code></p>
+
       
       <!-- 打赏 -->
       
