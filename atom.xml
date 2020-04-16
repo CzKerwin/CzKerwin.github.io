@@ -42,11 +42,11 @@
   </entry>
   
   <entry>
-    <title>cv工程师系列概述</title>
+    <title>cv工程师系列(第一篇,概述)</title>
     <link href="http://czkerwin.github.io/2020/04/16/cv%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%B3%BB%E5%88%97%E6%A6%82%E8%BF%B0/"/>
     <id>http://czkerwin.github.io/2020/04/16/cv%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%B3%BB%E5%88%97%E6%A6%82%E8%BF%B0/</id>
     <published>2020-04-16T07:07:19.000Z</published>
-    <updated>2020-04-16T09:16:20.374Z</updated>
+    <updated>2020-04-16T14:00:13.550Z</updated>
     
     <summary type="html">
     
@@ -54,9 +54,7 @@
       
         
         
-          &lt;p&gt;以教程的方式整理人工智能cv方向知识.&lt;/p&gt;
-&lt;p&gt;建议有一定python基础再学习&lt;/p&gt;
-&lt;p&gt;cv方向图解&lt;br&gt;&lt;img src=&quot;https://s1.ax1x.com/2020/04/16/JksyVJ.jpg&quot;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;
         
       
     
@@ -73,7 +71,7 @@
     <link href="http://czkerwin.github.io/2020/04/12/%E4%BD%BF%E7%94%A8github%E4%B8%8Ehexo%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://czkerwin.github.io/2020/04/12/%E4%BD%BF%E7%94%A8github%E4%B8%8Ehexo%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
     <published>2020-04-12T08:40:37.000Z</published>
-    <updated>2020-04-12T12:25:07.331Z</updated>
+    <updated>2020-04-16T13:59:26.394Z</updated>
     
     <summary type="html">
     
@@ -81,8 +79,7 @@
       
         
         
-          &lt;h2 id=&quot;写在开始&quot;&gt;&lt;a href=&quot;#写在开始&quot; class=&quot;headerlink&quot; title=&quot;写在开始&quot;&gt;&lt;/a&gt;写在开始&lt;/h2&gt;&lt;p&gt;个人博客建站,全干货,有基础的看这一篇就够了&lt;/p&gt;
-&lt;h2 id=&quot;搭建博客主要步骤：&quot;&gt;&lt;a
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;
         
       
     
@@ -173,7 +170,7 @@
     <link href="http://czkerwin.github.io/2020/04/09/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
     <id>http://czkerwin.github.io/2020/04/09/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
     <published>2020-04-09T05:26:48.000Z</published>
-    <updated>2020-04-16T08:08:11.537Z</updated>
+    <updated>2020-04-16T14:00:56.850Z</updated>
     
     <summary type="html">
     
@@ -181,7 +178,7 @@
       
         
         
-          &lt;p&gt;批量解压&lt;br&gt;zip: find -maxdepth 1 -name  “&lt;em&gt;.zip”|xargs -i unzip -n -O GBK {}&lt;br&gt;rar: find -maxdepth 1 -name  “&lt;/em&gt;.rar”|xargs -i unrar x
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;
         
       
     
