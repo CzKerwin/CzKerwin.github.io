@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>ubtuntu实用工具</title>
+    <url>/2020/04/16/ubtuntu%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/</url>
+    <content><![CDATA[<h1 id="必备-git-vim-curl"><a href="#必备-git-vim-curl" class="headerlink" title="必备 git,vim,curl"></a>必备 git,vim,curl</h1><p><code>sudo apt-get install git vim curl</code></p>
+<h1 id="一-截图工具-Flameshot"><a href="#一-截图工具-Flameshot" class="headerlink" title="一. 截图工具 Flameshot"></a>一. 截图工具 Flameshot</h1><p>安装Flameshot<br><code>sudo apt-get install flameshot</code><br>setting-devices-keyboard 添加快捷键, 绑定<code>flameshot gui</code>至<code>Ctrl + Alt + Q</code><br><img src="https://s1.ax1x.com/2020/04/16/Jkvg2t.png" alt="Jkvg2t.png"></p>
+<h1 id="二-office工具-WPS"><a href="#二-office工具-WPS" class="headerlink" title="二. office工具 WPS"></a>二. office工具 WPS</h1><p>在官网下载本机对应的版本<a href="http://linux.wps.cn" target="_blank" rel="noopener">http://linux.wps.cn</a><br>下载好后切换到下载目录安装,xxxx为对应版本<br><code>sudo dpkg -i wps-office_xxxxxxxxxxxxx.deb</code></p>
+<h4 id="安装字体-可跳过-但wps打开会提示缺失字体"><a href="#安装字体-可跳过-但wps打开会提示缺失字体" class="headerlink" title="安装字体(可跳过,但wps打开会提示缺失字体):"></a>安装字体(可跳过,但wps打开会提示缺失字体):</h4><p>字体下载地址：<br><a href="https://github.com/pengphei/wps-font-symbols/archive/master.zip" target="_blank" rel="noopener">https://github.com/pengphei/wps-font-symbols/archive/master.zip</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo cp -r .&#x2F;wps-font-symbols &#x2F;usr&#x2F;share&#x2F;fonts&#x2F;</span><br><span class="line">cd &#x2F;usr&#x2F;share&#x2F;fonts</span><br><span class="line">sudo chmod 755 wps-font-symbols</span><br><span class="line">cd &#x2F;usr&#x2F;share&#x2F;fonts&#x2F;wps-font-symbols</span><br><span class="line">sudo chmod 644 *</span><br><span class="line">sudo mkfontdir</span><br><span class="line">sudo mkfontscale</span><br><span class="line">sudo fc-cache</span><br></pre></td></tr></table></figure>
+<h1 id="三-媒体播放器"><a href="#三-媒体播放器" class="headerlink" title="三. 媒体播放器"></a>三. 媒体播放器</h1><p><code>sudo apt-get install vlc</code></p>
+<h1 id="四-VirtualBox虚拟机"><a href="#四-VirtualBox虚拟机" class="headerlink" title="四. VirtualBox虚拟机"></a>四. VirtualBox虚拟机</h1><p><code>sudo apt-get install virtualbox virtualbox-ext-pack</code></p>
+<h1 id="五-网易云音乐"><a href="#五-网易云音乐" class="headerlink" title="五. 网易云音乐"></a>五. 网易云音乐</h1><p><a href="https://github.com/InNoob/netease-cloud-music/releases" target="_blank" rel="noopener">https://github.com/InNoob/netease-cloud-music/releases</a> 下载deb安装<br><code>sudo dpkg -i netease-cloud-musicxxxxxxxxxxxxx.deb</code></p>
+<hr>
+<p>想到什么再补充</p>
+]]></content>
+      <tags>
+        <tag>ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>cv工程师系列概述</title>
     <url>/2020/04/16/cv%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%B3%BB%E5%88%97%E6%A6%82%E8%BF%B0/</url>
-    <content><![CDATA[<p>以教程的方式整理cv方向人工智能知识.</p>
-<p>cv<br><img src="https://s1.ax1x.com/2020/04/16/JksyVJ.jpg" alt="JksyVJ.jpg"></p>
+    <content><![CDATA[<p>以教程的方式整理人工智能cv方向知识.</p>
+<p>建议有一定python基础再学习</p>
+<p>cv方向图解<br><img src="https://s1.ax1x.com/2020/04/16/JksyVJ.jpg" alt="JksyVJ.jpg"></p>
 ]]></content>
       <tags>
         <tag>cv工程师系列</tag>
@@ -212,7 +231,7 @@
     <content><![CDATA[<p>批量解压<br>zip: find -maxdepth 1 -name  “<em>.zip”|xargs -i unzip -n -O GBK {}<br>rar: find -maxdepth 1 -name  “</em>.rar”|xargs -i unrar x {}</p>
 ]]></content>
       <tags>
-        <tag>linux</tag>
+        <tag>linux, ubuntu</tag>
       </tags>
   </entry>
   <entry>
