@@ -9,7 +9,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    cv工程师系列(第一篇,概述) |  Kerwin&#39;s Blog
+    cv工程师系列第二篇之图像预处理 |  Kerwin&#39;s Blog
   </title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   
@@ -42,7 +42,7 @@
   <div id="app">
     <main class="content on">
       <section class="outer">
-  <article id="post-cv工程师系列概述" class="article article-type-post" itemscope
+  <article id="post-cv工程师系列第二篇之图像预处理" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
   <div class="article-inner">
@@ -50,7 +50,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  cv工程师系列(第一篇,概述)
+  cv工程师系列第二篇之图像预处理
 </h1>
  
 
@@ -59,8 +59,8 @@
 
     
     <div class="article-meta">
-      <a href="/2020/04/16/cv%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%B3%BB%E5%88%97%E6%A6%82%E8%BF%B0/" class="article-date">
-  <time datetime="2020-04-16T07:07:19.000Z" itemprop="datePublished">2020-04-16</time>
+      <a href="/2020/04/17/cv%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%B3%BB%E5%88%97%E7%AC%AC%E4%BA%8C%E7%AF%87%E4%B9%8B%E5%9B%BE%E5%83%8F%E9%A2%84%E5%A4%84%E7%90%86/" class="article-date">
+  <time datetime="2020-04-17T14:30:40.000Z" itemprop="datePublished">2020-04-17</time>
 </a>
       
       
@@ -70,7 +70,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">33</span>
+            <span class="post-count">540</span>
         </span>
     </span>
 
@@ -104,8 +104,31 @@
       
 
       
-      <p>以教程的方式整理人工智能cv方向知识,建议有一定python基础再学习</p>
-<h2 id="cv方向图解"><a href="#cv方向图解" class="headerlink" title="cv方向图解"></a>cv方向图解</h2><p><img src="https://s1.ax1x.com/2020/04/16/JksyVJ.jpg" alt="JksyVJ.jpg"></p>
+      <h1 id="图像增强"><a href="#图像增强" class="headerlink" title="图像增强"></a>图像增强</h1><p>作用：</p>
+<ol>
+<li>改善图像视觉效果</li>
+<li>转换为更适合人或机器处理的形式</li>
+<li>突出对人或机器有意义的信息</li>
+<li>抑制无用信息<br>包括图像锐化、平滑、去噪、灰度调整（对比度增强）</li>
+</ol>
+<h2 id="直方图均衡化"><a href="#直方图均衡化" class="headerlink" title="直方图均衡化"></a>直方图均衡化</h2><p>详细参考文章 <a href="https://www.cnblogs.com/luo-peng/p/4930013.html" target="_blank" rel="noopener">https://www.cnblogs.com/luo-peng/p/4930013.html</a></p>
+<p>重分配灰度像素值的分布<br>包括</p>
+<ol>
+<li><p>经典算法<br>直接对整张图做均衡分配，如果图片某区域很亮或很暗作用有限</p>
+</li>
+<li><p>自适应直方图均衡（AHE）<br>按固定步长在图片上滑动做直方图均衡，会过度放大图片中相对均匀区域的噪声</p>
+</li>
+<li><p>限制对比度自适应直方图均衡（CLAHE）</p>
+</li>
+</ol>
+<p>使高于阈值的直方图部分均匀的分布在整个灰度区间上<br><img src="https://s1.ax1x.com/2020/04/16/JEpDuq.png" alt="JEpDuq.png"><br>同时，按块做直方图均衡后，为保持块与块直间的自然过度，需要差值<br><img src="https://s1.ax1x.com/2020/04/16/JE9adK.png" alt="JE9adK.png"><br>红色块直接赋值，绿色块由相邻两块线性插值，蓝色快由相邻四块双线性插值</p>
+<h2 id="形态学运算"><a href="#形态学运算" class="headerlink" title="形态学运算"></a>形态学运算</h2><p>膨胀和腐蚀<br>开运算：先腐蚀再膨胀，可以去掉目标外的孤立点<br>闭运算：先膨胀再腐蚀，可以去掉目标内的孔</p>
+<h2 id="空间域处理及变换"><a href="#空间域处理及变换" class="headerlink" title="空间域处理及变换"></a>空间域处理及变换</h2><p>滤波/卷积：<br>均值滤波：<br>中值滤波<br>高斯滤波<br>梯度Prewitt滤波<br>水平梯度/垂直边缘<br><img src="https://s1.ax1x.com/2020/04/16/JEPhvj.png" alt="JEPhvj.png"><br>垂直梯度/水平边缘<br><img src="https://s1.ax1x.com/2020/04/16/JEi9Vx.png" alt="JEi9Vx.png"></p>
+<p>梯度Sobel滤波<br>在Prewitt的基础上把中间值换为2倍<br><img src="https://s1.ax1x.com/2020/04/16/JEi0iT.png" alt="JEi0iT.png"></p>
+<p>梯度Laplacian滤波<br>作用：<br>团块检测：周边高于（低于）中心点<br>边缘检测：像素值快速变化的区域</p>
+<h2 id="频域处理及变换"><a href="#频域处理及变换" class="headerlink" title="频域处理及变换"></a>频域处理及变换</h2><h2 id="高斯金字塔与拉普拉斯金字塔"><a href="#高斯金字塔与拉普拉斯金字塔" class="headerlink" title="高斯金字塔与拉普拉斯金字塔"></a>高斯金字塔与拉普拉斯金字塔</h2><p><img src="https://s1.ax1x.com/2020/04/16/JEFplQ.png" alt="JEFplQ.png"></p>
+<p>看一下效果：<br>原图/随机噪声图<br><img src="https://s1.ax1x.com/2020/04/17/JVT7lT.jpg" alt="JVT7lT.jpg"><br>均值滤波卷积核大小分别为3和5<br><img src="https://s1.ax1x.com/2020/04/17/JV7U3V.jpg" alt="JV7U3V.jpg"><br>中值滤波卷积核大小分别为3和5<br><img src="https://s1.ax1x.com/2020/04/17/JV7WjO.jpg" alt="JV7WjO.jpg"><br>高斯滤波卷积核大小分别为3和5<br><img src="https://s1.ax1x.com/2020/04/17/JV7q8P.jpg" alt="JV7q8P.jpg"></p>
+<p>平滑滤波<br><a href="http://docs.opencv.org/master/d4/d13/tutorial_py_filtering.html" target="_blank" rel="noopener">http://docs.opencv.org/master/d4/d13/tutorial_py_filtering.html</a><br>梯度滤波<br><a href="http://docs.opencv.org/master/d5/d0f/tutorial_py_filtering.html" target="_blank" rel="noopener">http://docs.opencv.org/master/d5/d0f/tutorial_py_filtering.html</a><br>傅里叶变换<br><a href="http://docs.opencv.org/master/de/dbc/tutorial_py_filtering.html" target="_blank" rel="noopener">http://docs.opencv.org/master/de/dbc/tutorial_py_filtering.html</a><br>高斯金字塔<br><a href="http://docs.opencv.org/master/dc/dff/tutorial_py_filtering.html" target="_blank" rel="noopener">http://docs.opencv.org/master/dc/dff/tutorial_py_filtering.html</a></p>
 
       
       <!-- reward -->
@@ -174,7 +197,7 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://czkerwin.github.io/2020/04/16/cv%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%B3%BB%E5%88%97%E6%A6%82%E8%BF%B0/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://czkerwin.github.io/2020/04/17/cv%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%B3%BB%E5%88%97%E7%AC%AC%E4%BA%8C%E7%AF%87%E4%B9%8B%E5%9B%BE%E5%83%8F%E9%A2%84%E5%A4%84%E7%90%86/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -192,19 +215,10 @@
   
   <nav class="article-nav">
     
+    
       <a href="/2020/04/16/ubtuntu%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            ubtuntu实用工具
-          
-        </div>
-      </a>
-    
-    
-      <a href="/2020/04/12/%E4%BD%BF%E7%94%A8github%E4%B8%8Ehexo%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">使用github与hexo建个人博客</div>
+        <div class="article-nav-title">ubtuntu实用工具</div>
       </a>
     
   </nav>
