@@ -1,60 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>目标检测与实例分割</title>
-    <url>/2020/04/21/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E4%B8%8E%E5%AE%9E%E4%BE%8B%E5%88%86%E5%89%B2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Hybrid Task Cascade 算法，在coco数据集上训练，box AP 46.9，mask AP 40.8<br><img src="https://s1.ax1x.com/2020/04/21/JJTD41.gif" alt="JJTD41.gif"></p>
-]]></content>
-      <tags>
-        <tag>成果</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>无人机航拍生成三维地图和二维地图</title>
-    <url>/2020/04/21/%E6%97%A0%E4%BA%BA%E6%9C%BA%E8%88%AA%E6%8B%8D%E7%94%9F%E6%88%90%E4%B8%89%E7%BB%B4%E5%9C%B0%E5%9B%BE%E5%92%8C%E4%BA%8C%E7%BB%B4%E5%9C%B0%E5%9B%BE/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://s1.ax1x.com/2020/04/21/J81DFe.gif" alt="J81DFe.gif"><br><img src="https://s1.ax1x.com/2020/04/21/JG8tTf.gif" alt="JG8tTf.gif"></p>
-]]></content>
-      <tags>
-        <tag>成果</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>吊钩下站人（基于视频估计人与吊钩距离）</title>
-    <url>/2020/04/21/%E5%90%8A%E9%92%A9%E4%B8%8B%E7%AB%99%E4%BA%BA%EF%BC%88%E5%9F%BA%E4%BA%8E%E8%A7%86%E9%A2%91%E4%BC%B0%E8%AE%A1%E4%BA%BA%E4%B8%8E%E5%90%8A%E9%92%A9%E8%B7%9D%E7%A6%BB%EF%BC%89/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://s1.ax1x.com/2020/04/21/JJHAQf.gif" alt="JJHAQf.gif"></p>
-]]></content>
-      <tags>
-        <tag>成果</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>戴口罩识别</title>
-    <url>/2020/04/21/%E6%88%B4%E5%8F%A3%E7%BD%A9%E8%AF%86%E5%88%AB/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://s1.ax1x.com/2020/04/21/JJb9nU.gif" alt="JJb9nU.gif"></p>
-]]></content>
-      <tags>
-        <tag>成果</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>路口车流量监控（指定区域违停、道路拥堵统计）</title>
-    <url>/2020/04/21/%E8%B7%AF%E5%8F%A3%E8%BD%A6%E6%B5%81%E9%87%8F%E7%9B%91%E6%8E%A7%EF%BC%88%E6%8C%87%E5%AE%9A%E5%8C%BA%E5%9F%9F%E8%BF%9D%E5%81%9C%E3%80%81%E9%81%93%E8%B7%AF%E6%8B%A5%E5%A0%B5%E7%BB%9F%E8%AE%A1%EF%BC%89/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://s1.ax1x.com/2020/04/21/JJXOSA.gif" alt="JJXOSA.gif"></p>
-]]></content>
-      <tags>
-        <tag>成果</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>烟火识别</title>
-    <url>/2020/04/21/%E7%83%9F%E7%81%AB%E8%AF%86%E5%88%AB/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://s1.ax1x.com/2020/04/21/JJv72d.gif" alt="JJv72d.gif"></p>
-]]></content>
-      <tags>
-        <tag>成果</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>coco数据集及其pythonAPI</title>
     <url>/2020/04/19/coco%E6%95%B0%E6%8D%AE%E9%9B%86%E5%8F%8A%E5%85%B6pythonAPI/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>根据年份,目前为止,COCO的数据集分别有2014,2015,2017三个版本，其中目标检测对应其中”bbox”,图像分割”segmentation”，图像语义理解”captions”，人体关键点”keypoints”。</p>
@@ -62,82 +8,6 @@
       <tags>
         <tag>coco</tag>
         <tag>目标检测</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>cv工程师系列第三篇之神经网络</title>
-    <url>/2020/04/18/cv%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%B3%BB%E5%88%97%E7%AC%AC%E4%B8%89%E7%AF%87%E4%B9%8B%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
-<p>神经网络： 大量（结构简单的、功能接近的）神经元节点按一定的体系架构连接成的网状结构<br>作用： 建立输入与输出的映射关系</p>
-<p>神经元模型<br><img src="https://s1.ax1x.com/2020/04/18/JmgHtf.jpg" alt="JmgHtf.jpg"><br>$$y = f\left ( \sum_{i}^{n}w_{i}x_{i} \right )$$</p>
-<p><strong>f</strong>非线性激活函数：为神经网络引入非线性变化</p>
-<p>传统BP神经网络：<br><img src="https://s1.ax1x.com/2020/04/18/Jmo5nO.jpg" alt="Jmo5nO.jpg"></p>
-<p>由前向后计算output，计算loss，根据学习率和梯度向前反馈调整w和b，反复传播以训练出输入与输出映射关系</p>
-<p>深度学习即使用深层神经网络，更深的网络可以更好的”拟合“映射关系</p>
-<p>为了达到更深，神经网络发展出了更多独特的结构，其中用的最广泛的就是CNN卷积神经网络</p>
-<h1 id="卷积神经网络"><a href="#卷积神经网络" class="headerlink" title="卷积神经网络"></a>卷积神经网络</h1><p>卷积神经网络的发展历程：AlexNet→VGG→GoogLeNet→ResNet→ResNetXt</p>
-<h2 id="ResNet"><a href="#ResNet" class="headerlink" title="ResNet"></a>ResNet</h2><p>pytorch实现</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import torch</span><br><span class="line">import torch.nn as nn</span><br><span class="line">import torch.nn.functional as F</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 用于ResNet18和34的残差块，用的是2个3x3的卷积</span><br><span class="line">class BasicBlock(nn.Module):</span><br><span class="line">    expansion &#x3D; 1</span><br><span class="line"></span><br><span class="line">    def __init__(self, in_planes, planes, stride&#x3D;1):</span><br><span class="line">        super(BasicBlock, self).__init__()</span><br><span class="line">        self.conv1 &#x3D; nn.Conv2d(in_planes, planes, kernel_size&#x3D;3,</span><br><span class="line">                               stride&#x3D;stride, padding&#x3D;1, bias&#x3D;False)</span><br><span class="line">        self.bn1 &#x3D; nn.BatchNorm2d(planes)</span><br><span class="line">        self.conv2 &#x3D; nn.Conv2d(planes, planes, kernel_size&#x3D;3,</span><br><span class="line">                               stride&#x3D;1, padding&#x3D;1, bias&#x3D;False)</span><br><span class="line">        self.bn2 &#x3D; nn.BatchNorm2d(planes)</span><br><span class="line">        self.shortcut &#x3D; nn.Sequential()</span><br><span class="line">        # 经过处理后的x要与x的维度相同(尺寸和深度)</span><br><span class="line">        # 如果不相同，需要添加卷积+BN来变换为同一维度</span><br><span class="line">        if stride !&#x3D; 1 or in_planes !&#x3D; self.expansion*planes:</span><br><span class="line">            self.shortcut &#x3D; nn.Sequential(</span><br><span class="line">                nn.Conv2d(in_planes, self.expansion*planes,</span><br><span class="line">                          kernel_size&#x3D;1, stride&#x3D;stride, bias&#x3D;False),</span><br><span class="line">                nn.BatchNorm2d(self.expansion*planes)</span><br><span class="line">            )</span><br><span class="line"></span><br><span class="line">    def forward(self, x):</span><br><span class="line">        out &#x3D; F.relu(self.bn1(self.conv1(x)))</span><br><span class="line">        out &#x3D; self.bn2(self.conv2(out))</span><br><span class="line">        out +&#x3D; self.shortcut(x)</span><br><span class="line">        out &#x3D; F.relu(out)</span><br><span class="line">        return out</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 用于ResNet50,101和152的残差块，用的是1x1+3x3+1x1的卷积</span><br><span class="line">class Bottleneck(nn.Module):</span><br><span class="line">    # 前面1x1和3x3卷积的filter个数相等，最后1x1卷积是其expansion倍</span><br><span class="line">    expansion &#x3D; 4</span><br><span class="line"></span><br><span class="line">    def __init__(self, in_planes, planes, stride&#x3D;1):</span><br><span class="line">        super(Bottleneck, self).__init__()</span><br><span class="line">        self.conv1 &#x3D; nn.Conv2d(in_planes, planes, kernel_size&#x3D;1, bias&#x3D;False)</span><br><span class="line">        self.bn1 &#x3D; nn.BatchNorm2d(planes)</span><br><span class="line">        self.conv2 &#x3D; nn.Conv2d(planes, planes, kernel_size&#x3D;3,</span><br><span class="line">                               stride&#x3D;stride, padding&#x3D;1, bias&#x3D;False)</span><br><span class="line">        self.bn2 &#x3D; nn.BatchNorm2d(planes)</span><br><span class="line">        self.conv3 &#x3D; nn.Conv2d(planes, self.expansion*planes,</span><br><span class="line">                               kernel_size&#x3D;1, bias&#x3D;False)</span><br><span class="line">        self.bn3 &#x3D; nn.BatchNorm2d(self.expansion*planes)</span><br><span class="line"></span><br><span class="line">        self.shortcut &#x3D; nn.Sequential()</span><br><span class="line">        if stride !&#x3D; 1 or in_planes !&#x3D; self.expansion*planes:</span><br><span class="line">            self.shortcut &#x3D; nn.Sequential(</span><br><span class="line">                nn.Conv2d(in_planes, self.expansion*planes,</span><br><span class="line">                          kernel_size&#x3D;1, stride&#x3D;stride, bias&#x3D;False),</span><br><span class="line">                nn.BatchNorm2d(self.expansion*planes)</span><br><span class="line">            )</span><br><span class="line"></span><br><span class="line">    def forward(self, x):</span><br><span class="line">        out &#x3D; F.relu(self.bn1(self.conv1(x)))</span><br><span class="line">        out &#x3D; F.relu(self.bn2(self.conv2(out)))</span><br><span class="line">        out &#x3D; self.bn3(self.conv3(out))</span><br><span class="line">        out +&#x3D; self.shortcut(x)</span><br><span class="line">        out &#x3D; F.relu(out)</span><br><span class="line">        return out</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">class ResNet(nn.Module):</span><br><span class="line">    def __init__(self, block, num_blocks, num_classes&#x3D;10):</span><br><span class="line">        super(ResNet, self).__init__()</span><br><span class="line">        self.in_planes &#x3D; 64</span><br><span class="line"></span><br><span class="line">        self.conv1 &#x3D; nn.Conv2d(3, 64, kernel_size&#x3D;3,</span><br><span class="line">                               stride&#x3D;1, padding&#x3D;1, bias&#x3D;False)</span><br><span class="line">        self.bn1 &#x3D; nn.BatchNorm2d(64)</span><br><span class="line">        </span><br><span class="line">        self.layer1 &#x3D; self._make_layer(block, 64, num_blocks[0], stride&#x3D;1)</span><br><span class="line">        self.layer2 &#x3D; self._make_layer(block, 128, num_blocks[1], stride&#x3D;2)</span><br><span class="line">        self.layer3 &#x3D; self._make_layer(block, 256, num_blocks[2], stride&#x3D;2)</span><br><span class="line">        self.layer4 &#x3D; self._make_layer(block, 512, num_blocks[3], stride&#x3D;2)</span><br><span class="line">        self.linear &#x3D; nn.Linear(512*block.expansion, num_classes)</span><br><span class="line"></span><br><span class="line">    def _make_layer(self, block, planes, num_blocks, stride):</span><br><span class="line">        strides &#x3D; [stride] + [1]*(num_blocks-1)</span><br><span class="line">        layers &#x3D; []</span><br><span class="line">        for stride in strides:</span><br><span class="line">            layers.append(block(self.in_planes, planes, stride))</span><br><span class="line">            self.in_planes &#x3D; planes * block.expansion</span><br><span class="line">        return nn.Sequential(*layers)</span><br><span class="line"></span><br><span class="line">    def forward(self, x):</span><br><span class="line">        out &#x3D; F.relu(self.bn1(self.conv1(x)))</span><br><span class="line">        out &#x3D; self.layer1(out)</span><br><span class="line">        out &#x3D; self.layer2(out)</span><br><span class="line">        out &#x3D; self.layer3(out)</span><br><span class="line">        out &#x3D; self.layer4(out)</span><br><span class="line">        out &#x3D; F.avg_pool2d(out, 4)</span><br><span class="line">        out &#x3D; out.view(out.size(0), -1)</span><br><span class="line">        out &#x3D; self.linear(out)</span><br><span class="line">        return out</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def ResNet18():</span><br><span class="line">    return ResNet(BasicBlock, [2,2,2,2])</span><br><span class="line"></span><br><span class="line">def ResNet34():</span><br><span class="line">    return ResNet(BasicBlock, [3,4,6,3])</span><br><span class="line"></span><br><span class="line">def ResNet50():</span><br><span class="line">    return ResNet(Bottleneck, [3,4,6,3])</span><br><span class="line"></span><br><span class="line">def ResNet101():</span><br><span class="line">    return ResNet(Bottleneck, [3,4,23,3])</span><br><span class="line"></span><br><span class="line">def ResNet152():</span><br><span class="line">    return ResNet(Bottleneck, [3,8,36,3])</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def test():</span><br><span class="line">    net &#x3D; ResNet18()</span><br><span class="line">    y &#x3D; net(torch.randn(1,3,32,32))</span><br><span class="line">    print(y.size())</span><br><span class="line"></span><br><span class="line">test()</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <tags>
-        <tag>cv工程师系列</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>cv工程师系列第二篇之图像预处理</title>
-    <url>/2020/04/17/cv%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%B3%BB%E5%88%97%E7%AC%AC%E4%BA%8C%E7%AF%87%E4%B9%8B%E5%9B%BE%E5%83%8F%E9%A2%84%E5%A4%84%E7%90%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="图像增强"><a href="#图像增强" class="headerlink" title="图像增强"></a>图像增强</h1><p>作用：</p>
-<ol>
-<li>改善图像视觉效果</li>
-<li>转换为更适合人或机器处理的形式</li>
-<li>突出对人或机器有意义的信息</li>
-<li>抑制无用信息<br>包括图像锐化、平滑、去噪、灰度调整（对比度增强）</li>
-</ol>
-<h2 id="直方图均衡化"><a href="#直方图均衡化" class="headerlink" title="直方图均衡化"></a>直方图均衡化</h2><p>详细参考文章 <a href="https://www.cnblogs.com/luo-peng/p/4930013.html" target="_blank" rel="noopener">https://www.cnblogs.com/luo-peng/p/4930013.html</a></p>
-<p>重分配灰度像素值的分布<br>包括</p>
-<ol>
-<li><p>经典算法<br>直接对整张图做均衡分配，如果图片某区域很亮或很暗作用有限</p>
-</li>
-<li><p>自适应直方图均衡（AHE）<br>按固定步长在图片上滑动做直方图均衡，会过度放大图片中相对均匀区域的噪声</p>
-</li>
-<li><p>限制对比度自适应直方图均衡（CLAHE）</p>
-</li>
-</ol>
-<p>使高于阈值的直方图部分均匀的分布在整个灰度区间上<br><img src="https://s1.ax1x.com/2020/04/16/JEpDuq.png" alt="JEpDuq.png"><br>同时，按块做直方图均衡后，为保持块与块直间的自然过度，需要差值<br><img src="https://s1.ax1x.com/2020/04/16/JE9adK.png" alt="JE9adK.png"><br>红色块直接赋值，绿色块由相邻两块线性插值，蓝色快由相邻四块双线性插值</p>
-<h2 id="形态学运算"><a href="#形态学运算" class="headerlink" title="形态学运算"></a>形态学运算</h2><p>膨胀和腐蚀<br>开运算：先腐蚀再膨胀，可以去掉目标外的孤立点<br>闭运算：先膨胀再腐蚀，可以去掉目标内的孔</p>
-<h2 id="空间域处理及变换"><a href="#空间域处理及变换" class="headerlink" title="空间域处理及变换"></a>空间域处理及变换</h2><p>滤波/卷积：<br>均值滤波：<br>中值滤波<br>高斯滤波<br>梯度Prewitt滤波<br>水平梯度/垂直边缘<br><img src="https://s1.ax1x.com/2020/04/16/JEPhvj.png" alt="JEPhvj.png"><br>垂直梯度/水平边缘<br><img src="https://s1.ax1x.com/2020/04/16/JEi9Vx.png" alt="JEi9Vx.png"></p>
-<p>梯度Sobel滤波<br>在Prewitt的基础上把中间值换为2倍<br><img src="https://s1.ax1x.com/2020/04/16/JEi0iT.png" alt="JEi0iT.png"></p>
-<p>梯度Laplacian滤波<br>作用：<br>团块检测：周边高于（低于）中心点<br>边缘检测：像素值快速变化的区域</p>
-<h2 id="频域处理及变换"><a href="#频域处理及变换" class="headerlink" title="频域处理及变换"></a>频域处理及变换</h2><h2 id="高斯金字塔与拉普拉斯金字塔"><a href="#高斯金字塔与拉普拉斯金字塔" class="headerlink" title="高斯金字塔与拉普拉斯金字塔"></a>高斯金字塔与拉普拉斯金字塔</h2><p><img src="https://s1.ax1x.com/2020/04/16/JEFplQ.png" alt="JEFplQ.png"></p>
-<p>看一下效果：<br>原图/随机噪声图<br><img src="https://s1.ax1x.com/2020/04/17/JVT7lT.jpg" alt="JVT7lT.jpg"><br>均值滤波卷积核大小分别为3和5<br><img src="https://s1.ax1x.com/2020/04/17/JV7U3V.jpg" alt="JV7U3V.jpg"><br>中值滤波卷积核大小分别为3和5<br><img src="https://s1.ax1x.com/2020/04/17/JV7WjO.jpg" alt="JV7WjO.jpg"><br>高斯滤波卷积核大小分别为3和5<br><img src="https://s1.ax1x.com/2020/04/17/JV7q8P.jpg" alt="JV7q8P.jpg"></p>
-<p>平滑滤波<br><a href="http://docs.opencv.org/master/d4/d13/tutorial_py_filtering.html" target="_blank" rel="noopener">http://docs.opencv.org/master/d4/d13/tutorial_py_filtering.html</a><br>梯度滤波<br><a href="http://docs.opencv.org/master/d5/d0f/tutorial_py_filtering.html" target="_blank" rel="noopener">http://docs.opencv.org/master/d5/d0f/tutorial_py_filtering.html</a><br>傅里叶变换<br><a href="http://docs.opencv.org/master/de/dbc/tutorial_py_filtering.html" target="_blank" rel="noopener">http://docs.opencv.org/master/de/dbc/tutorial_py_filtering.html</a><br>高斯金字塔<br><a href="http://docs.opencv.org/master/dc/dff/tutorial_py_filtering.html" target="_blank" rel="noopener">http://docs.opencv.org/master/dc/dff/tutorial_py_filtering.html</a></p>
-]]></content>
-      <tags>
-        <tag>cv工程师系列</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ubtuntu实用工具</title>
-    <url>/2020/04/16/ubtuntu%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="必备-git-vim-curl"><a href="#必备-git-vim-curl" class="headerlink" title="必备 git,vim,curl"></a>必备 git,vim,curl</h1><p><code>sudo apt-get install git vim curl</code></p>
-<h1 id="一-截图工具-Flameshot"><a href="#一-截图工具-Flameshot" class="headerlink" title="一. 截图工具 Flameshot"></a>一. 截图工具 Flameshot</h1><p>安装Flameshot<br><code>sudo apt-get install flameshot</code><br>setting-devices-keyboard 添加快捷键, 绑定<code>flameshot gui</code>至<code>Ctrl + Alt + Q</code><br><img src="https://s1.ax1x.com/2020/04/16/Jkvg2t.png" alt="Jkvg2t.png"><br>另推荐图片在线转格式、压缩工具<a href="https://www.yasuotu.com/tiaozheng" target="_blank" rel="noopener">https://www.yasuotu.com/tiaozheng</a></p>
-<h1 id="二-录屏工具"><a href="#二-录屏工具" class="headerlink" title="二. 录屏工具"></a>二. 录屏工具</h1><p>simplescreenrecorder</p>
-<h1 id="三-视频格式转换工具"><a href="#三-视频格式转换工具" class="headerlink" title="三. 视频格式转换工具"></a>三. 视频格式转换工具</h1><p>handbrake<br>另：视频转gif推荐方法</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mplayer -ao null videopath -vo jpeg:outdir&#x3D;outputDir</span><br><span class="line">convert outputDir&#x2F;* name.gif</span><br></pre></td></tr></table></figure>
-
-<h1 id="四-office工具-WPS"><a href="#四-office工具-WPS" class="headerlink" title="四. office工具 WPS"></a>四. office工具 WPS</h1><p>在官网下载本机对应的版本<a href="http://linux.wps.cn" target="_blank" rel="noopener">http://linux.wps.cn</a><br>下载好后切换到下载目录安装,xxxx为对应版本<br><code>sudo dpkg -i wps-office_xxxxxxxxxxxxx.deb</code></p>
-<h4 id="安装字体-可跳过-但wps打开会提示缺失字体"><a href="#安装字体-可跳过-但wps打开会提示缺失字体" class="headerlink" title="安装字体(可跳过,但wps打开会提示缺失字体):"></a>安装字体(可跳过,但wps打开会提示缺失字体):</h4><p>字体下载地址：<br><a href="https://github.com/pengphei/wps-font-symbols/archive/master.zip" target="_blank" rel="noopener">https://github.com/pengphei/wps-font-symbols/archive/master.zip</a></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo cp -r .&#x2F;wps-font-symbols &#x2F;usr&#x2F;share&#x2F;fonts&#x2F;</span><br><span class="line">cd &#x2F;usr&#x2F;share&#x2F;fonts</span><br><span class="line">sudo chmod 755 wps-font-symbols</span><br><span class="line">cd &#x2F;usr&#x2F;share&#x2F;fonts&#x2F;wps-font-symbols</span><br><span class="line">sudo chmod 644 *</span><br><span class="line">sudo mkfontdir</span><br><span class="line">sudo mkfontscale</span><br><span class="line">sudo fc-cache</span><br></pre></td></tr></table></figure>
-<h1 id="五-媒体播放器"><a href="#五-媒体播放器" class="headerlink" title="五. 媒体播放器"></a>五. 媒体播放器</h1><p><code>sudo apt-get install vlc</code></p>
-<h1 id="六-VirtualBox虚拟机"><a href="#六-VirtualBox虚拟机" class="headerlink" title="六. VirtualBox虚拟机"></a>六. VirtualBox虚拟机</h1><p><code>sudo apt-get install virtualbox virtualbox-ext-pack</code></p>
-<h1 id="七-网易云音乐"><a href="#七-网易云音乐" class="headerlink" title="七. 网易云音乐"></a>七. 网易云音乐</h1><p><a href="https://github.com/InNoob/netease-cloud-music/releases" target="_blank" rel="noopener">https://github.com/InNoob/netease-cloud-music/releases</a> 下载deb安装<br><code>sudo dpkg -i netease-cloud-musicxxxxxxxxxxxxx.deb</code></p>
-<hr>
-<p>想到什么再补充</p>
-]]></content>
-      <tags>
-        <tag>ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -151,37 +21,25 @@
       </tags>
   </entry>
   <entry>
-    <title>使用github与hexo建个人博客</title>
-    <url>/2020/04/12/%E4%BD%BF%E7%94%A8github%E4%B8%8Ehexo%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="写在开始"><a href="#写在开始" class="headerlink" title="写在开始"></a>写在开始</h1><p>个人博客建站,全干货,有基础的看这一篇就够了</p>
-<h1 id="搭建博客主要步骤："><a href="#搭建博客主要步骤：" class="headerlink" title="搭建博客主要步骤："></a>搭建博客主要步骤：</h1><h2 id="1-安装node-js和git-教程百度都是-不赘述"><a href="#1-安装node-js和git-教程百度都是-不赘述" class="headerlink" title="1.安装node.js和git,教程百度都是,不赘述"></a>1.安装node.js和git,教程百度都是,不赘述</h2><p>安装成功后在命令窗口输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git version</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
-<p>会返回版本号</p>
-<h2 id="2-安装hexo"><a href="#2-安装hexo" class="headerlink" title="2.安装hexo"></a>2.安装hexo</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-
-<h2 id="3-建立本地博客"><a href="#3-建立本地博客" class="headerlink" title="3.建立本地博客"></a>3.建立本地博客</h2><p>新建一个文件夹并将命令窗口路径切换只该文件夹下,执行</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo init</span><br><span class="line">hexo g </span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<p>正常情况下会看到</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http:&#x2F;&#x2F;localhost:4000 . Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure>
-<p>打开即可看到初始博客效果<br><a href="https://imgchr.com/i/GLxlvV" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/12/GLxlvV.md.jpg" alt="GLxlvV.md.jpg"></a></p>
-<h2 id="4-注册-GitHub-并创建-库-且生成-GitHub-Pages"><a href="#4-注册-GitHub-并创建-库-且生成-GitHub-Pages" class="headerlink" title="4.注册 GitHub 并创建 库 且生成 GitHub Pages"></a>4.注册 GitHub 并创建 库 且生成 GitHub Pages</h2><ol>
-<li>注册或者登陆GIthub账户</li>
-<li>创建项目代码库命名为 username.github.io</li>
-<li>配置ssh秘钥<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</span><br></pre></td></tr></table></figure>
-连续回车三次,复制生成的秘钥<br><code>clip &lt; ~/.ssh/id_rsa.pub</code><br>打开github,在右上角个人头像-Settings-SSH and GOG keys-SSH keys 中创建SSH key,粘贴刚生成的秘钥</li>
-<li>测试秘钥<br><code>ssh -T git@github.com</code><br>在命令窗口中能看到 Hi xxx! xxx是账户名,即成功</li>
-<li>设置用户信息<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;username&quot;&#x2F;&#x2F;用户名</span><br><span class="line">git config --global user.email  &quot;youremail@163.com&quot;&#x2F;&#x2F;填写自己的邮箱</span><br></pre></td></tr></table></figure></li>
-<li>连接Hexo 和 github<br>点击github项目仓库clone and download复制链接地址<br>修改hexo配置文件 _config.yml</li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;condorheroblog&#x2F;condorheroblog.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-<p>命令窗口输入<br><code>hexo g -d</code><br>博客就部署到github上了,打开username.github.io即可访问</p>
-<h2 id="补充说明"><a href="#补充说明" class="headerlink" title="补充说明:"></a>补充说明:</h2><ol>
-<li>想要多电脑更新同一博客,可以把博客文件夹作为另一个git仓库上传,这样在另一台电脑上clone, npm install之后即可修改博客.<br>注意如果使用了主题要删除主题中的.git文件,并修改删除.gitignore中的_config.yml字段</li>
-<li>有任何问题可以留言咨询</li>
-</ol>
+    <title>cpp学习笔记</title>
+    <url>/2020/04/03/cpp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>struct name cpp中用于定义类</p>
+<p>命名空间,防止同名实体.在不同的命令空间使用相同的实体名互不影响.它可以存在多个不同的文件中.<br>namespace 命名空间名<br>{<br>    … 这里的内容都在名字为namespace的作用域下<br>}</p>
+<p>使用命名空间内实体的格式:<br>命名空间名::实体名   —-其中 :: 叫”作用域运算符”</p>
+<p>同时编译的方法:<br>g++ 文件名.cpp 文件名.cpp 文件名.h -o 文件.o<br>即可同时编译</p>
+<p>c++标准库是c++的重要组成部分<br>iostream库 输入输出流<br>命名空间名字:std<br>cout: c out (console output),这是std下的”标准输出”对象<br>&lt;&lt;和cout一起运用时作用被重载为”输出运算符”,不再是”左移”<br>std::endl 和 “\n” 是有区别的,<br>std::endl 是个模板函数名,相当于函数指针<br>std::endl 可以(1)输出换行符 (2)强制刷新输出缓冲区,执行到这里就会输出到屏幕<br>如果不用则会在(1)缓冲区满了 (2)程序执行到main的return (3)系统不太繁忙的时候 三种情况下输出到屏幕<br>每个”std::cout &lt;&lt;”返回的是一个cout对象<br>std::cout &lt;&lt; x– &lt;&lt; x–; //编译器不同执行结果可能不同,有的会输出43有的是34<br>避免在一个表达式中多次改变一个变量的值<br>std::cin 标准输入</p>
+<p>初始化 int a = 1;  等价于 int a {1}; 或 int a = {1}<br>初始化数组 可以直接 int a[] {3,5,7};<br>如果 int a = 3.5f a会直接截断为 a = 3 但 int a {3.5f} 会报错</p>
+<p>auto: 变量的自动类型判断<br>auto可以在声明变量的时候根据变量初始值自动选择相匹配的变量类型,auto在编译期间执行,不会降低程序效率<br>auto a = true; //bool<br>auto a = ‘a’; //char<br>auto a = 1.2f; //float</p>
+<p>头文件防卫<br>头文件互相include的时候可能会造成 重定义 的问题<br>在头文件中使用 ifndef define endif 来保证不会重定义</p>
+<p>引用: 为变量起了另外一个名字,一般用&amp;符号表示,起别名后,别名和变量本身我们就看成是同一个变量<br>int a = 1;<br>int $b = a; // a的别名就是b, &amp;在这里不是求地址运算符, 只是起标识作用,<br>            // 定义引用在编译器看来使用同一块内存<br>            // 定义引用的时候必须初始化<br>int a = 1;<br>int &amp;b = a;  //引用&amp;在=的左边<br>int *p = &a;  //地址符&amp;在 = 右边<br>int b = 1;<br>定义func(int $a),在func中对a修改,调用func(b),会修改b的值.</p>
+<p>常量:<br>const int var = 7; //命名var常量,声明不会去改变,后面直接赋值会报错, ##不要给常量加强制引用<br>constexpr: 也是常量,在编译的时候求值,提升性能<br>constexpr int var =1;<br>constexpr 写在func前就是常量函数</p>
+<p>范围for语句:用于遍历一个序列<br>int v[] {2,3,4,5,6,7,8};<br>for (auto x: v) // 数组ｖ中每个元素，依次拷贝放入ｘ中并打印ｘ值<br>for (auto ＆x: v) // 省了拷贝动作，提高了系统效率<br>{<br>    std::cout &lt;&lt; x &lt;&lt; std::endl;<br>}</p>
+<p>动态内存分配: 供程序使用的存储空间，有程序区，静态存储区，动态存储区<br>ｃ＋＋中，内存详细分为五个区<br>(1)栈　一般函数内的局部变量都会放在这里，由编译器自动分配和释放<br>(2)堆　程序员malloc/new分配,用free/delete来释放.忘记释放会在程序结束时回收<br>(3)全局/静态存储区:放全局变量和静态变量static 程序结束时系统释放<br>(4)常量存储区<br>(5)程序代码区<br>堆和栈不同的用途和区别<br>(1)栈 空间有限.这是系统规定的 int a = 4 分配速度很快<br>(2)堆 只要不超出实际物理内存,也在系统允许分配最大内存大小内,都可以分配,分配速度比栈慢. 随时可以用malloc/new分配,用free/delete来释放,灵活<br>malloc和free 是函数 在c语言中使用. new和delete是关键字 在cpp中使用<br>一般形式 void *malloc(int NumBytes); 分配成功则返回指向被分配内存的指针,分配失败则返回NULL. void *可以接受任何类型的赋值,可以强制转换赋值给任何类型的变量,这个要注意<br>当分配的内存不使用时,用free释放. void free(void *FirstByte)<br>int *p = NULL;<br>p = (int *)malloc(sizeof(int));<br>if(p != NULL)<br>{   // 分配成功<br>    *p = 5;<br>    std::count &lt;&lt; *p &lt;&lt; std::endl;<br>    free(p);<br>}<br>char *p = NULL;<br>p = (char *)malloc(10000 * sizeof(char));<br>if(p != NULL)<br>{   // 分配成功<br>    strcpy(p, “hello”); //c语言下使用,vs2017后不建议使用 ,而且拷贝时内存溢出(溢出导致拷贝到超出分配内存地址的覆盖)也不会报错<br>    strcpy_s(p, “hello”); //cpp中使用,将”hello”拷贝入p, 相比strcpy,使用strcpy_s超出内存会报错, linux g++编译strcpy_s会报错<br>    std::cout &lt;&lt; *p &lt;&lt; std::endl;<br>    free(p);<br>}<br>new和delete: 运算符(标识符) cpp中就用neww和delete不用malloc和free,new和delete在分配和释放内存时还做了更多的事<br>new一般使用格式<br>(1)指针变量名 = new 类型标识符<br>(2)指针类型名 = new 类型标识符(初始值)       //这里是圆括号,代表初始值<br>(3)指针类型名 = new 类型标识符[内存单元个数]  //这里是中括号, 代表分配一个数组<br>int *a = new int(18);<br>cout &lt;&lt; *a &lt;&lt; endl;<br>delete a;<br>int *pa = new int[100]; //开辟一个大小为100的整形数组空间<br>delete[] pa; //new 有 [] 时 delete也得有, delete[]中不写数组大小<br>注意: 配对使用,切忌重复调用</p>
+<p>nullptr: c++ 11 中引入的新关键字,代表的也是空指针<br>char *p = NULL;<br>char *q = nullptr;<br>int a = nullptr; //不可行!<br>int b = NULL; //做if判断时 b==nullptr,<br>int *p = nullptr; //做if判断时 p==NULL,<br>使用nullptr能够避免在整数和指针之间发生混淆h<br>事实上NULL(int类型)和nullptr(std::nullptr_t类型)是不同的类型<br>对于指针的初始化,以及用到和指针有关的NULL的场合,能用nullptr全用nullptr取代NULL</p>
+<p>结构:自定义的数据类型<br>struct student {<br>    int number; //学号<br>    char name[100];<br>};<br>void func(student xxx){ //形参用结构变量<br>    xxx.number=100;<br>    return;<br>};<br>当在func(student)时,实参会拷贝到形参的地址,在func里修改xxx不会影响到传进去的student</p>
 ]]></content>
       <tags>
-        <tag>blog</tag>
+        <tag>cpp学习笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -319,6 +177,101 @@
       </tags>
   </entry>
   <entry>
+    <title>cv工程师系列第三篇之神经网络</title>
+    <url>/2020/04/18/cv%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%B3%BB%E5%88%97%E7%AC%AC%E4%B8%89%E7%AF%87%E4%B9%8B%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
+<p>神经网络： 大量（结构简单的、功能接近的）神经元节点按一定的体系架构连接成的网状结构<br>作用： 建立输入与输出的映射关系</p>
+<p>神经元模型<br><img src="https://s1.ax1x.com/2020/04/18/JmgHtf.jpg" alt="JmgHtf.jpg"><br>$$y = f\left ( \sum_{i}^{n}w_{i}x_{i} \right )$$</p>
+<p><strong>f</strong>非线性激活函数：为神经网络引入非线性变化</p>
+<p>传统BP神经网络：<br><img src="https://s1.ax1x.com/2020/04/18/Jmo5nO.jpg" alt="Jmo5nO.jpg"></p>
+<p>由前向后计算output，计算loss，根据学习率和梯度向前反馈调整w和b，反复传播以训练出输入与输出映射关系</p>
+<p>深度学习即使用深层神经网络，更深的网络可以更好的”拟合“映射关系</p>
+<p>为了达到更深，神经网络发展出了更多独特的结构，其中用的最广泛的就是CNN卷积神经网络</p>
+<h1 id="卷积神经网络"><a href="#卷积神经网络" class="headerlink" title="卷积神经网络"></a>卷积神经网络</h1><p>卷积神经网络的发展历程：AlexNet→VGG→GoogLeNet→ResNet→ResNetXt</p>
+<h2 id="ResNet"><a href="#ResNet" class="headerlink" title="ResNet"></a>ResNet</h2><p>pytorch实现</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import torch</span><br><span class="line">import torch.nn as nn</span><br><span class="line">import torch.nn.functional as F</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 用于ResNet18和34的残差块，用的是2个3x3的卷积</span><br><span class="line">class BasicBlock(nn.Module):</span><br><span class="line">    expansion &#x3D; 1</span><br><span class="line"></span><br><span class="line">    def __init__(self, in_planes, planes, stride&#x3D;1):</span><br><span class="line">        super(BasicBlock, self).__init__()</span><br><span class="line">        self.conv1 &#x3D; nn.Conv2d(in_planes, planes, kernel_size&#x3D;3,</span><br><span class="line">                               stride&#x3D;stride, padding&#x3D;1, bias&#x3D;False)</span><br><span class="line">        self.bn1 &#x3D; nn.BatchNorm2d(planes)</span><br><span class="line">        self.conv2 &#x3D; nn.Conv2d(planes, planes, kernel_size&#x3D;3,</span><br><span class="line">                               stride&#x3D;1, padding&#x3D;1, bias&#x3D;False)</span><br><span class="line">        self.bn2 &#x3D; nn.BatchNorm2d(planes)</span><br><span class="line">        self.shortcut &#x3D; nn.Sequential()</span><br><span class="line">        # 经过处理后的x要与x的维度相同(尺寸和深度)</span><br><span class="line">        # 如果不相同，需要添加卷积+BN来变换为同一维度</span><br><span class="line">        if stride !&#x3D; 1 or in_planes !&#x3D; self.expansion*planes:</span><br><span class="line">            self.shortcut &#x3D; nn.Sequential(</span><br><span class="line">                nn.Conv2d(in_planes, self.expansion*planes,</span><br><span class="line">                          kernel_size&#x3D;1, stride&#x3D;stride, bias&#x3D;False),</span><br><span class="line">                nn.BatchNorm2d(self.expansion*planes)</span><br><span class="line">            )</span><br><span class="line"></span><br><span class="line">    def forward(self, x):</span><br><span class="line">        out &#x3D; F.relu(self.bn1(self.conv1(x)))</span><br><span class="line">        out &#x3D; self.bn2(self.conv2(out))</span><br><span class="line">        out +&#x3D; self.shortcut(x)</span><br><span class="line">        out &#x3D; F.relu(out)</span><br><span class="line">        return out</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 用于ResNet50,101和152的残差块，用的是1x1+3x3+1x1的卷积</span><br><span class="line">class Bottleneck(nn.Module):</span><br><span class="line">    # 前面1x1和3x3卷积的filter个数相等，最后1x1卷积是其expansion倍</span><br><span class="line">    expansion &#x3D; 4</span><br><span class="line"></span><br><span class="line">    def __init__(self, in_planes, planes, stride&#x3D;1):</span><br><span class="line">        super(Bottleneck, self).__init__()</span><br><span class="line">        self.conv1 &#x3D; nn.Conv2d(in_planes, planes, kernel_size&#x3D;1, bias&#x3D;False)</span><br><span class="line">        self.bn1 &#x3D; nn.BatchNorm2d(planes)</span><br><span class="line">        self.conv2 &#x3D; nn.Conv2d(planes, planes, kernel_size&#x3D;3,</span><br><span class="line">                               stride&#x3D;stride, padding&#x3D;1, bias&#x3D;False)</span><br><span class="line">        self.bn2 &#x3D; nn.BatchNorm2d(planes)</span><br><span class="line">        self.conv3 &#x3D; nn.Conv2d(planes, self.expansion*planes,</span><br><span class="line">                               kernel_size&#x3D;1, bias&#x3D;False)</span><br><span class="line">        self.bn3 &#x3D; nn.BatchNorm2d(self.expansion*planes)</span><br><span class="line"></span><br><span class="line">        self.shortcut &#x3D; nn.Sequential()</span><br><span class="line">        if stride !&#x3D; 1 or in_planes !&#x3D; self.expansion*planes:</span><br><span class="line">            self.shortcut &#x3D; nn.Sequential(</span><br><span class="line">                nn.Conv2d(in_planes, self.expansion*planes,</span><br><span class="line">                          kernel_size&#x3D;1, stride&#x3D;stride, bias&#x3D;False),</span><br><span class="line">                nn.BatchNorm2d(self.expansion*planes)</span><br><span class="line">            )</span><br><span class="line"></span><br><span class="line">    def forward(self, x):</span><br><span class="line">        out &#x3D; F.relu(self.bn1(self.conv1(x)))</span><br><span class="line">        out &#x3D; F.relu(self.bn2(self.conv2(out)))</span><br><span class="line">        out &#x3D; self.bn3(self.conv3(out))</span><br><span class="line">        out +&#x3D; self.shortcut(x)</span><br><span class="line">        out &#x3D; F.relu(out)</span><br><span class="line">        return out</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">class ResNet(nn.Module):</span><br><span class="line">    def __init__(self, block, num_blocks, num_classes&#x3D;10):</span><br><span class="line">        super(ResNet, self).__init__()</span><br><span class="line">        self.in_planes &#x3D; 64</span><br><span class="line"></span><br><span class="line">        self.conv1 &#x3D; nn.Conv2d(3, 64, kernel_size&#x3D;3,</span><br><span class="line">                               stride&#x3D;1, padding&#x3D;1, bias&#x3D;False)</span><br><span class="line">        self.bn1 &#x3D; nn.BatchNorm2d(64)</span><br><span class="line">        </span><br><span class="line">        self.layer1 &#x3D; self._make_layer(block, 64, num_blocks[0], stride&#x3D;1)</span><br><span class="line">        self.layer2 &#x3D; self._make_layer(block, 128, num_blocks[1], stride&#x3D;2)</span><br><span class="line">        self.layer3 &#x3D; self._make_layer(block, 256, num_blocks[2], stride&#x3D;2)</span><br><span class="line">        self.layer4 &#x3D; self._make_layer(block, 512, num_blocks[3], stride&#x3D;2)</span><br><span class="line">        self.linear &#x3D; nn.Linear(512*block.expansion, num_classes)</span><br><span class="line"></span><br><span class="line">    def _make_layer(self, block, planes, num_blocks, stride):</span><br><span class="line">        strides &#x3D; [stride] + [1]*(num_blocks-1)</span><br><span class="line">        layers &#x3D; []</span><br><span class="line">        for stride in strides:</span><br><span class="line">            layers.append(block(self.in_planes, planes, stride))</span><br><span class="line">            self.in_planes &#x3D; planes * block.expansion</span><br><span class="line">        return nn.Sequential(*layers)</span><br><span class="line"></span><br><span class="line">    def forward(self, x):</span><br><span class="line">        out &#x3D; F.relu(self.bn1(self.conv1(x)))</span><br><span class="line">        out &#x3D; self.layer1(out)</span><br><span class="line">        out &#x3D; self.layer2(out)</span><br><span class="line">        out &#x3D; self.layer3(out)</span><br><span class="line">        out &#x3D; self.layer4(out)</span><br><span class="line">        out &#x3D; F.avg_pool2d(out, 4)</span><br><span class="line">        out &#x3D; out.view(out.size(0), -1)</span><br><span class="line">        out &#x3D; self.linear(out)</span><br><span class="line">        return out</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def ResNet18():</span><br><span class="line">    return ResNet(BasicBlock, [2,2,2,2])</span><br><span class="line"></span><br><span class="line">def ResNet34():</span><br><span class="line">    return ResNet(BasicBlock, [3,4,6,3])</span><br><span class="line"></span><br><span class="line">def ResNet50():</span><br><span class="line">    return ResNet(Bottleneck, [3,4,6,3])</span><br><span class="line"></span><br><span class="line">def ResNet101():</span><br><span class="line">    return ResNet(Bottleneck, [3,4,23,3])</span><br><span class="line"></span><br><span class="line">def ResNet152():</span><br><span class="line">    return ResNet(Bottleneck, [3,8,36,3])</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def test():</span><br><span class="line">    net &#x3D; ResNet18()</span><br><span class="line">    y &#x3D; net(torch.randn(1,3,32,32))</span><br><span class="line">    print(y.size())</span><br><span class="line"></span><br><span class="line">test()</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>cv工程师系列</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>linux常用命令</title>
+    <url>/2020/04/09/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>批量解压<br><code>zip: find -maxdepth 1 -name  &quot;*.zip&quot;|xargs -i unzip -n -O GBK {}</code><br><code>rar: find -maxdepth 1 -name  &quot;*.rar&quot;|xargs -i unrar x {}</code></p>
+]]></content>
+      <tags>
+        <tag>linux</tag>
+        <tag>ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>cv工程师系列第二篇之图像预处理</title>
+    <url>/2020/04/17/cv%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%B3%BB%E5%88%97%E7%AC%AC%E4%BA%8C%E7%AF%87%E4%B9%8B%E5%9B%BE%E5%83%8F%E9%A2%84%E5%A4%84%E7%90%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="图像增强"><a href="#图像增强" class="headerlink" title="图像增强"></a>图像增强</h1><p>作用：</p>
+<ol>
+<li>改善图像视觉效果</li>
+<li>转换为更适合人或机器处理的形式</li>
+<li>突出对人或机器有意义的信息</li>
+<li>抑制无用信息<br>包括图像锐化、平滑、去噪、灰度调整（对比度增强）</li>
+</ol>
+<h2 id="直方图均衡化"><a href="#直方图均衡化" class="headerlink" title="直方图均衡化"></a>直方图均衡化</h2><p>详细参考文章 <a href="https://www.cnblogs.com/luo-peng/p/4930013.html" target="_blank" rel="noopener">https://www.cnblogs.com/luo-peng/p/4930013.html</a></p>
+<p>重分配灰度像素值的分布<br>包括</p>
+<ol>
+<li><p>经典算法<br>直接对整张图做均衡分配，如果图片某区域很亮或很暗作用有限</p>
+</li>
+<li><p>自适应直方图均衡（AHE）<br>按固定步长在图片上滑动做直方图均衡，会过度放大图片中相对均匀区域的噪声</p>
+</li>
+<li><p>限制对比度自适应直方图均衡（CLAHE）</p>
+</li>
+</ol>
+<p>使高于阈值的直方图部分均匀的分布在整个灰度区间上<br><img src="https://s1.ax1x.com/2020/04/16/JEpDuq.png" alt="JEpDuq.png"><br>同时，按块做直方图均衡后，为保持块与块直间的自然过度，需要差值<br><img src="https://s1.ax1x.com/2020/04/16/JE9adK.png" alt="JE9adK.png"><br>红色块直接赋值，绿色块由相邻两块线性插值，蓝色快由相邻四块双线性插值</p>
+<h2 id="形态学运算"><a href="#形态学运算" class="headerlink" title="形态学运算"></a>形态学运算</h2><p>膨胀和腐蚀<br>开运算：先腐蚀再膨胀，可以去掉目标外的孤立点<br>闭运算：先膨胀再腐蚀，可以去掉目标内的孔</p>
+<h2 id="空间域处理及变换"><a href="#空间域处理及变换" class="headerlink" title="空间域处理及变换"></a>空间域处理及变换</h2><p>滤波/卷积：<br>均值滤波：<br>中值滤波<br>高斯滤波<br>梯度Prewitt滤波<br>水平梯度/垂直边缘<br><img src="https://s1.ax1x.com/2020/04/16/JEPhvj.png" alt="JEPhvj.png"><br>垂直梯度/水平边缘<br><img src="https://s1.ax1x.com/2020/04/16/JEi9Vx.png" alt="JEi9Vx.png"></p>
+<p>梯度Sobel滤波<br>在Prewitt的基础上把中间值换为2倍<br><img src="https://s1.ax1x.com/2020/04/16/JEi0iT.png" alt="JEi0iT.png"></p>
+<p>梯度Laplacian滤波<br>作用：<br>团块检测：周边高于（低于）中心点<br>边缘检测：像素值快速变化的区域</p>
+<h2 id="频域处理及变换"><a href="#频域处理及变换" class="headerlink" title="频域处理及变换"></a>频域处理及变换</h2><h2 id="高斯金字塔与拉普拉斯金字塔"><a href="#高斯金字塔与拉普拉斯金字塔" class="headerlink" title="高斯金字塔与拉普拉斯金字塔"></a>高斯金字塔与拉普拉斯金字塔</h2><p><img src="https://s1.ax1x.com/2020/04/16/JEFplQ.png" alt="JEFplQ.png"></p>
+<p>看一下效果：<br>原图/随机噪声图<br><img src="https://s1.ax1x.com/2020/04/17/JVT7lT.jpg" alt="JVT7lT.jpg"><br>均值滤波卷积核大小分别为3和5<br><img src="https://s1.ax1x.com/2020/04/17/JV7U3V.jpg" alt="JV7U3V.jpg"><br>中值滤波卷积核大小分别为3和5<br><img src="https://s1.ax1x.com/2020/04/17/JV7WjO.jpg" alt="JV7WjO.jpg"><br>高斯滤波卷积核大小分别为3和5<br><img src="https://s1.ax1x.com/2020/04/17/JV7q8P.jpg" alt="JV7q8P.jpg"></p>
+<p>平滑滤波<br><a href="http://docs.opencv.org/master/d4/d13/tutorial_py_filtering.html" target="_blank" rel="noopener">http://docs.opencv.org/master/d4/d13/tutorial_py_filtering.html</a><br>梯度滤波<br><a href="http://docs.opencv.org/master/d5/d0f/tutorial_py_filtering.html" target="_blank" rel="noopener">http://docs.opencv.org/master/d5/d0f/tutorial_py_filtering.html</a><br>傅里叶变换<br><a href="http://docs.opencv.org/master/de/dbc/tutorial_py_filtering.html" target="_blank" rel="noopener">http://docs.opencv.org/master/de/dbc/tutorial_py_filtering.html</a><br>高斯金字塔<br><a href="http://docs.opencv.org/master/dc/dff/tutorial_py_filtering.html" target="_blank" rel="noopener">http://docs.opencv.org/master/dc/dff/tutorial_py_filtering.html</a></p>
+]]></content>
+      <tags>
+        <tag>cv工程师系列</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>写在开始</title>
+    <url>/2020/01/22/%E5%86%99%E5%9C%A8%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>自工作以来，一直想有地方记录自己的所见所得，遂开此博客。</p>
+]]></content>
+      <tags>
+        <tag>随记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ubtuntu实用工具</title>
+    <url>/2020/04/16/ubtuntu%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="必备-git-vim-curl"><a href="#必备-git-vim-curl" class="headerlink" title="必备 git,vim,curl"></a>必备 git,vim,curl</h1><p><code>sudo apt-get install git vim curl</code></p>
+<h1 id="一-截图工具-Flameshot"><a href="#一-截图工具-Flameshot" class="headerlink" title="一. 截图工具 Flameshot"></a>一. 截图工具 Flameshot</h1><p>安装Flameshot<br><code>sudo apt-get install flameshot</code><br>setting-devices-keyboard 添加快捷键, 绑定<code>flameshot gui</code>至<code>Ctrl + Alt + Q</code><br><img src="https://s1.ax1x.com/2020/04/16/Jkvg2t.png" alt="Jkvg2t.png"><br>另推荐图片在线转格式、压缩工具<a href="https://www.yasuotu.com/tiaozheng" target="_blank" rel="noopener">https://www.yasuotu.com/tiaozheng</a></p>
+<h1 id="二-录屏工具"><a href="#二-录屏工具" class="headerlink" title="二. 录屏工具"></a>二. 录屏工具</h1><p>simplescreenrecorder</p>
+<h1 id="三-视频格式转换工具"><a href="#三-视频格式转换工具" class="headerlink" title="三. 视频格式转换工具"></a>三. 视频格式转换工具</h1><p>handbrake<br>另：视频转gif推荐方法</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mplayer -ao null videopath -vo jpeg:outdir&#x3D;outputDir</span><br><span class="line">convert outputDir&#x2F;* name.gif</span><br></pre></td></tr></table></figure>
+
+<h1 id="四-office工具-WPS"><a href="#四-office工具-WPS" class="headerlink" title="四. office工具 WPS"></a>四. office工具 WPS</h1><p>在官网下载本机对应的版本<a href="http://linux.wps.cn" target="_blank" rel="noopener">http://linux.wps.cn</a><br>下载好后切换到下载目录安装,xxxx为对应版本<br><code>sudo dpkg -i wps-office_xxxxxxxxxxxxx.deb</code></p>
+<h4 id="安装字体-可跳过-但wps打开会提示缺失字体"><a href="#安装字体-可跳过-但wps打开会提示缺失字体" class="headerlink" title="安装字体(可跳过,但wps打开会提示缺失字体):"></a>安装字体(可跳过,但wps打开会提示缺失字体):</h4><p>字体下载地址：<br><a href="https://github.com/pengphei/wps-font-symbols/archive/master.zip" target="_blank" rel="noopener">https://github.com/pengphei/wps-font-symbols/archive/master.zip</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo cp -r .&#x2F;wps-font-symbols &#x2F;usr&#x2F;share&#x2F;fonts&#x2F;</span><br><span class="line">cd &#x2F;usr&#x2F;share&#x2F;fonts</span><br><span class="line">sudo chmod 755 wps-font-symbols</span><br><span class="line">cd &#x2F;usr&#x2F;share&#x2F;fonts&#x2F;wps-font-symbols</span><br><span class="line">sudo chmod 644 *</span><br><span class="line">sudo mkfontdir</span><br><span class="line">sudo mkfontscale</span><br><span class="line">sudo fc-cache</span><br></pre></td></tr></table></figure>
+<h1 id="五-媒体播放器"><a href="#五-媒体播放器" class="headerlink" title="五. 媒体播放器"></a>五. 媒体播放器</h1><p><code>sudo apt-get install vlc</code></p>
+<h1 id="六-VirtualBox虚拟机"><a href="#六-VirtualBox虚拟机" class="headerlink" title="六. VirtualBox虚拟机"></a>六. VirtualBox虚拟机</h1><p><code>sudo apt-get install virtualbox virtualbox-ext-pack</code></p>
+<h1 id="七-网易云音乐"><a href="#七-网易云音乐" class="headerlink" title="七. 网易云音乐"></a>七. 网易云音乐</h1><p><a href="https://github.com/InNoob/netease-cloud-music/releases" target="_blank" rel="noopener">https://github.com/InNoob/netease-cloud-music/releases</a> 下载deb安装<br><code>sudo dpkg -i netease-cloud-musicxxxxxxxxxxxxx.deb</code></p>
+<hr>
+<p>想到什么再补充</p>
+]]></content>
+      <tags>
+        <tag>ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python发布自己的库到pip</title>
     <url>/2020/04/11/python%E5%8F%91%E5%B8%83%E8%87%AA%E5%B7%B1%E7%9A%84%E5%BA%93%E5%88%B0pip/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="第一步：注册一个PyPi帐号"><a href="#第一步：注册一个PyPi帐号" class="headerlink" title="第一步：注册一个PyPi帐号"></a>第一步：注册一个PyPi帐号</h1><p>PyPi注册网站：<a href="https://pypi.org" target="_blank" rel="noopener">https://pypi.org</a></p>
@@ -348,6 +301,94 @@
       </tags>
   </entry>
   <entry>
+    <title>戴口罩识别</title>
+    <url>/2020/04/21/%E6%88%B4%E5%8F%A3%E7%BD%A9%E8%AF%86%E5%88%AB/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://s1.ax1x.com/2020/04/21/JJb9nU.gif" alt="JJb9nU.gif"></p>
+]]></content>
+      <tags>
+        <tag>成果</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无人机航拍生成三维地图和二维地图</title>
+    <url>/2020/04/21/%E6%97%A0%E4%BA%BA%E6%9C%BA%E8%88%AA%E6%8B%8D%E7%94%9F%E6%88%90%E4%B8%89%E7%BB%B4%E5%9C%B0%E5%9B%BE%E5%92%8C%E4%BA%8C%E7%BB%B4%E5%9C%B0%E5%9B%BE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://s1.ax1x.com/2020/04/21/J81DFe.gif" alt="J81DFe.gif"><br><img src="https://s1.ax1x.com/2020/04/21/JG8tTf.gif" alt="JG8tTf.gif"></p>
+]]></content>
+      <tags>
+        <tag>成果</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>目标检测与实例分割</title>
+    <url>/2020/04/21/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E4%B8%8E%E5%AE%9E%E4%BE%8B%E5%88%86%E5%89%B2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Hybrid Task Cascade 算法，在coco数据集上训练，box AP 46.9，mask AP 40.8<br><img src="https://s1.ax1x.com/2020/04/21/JJTD41.gif" alt="JJTD41.gif"></p>
+]]></content>
+      <tags>
+        <tag>成果</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>吊钩下站人（基于视频估计人与吊钩距离）</title>
+    <url>/2020/04/21/%E5%90%8A%E9%92%A9%E4%B8%8B%E7%AB%99%E4%BA%BA%EF%BC%88%E5%9F%BA%E4%BA%8E%E8%A7%86%E9%A2%91%E4%BC%B0%E8%AE%A1%E4%BA%BA%E4%B8%8E%E5%90%8A%E9%92%A9%E8%B7%9D%E7%A6%BB%EF%BC%89/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://s1.ax1x.com/2020/04/21/JJHAQf.gif" alt="JJHAQf.gif"></p>
+]]></content>
+      <tags>
+        <tag>成果</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>烟火识别</title>
+    <url>/2020/04/21/%E7%83%9F%E7%81%AB%E8%AF%86%E5%88%AB/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://s1.ax1x.com/2020/04/21/JJv72d.gif" alt="JJv72d.gif"></p>
+]]></content>
+      <tags>
+        <tag>成果</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>路口车流量监控（指定区域违停、道路拥堵统计）</title>
+    <url>/2020/04/21/%E8%B7%AF%E5%8F%A3%E8%BD%A6%E6%B5%81%E9%87%8F%E7%9B%91%E6%8E%A7%EF%BC%88%E6%8C%87%E5%AE%9A%E5%8C%BA%E5%9F%9F%E8%BF%9D%E5%81%9C%E3%80%81%E9%81%93%E8%B7%AF%E6%8B%A5%E5%A0%B5%E7%BB%9F%E8%AE%A1%EF%BC%89/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://s1.ax1x.com/2020/04/21/JJXOSA.gif" alt="JJXOSA.gif"></p>
+]]></content>
+      <tags>
+        <tag>成果</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用github与hexo建个人博客</title>
+    <url>/2020/04/12/%E4%BD%BF%E7%94%A8github%E4%B8%8Ehexo%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="写在开始"><a href="#写在开始" class="headerlink" title="写在开始"></a>写在开始</h1><p>个人博客建站,全干货,有基础的看这一篇就够了</p>
+<h1 id="搭建博客主要步骤："><a href="#搭建博客主要步骤：" class="headerlink" title="搭建博客主要步骤："></a>搭建博客主要步骤：</h1><h2 id="1-安装node-js和git-教程百度都是-不赘述"><a href="#1-安装node-js和git-教程百度都是-不赘述" class="headerlink" title="1.安装node.js和git,教程百度都是,不赘述"></a>1.安装node.js和git,教程百度都是,不赘述</h2><p>安装成功后在命令窗口输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git version</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+<p>会返回版本号</p>
+<h2 id="2-安装hexo"><a href="#2-安装hexo" class="headerlink" title="2.安装hexo"></a>2.安装hexo</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-建立本地博客"><a href="#3-建立本地博客" class="headerlink" title="3.建立本地博客"></a>3.建立本地博客</h2><p>新建一个文件夹并将命令窗口路径切换只该文件夹下,执行</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo init</span><br><span class="line">hexo g </span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p>正常情况下会看到</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http:&#x2F;&#x2F;localhost:4000 . Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure>
+<p>打开即可看到初始博客效果<br><a href="https://imgchr.com/i/GLxlvV" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/12/GLxlvV.md.jpg" alt="GLxlvV.md.jpg"></a></p>
+<h2 id="4-注册-GitHub-并创建-库-且生成-GitHub-Pages"><a href="#4-注册-GitHub-并创建-库-且生成-GitHub-Pages" class="headerlink" title="4.注册 GitHub 并创建 库 且生成 GitHub Pages"></a>4.注册 GitHub 并创建 库 且生成 GitHub Pages</h2><ol>
+<li>注册或者登陆GIthub账户</li>
+<li>创建项目代码库命名为 username.github.io</li>
+<li>配置ssh秘钥<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</span><br></pre></td></tr></table></figure>
+连续回车三次,复制生成的秘钥<br><code>clip &lt; ~/.ssh/id_rsa.pub</code><br>打开github,在右上角个人头像-Settings-SSH and GOG keys-SSH keys 中创建SSH key,粘贴刚生成的秘钥</li>
+<li>测试秘钥<br><code>ssh -T git@github.com</code><br>在命令窗口中能看到 Hi xxx! xxx是账户名,即成功</li>
+<li>设置用户信息<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;username&quot;&#x2F;&#x2F;用户名</span><br><span class="line">git config --global user.email  &quot;youremail@163.com&quot;&#x2F;&#x2F;填写自己的邮箱</span><br></pre></td></tr></table></figure></li>
+<li>连接Hexo 和 github<br>点击github项目仓库clone and download复制链接地址<br>修改hexo配置文件 _config.yml</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;condorheroblog&#x2F;condorheroblog.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<p>命令窗口输入<br><code>hexo g -d</code><br>博客就部署到github上了,打开username.github.io即可访问</p>
+<h2 id="补充说明"><a href="#补充说明" class="headerlink" title="补充说明:"></a>补充说明:</h2><ol>
+<li>想要多电脑更新同一博客,可以把博客文件夹作为另一个git仓库上传,这样在另一台电脑上clone, npm install之后即可修改博客.<br>注意如果使用了主题要删除主题中的.git文件,并修改删除.gitignore中的_config.yml字段</li>
+<li>有任何问题可以留言咨询</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python常用库简介</title>
     <url>/2020/04/11/python%E5%B8%B8%E7%94%A8%E5%BA%93%E7%AE%80%E4%BB%8B/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Requests：Kenneth Reitz写的最富盛名的http库。每个Python程序员都应该有它。<br>Scrapy：如果你从事爬虫相关的工作，那么这个库也是必不可少的。用过它之后你就不会再想用别的同类库了。<br>wxPython：Python的一个GUI（图形用户界面）工具。我主要用它替代tkinter。你一定会爱上它的。<br>Pillow：它是PIL（Python图形库）的一个友好分支。对于用户比PIL更加友好，对于任何在图形领域工作的人是必备的库。<br>SQLAlchemy：一个数据库的库。对它的评价褒贬参半。是否使用的决定权在你手里。<br>BeautifulSoup：我知道它很慢，但这个xml和html的解析库对于新手非常有用。<br>Twisted：对于网络应用开发者最重要的工具。它有非常优美的api，被很多Python开发大牛使用。<br>NumPy：我们怎么能缺少这么重要的库？它为Python提供了很多高级的数学方法。<br>SciPy：既然我们提了NumPy，那就不得不提一下SciPy。这是一个Python的算法和数学工具库，它的功能把很多科学家从Ruby吸引到了Python。<br>matplotlib：一个绘制数据图的库。对于数据科学家或分析师非常有用。<br>Pygame：哪个程序员不喜欢玩游戏和写游戏？这个库会让你在开发2D游戏的时候如虎添翼。<br>Pyglet：3D动画和游戏开发引擎。非常有名的Python版本Minecraft就是用这个引擎做的。<br>pyQT：Python的GUI工具。这是我在给Python脚本开发用户界面时次于wxPython的选择。<br>pyGtk：也是Python GUI库。很有名的Bittorrent客户端就是用它做的。<br>Scapy：用Python写的数据包探测和分析库。<br>pywin32：一个提供和windows交互的方法和类的Python库。<br>nltk：自然语言工具包。我知道大多数人不会用它，但它通用性非常高。如果你需要处理字符串的话，它是非常好的库。但它的功能远远不止如此，自己摸索一下吧。<br>nose：Python的测试框架。被成千上万的Python程序员使用。如果你做测试导向的开发，那么它是必不可少的。<br>SymPy：SymPy可以做代数评测、差异化、扩展、复数等等。它封装在一个纯Python发行版本里。<br>IPython：怎么称赞这个工具的功能都不为过。它把Python的提示信息做到了极致。包括完成信息、历史信息、shell功能，以及其他很多很多方面。一定要研究一下它。<br>psutil：一个跨平台库能够实现获取系统运行的进程和系统利用率（内存，CPU,磁盘，网络等），主要用于系统监控，分析和系统资源及进程的管理。<br>IPy：辅助IP规划。<br>dnspython：DNS工具包。<br>difflib：Python的标准模块，无需安装，作用是对比文本之间的差异。<br>filecmp:系统自带，可以实现文件，目录，遍历子目录的差异，对比功能。<br>smtplib：发送电子邮件模块<br>pycurl：用C语言写的libcurl Python实现，功能强大，支持的协议有：FTP,HTTP,HTTPS,TELNET等，可以理解为Linux下curl命令功能的Python封装。<br>XlsxWriter：操作Excel工作表的文字，数字，公式，图表等。<br>rrdtool:用于跟踪对象的变化，生成这些变化的走走势图<br>scapy：强大的交互式数据包处理程序，它能够对数据包进行伪造或解包，包括发送数据包，包嗅探，应答和反馈等功能。<br>Clam Antivirus：免费开放源代码防毒软件，pyClamad,可以让Python模块直接使用ClamAV病毒扫描守护进程calmd。<br>pexpect:可以理解成Linux下expect的Python封装，通过pexpect我们可以实现对ssh,ftp,passwd,telnet等命令行进行自动交互，而无需人工干涉来达到自动化的目的。<br>paramiko：基于Python实现的SSH2远程安装连接，支持认证及密钥方式。可以实现远程命令执行，文件传输，中间SSH代理等功能。相对于Pexpect,封装的层次更高，更贴近SSH协议的功能<br>fabric：基于Python实现的SSH命令行工具，简化了SSH的应用程序部署及系统管理任务，它提供了系统基础的操作组件，可以实现本地或远程shell命令，包括命令执行，文件上传，下载及完整执行日志输出等功能。Fabric在paramiko的基础上做了更高一层的封装，操作起来更加简单。<br>ansible：集成IT系统的配置管理，应用部署，执行特定任务的开源平台。基于Python实现，由Paramiko和PyYAML两个关键模块构建。Ansibl与Saltstack最大的区别是Ansible无需在被控主机上部署任何客户端，默认直接通过SSH通道进行远程命令执行或下发功能。<br>YAML:是一种用来表达数据序列的编程语言。<br>playbook：一个非常简单的配置管理和多主机部署系统。<br>saltstack：服务器基础架构集中化管理平台，一般可以理解为简化版的puppet和加强版的func。Saltstack基于Python语言实现，结合轻量级消息队列ZeroMQ,与Python每三方模块（Pyzmq,PyCrypto,Pyjinja2,python-msgpack和PyYAML等）构建。<br>func：为解决集群管理，监控问题需设计开发的系统管理基础框架。<br>re：正则<br>subprocess：调用shell命令的神器<br>pdb：调试<br>traceback：调试<br>pprint：漂亮的输出<br>logging：日志<br>threading和multiprocessing：多线程<br>urllib/urllib2/httplib http库：httplib底层一点，推荐第三方的库requests<br>os/sys：系统，环境相关<br>Queue：队列<br>pickle/cPickle：序列化工具<br>hashlib：md5, sha等hash算法<br>cvs：json/simplejson python的json库，据so上的讨论和benchmark，simplejson的性能要高于json<br>time：it 计算代码运行的时间等等<br>cProfile：python性能测量模块<br>glob：类似与listfile，可以用来查找文件<br>atexit：注册函数，可用于正好在脚本退出运行前执行一些代码<br>dis：python 反汇编，当对某条语句不理解原理时，可以用dis.dis 函数来查看代码对应的python 解释器指令等等。<br>paramiko:ssh python 库<br>selenium：浏览器自动化测试工具selenium的python 接口<br>lxml：python 解析html,xml 的神器<br>mechanize： Stateful programmatic web browsing<br>pycurl：cURL library module for Python<br>xmltodict：xml 转 dict，真心好用<br>urllib3 和 requests: 当然其实requests就够了 Requests: HTTP for Humans<br>flask： web 微框架<br>ipdb：调试神器，同时推荐ipython！结合ipython使用<br>redis：redis python接口<br>pymongo：mongodb python接口<br>PIL： python图像处理<br>mako：python模版引擎<br>numpy：scipy 科学计算<br>matplotlib：画图<br>scrapy：爬虫<br>django/tornado/web.py/web2py/uliweb/flask/twisted/bottle/cherrypy：python web框架/服务器<br>sh：用来运行shell 模块的 极佳选择<br>p：非常简单的交互式 python 版本管理工具。<br>pyenv：简单的 Python 版本管理工具。<br>Vex：可以在虚拟环境中执行命令。<br>virtualenv： 创建独立 Python 环境的工具。<br>virtualenvwrapper：virtualenv 的一组扩展。<br>pip：Python 包和依赖关系管理工具。<br>pip-tools： Python 包依赖关系更新的一组工具。<br>conda ：跨平台，Python 二进制包管理工具。<br>Curdling ：管理 Python 包的命令行工具。<br>wheel：Python 分发的新标准，意在取代 eggs。<br>warehouse：下一代 PyPI。<br>Warehousebandersnatch ：PyPA 提供的 PyPI 镜像工具。<br>devpi：PyPI 服务和打包/测试/分发工具。<br>localshop ：本地 PyPI 服务（自定义包并且自动对 PyPI 镜像）。<br>PyInstaller：将 Python 程序转换成独立的执行文件（跨平台）。<br>dh-virtualenv：构建并将 virtualenv 虚拟环境作为一个 Debian 包来发布。<br>Nuitka：将脚本、模块、包编译成可执行文件或扩展模块。<br>py2app：将 Python 脚本变为独立软件包（Mac OS X）。<br>py2exe：将 Python 脚本变为独立软件包（Windows）。<br>pynsist：一个用来创建 Windows 安装程序的工具，可以在安装程序中打包 Python本身。<br>buildout：一个构建系统，从多个组件来创建，组装和部署应用。<br>BitBake：针对嵌入式 Linux 的类似 make 的构建工具。<br>fabricate：对任何语言自动找到依赖关系的构建工具。<br>PlatformIO：多平台命令行构建工具。<br>PyBuilder：纯 Python 实现的持续化构建工具。<br>SCons：软件构建工具。<br>IPython：功能丰富的工具，非常有效的使用交互式 Python。<br>bpython：界面丰富的 Python 解析器。<br>ptpython：高级交互式Python解析器， 构建于python-prompt-toolkit 之上。<br>imghdr：（Python 标准库）检测图片类型。<br>mimetypes：（Python 标准库）将文件名映射为 MIME 类型。<br>path.py：对 os.path 进行封装的模块。<br>pathlib：（Python3.4+ 标准库）跨平台的、面向对象的路径操作库。<br>python-magic：文件类型检测的第三方库 libmagic 的 Python 接口。<br>Unipath：用面向对象的方式操作文件和目录<br>watchdog：管理文件系统事件的 API 和 shell 工具<br>arrow- 更好的 Python 日期时间操作类库。<br>Chronyk：Python 3 的类库，用于解析手写格式的时间和日期。<br>dateutil：Python datetime 模块的扩展。<br>delorean：解决 Python 中有关日期处理的棘手问题的库。<br>moment：一个用来处理时间和日期的Python库。灵感来自于Moment.js。<br>PyTime：一个简单易用的Python模块，用于通过字符串来操作日期/时间。<br>pytz：现代以及历史版本的世界时区定义。将时区数据库引入Python。<br>when.py：提供用户友好的函数来帮助用户进行常用的日期和时间操作。<br>chardet：字符编码检测器，兼容 Python2 和 Python3。<br>difflib：(Python 标准库)帮助我们进行差异化比较。<br>ftfy：让Unicode文本更完整更连贯。<br>fuzzywuzzy：模糊字符串匹配。<br>Levenshtein：快速计算编辑距离以及字符串的相似度。<br>pangu.py：在中日韩语字符和数字字母之间添加空格。<br>pyfiglet：figlet 的 Python实现。<br>shortuuid：一个生成器库，用以生成简洁的，明白的，URL 安全的 UUID。<br>unidecode：Unicode 文本的 ASCII 转换形式 。<br>uniout：打印可读的字符，而不是转义的字符串。<br>xpinyin：一个用于把汉字转换为拼音的库。<br>awesome-slugify：一个 Python slug 化库，可以保持 Unicode。<br>python-slugify：Python slug 化库，可以把 unicode 转化为 ASCII。<br>unicode-slugify：一个 slug 工具，可以生成 unicode slugs ,需要依赖 Django 。<br>phonenumbers：解析，格式化，储存，验证电话号码。<br>PLY：lex 和 yacc 解析工具的 Python 实现。<br>Pygments：通用语法高亮工具。<br>pyparsing：生成通用解析器的框架。<br>python-nameparser：把一个人名分解为几个独立的部分。<br>python-user-agents：浏览器 user agent 解析器。<br>sqlparse：一个无验证的 SQL 解析器。<br>tablib：一个用来处理中表格数据的模块。<br>Marmir：把输入的Python 数据结构转换为电子表单。<br>openpyxl：一个用来读写 Excel 2010 xlsx/xlsm/xltx/xltm 文件的库。<br>python-docx：读取，查询以及修改 Microsoft Word 2007/2008 docx 文件。<br>unoconv：在 LibreOffice/OpenOffice 支持的任意文件格式之间进行转换。<br>XlsxWriter：一个用于创建 Excel .xlsx 文件的 Python 模块。<br>xlwings：一个使得在 Excel 中方便调用 Python 的库（反之亦然），基于 BSD 协议。<br>xlwt/xlrd：读写 Excel 文件的数据和格式信息。<br>relatorio：模板化OpenDocument 文件。<br>PDFMiner：一个用于从PDF文档中抽取信息的工具。<br>PyPDF2：一个可以分割，合并和转换 PDF 页面的库。<br>ReportLab：快速创建富文本 PDF 文档。<br>Markdown<br>Mistune：快速并且功能齐全的纯 Python 实现的 Markdown 解析器。<br>Python-Markdown：John Gruber’s Markdown 的 Python 版实现。<br>PyYAML：Python 版本的 YAML 解析器。<br>csvkit：用于转换和操作 CSV 的工具。<br>unp：一个用来方便解包归档文件的命令行工具。<br>NLTK：一个先进的平台，用以构建处理人类语言数据的 Python 程序。<br>jieba：中文分词工具。<br>langid.py：独立的语言识别系统。<br>Pattern：Python 网络信息挖掘模块。<br>SnowNLP：一个用来处理中文文本的库。<br>TextBlob：为进行普通自然语言处理任务提供一致的 API。<br>TextGrocery：一简单高效的短文本分类工具，基于 LibLinear 和 Jieba。<br>Sphinx：Python 文档生成器。<br>awesome-sphinxdoc<br>MkDocs：对 Markdown 友好的文档生成器。<br>pdoc：一个可以替换Epydoc 的库，可以自动生成 Python 库的 API 文档。<br>Pycco：文学编程（literate-programming）风格的文档生成器。<br>config：logging 模块作者写的分级配置模块。<br>ConfigObj：INI 文件解析器，带验证功能。<br>ConfigParser：(Python 标准库) INI 文件解析器。<br>profig：通过多种格式进行配置，具有数值转换功能。<br>python-decouple：将设置和代码完全隔离。<br>cement：Python 的命令行程序框架。<br>click：一个通过组合的方式来创建精美命令行界面的包。<br>cliff：一个用于创建命令行程序的框架，可以创建具有多层命令的命令行程序。<br>clint：Python 命令行程序工具。<br>colorama：跨平台彩色终端文本。<br>docopt：Python 风格的命令行参数解析器。<br>Gooey：一条命令，将命令行程序变成一个 GUI 程序。<br>python-prompt-toolkit：一个用于构建强大的交互式命令行程序的库。<br>aws-cli：Amazon Web Services 的通用命令行界面。<br>bashplotlib：在终端中进行基本绘图。<br>caniusepython3：判断是哪个项目妨碍你你移植到 Python 3。<br>cookiecutter：从 cookiecutters（项目模板）创建项目的一个命令行工具。<br>doitlive：一个用来在终端中进行现场演示的工具。<br>howdoi：通过命令行获取即时的编程问题解答。<br>httpie：一个命令行HTTP 客户端，cURL 的替代品，易用性更好。<br>PathPicker：从bash输出中选出文件。<br>percol：向UNIX shell 传统管道概念中加入交互式选择功能。<br>SAWS：一个加强版的 AWS 命令行。<br>thefuck：修正你之前的命令行指令。<br>mycli：一个 MySQL 命令行客户端，具有自动补全和语法高亮功能。<br>pgcli：Postgres 命令行工具，具有自动补全和语法高亮功能。<br>s3cmd：一个用来管理Amazon S3 和 CloudFront 的命令行工具。<br>s4cmd：超级 S3 命令行工具，性能更加强劲。<br>you-get：一个 YouTube/Youku/Niconico 视频下载器，使用 Python3 编写。<br>youtube-dl：一个小巧的命令行程序，用来下载 YouTube 视频。<br>pillow：Pillow 是一个更加易用版的 PIL。<br>hmap：图像直方图映射。<br>imgSeek：一个使用视觉相似性搜索一组图片集合的项目。<br>nude.py：裸体检测。<br>pyBarcode：不借助 PIL 库在 Python 程序中生成条形码。<br>pygram：类似 Instagram 的图像滤镜。<br>python-qrcode：一个纯 Python 实现的二维码生成器。<br>Quads：基于四叉树的计算机艺术。<br>scikit-image：一个用于（科学）图像处理的 Python 库。<br>thumbor：一个小型图像服务，具有剪裁，尺寸重设和翻转功能。<br>wand：MagickWand的Python 绑定。MagickWand 是 ImageMagick的 C API 。<br>pyocr：Tesseract 和 Cuneiform 的一个封装(wrapper)。<br>pytesseract：Google Tesseract OCR 的另一个封装(wrapper)。<br>python-tesseract：Google Tesseract OCR 的一个包装类。<br>audiolazy -Python 的数字信号处理包。<br>audioread：交叉库 (GStreamer + Core Audio + MAD + FFmpeg) 音频解码。<br>beets：一个音乐库管理工具及 MusicBrainz 标签添加工具<br>dejavu：音频指纹提取和识别<br>django-elastic-transcoder：Django + Amazon Elastic Transcoder。<br>eyeD3：一个用来操作音频文件的工具，具体来讲就是包含 ID3 元信息的 MP3 文件。<br>id3reader：一个用来读取 MP3 元数据的 Python 模块。<br>m3u8：一个用来解析 m3u8 文件的模块。<br>mutagen：一个用来处理音频元数据的 Python 模块。<br>pydub：通过简单、简洁的高层接口来操作音频文件。<br>pyechonest：Echo Nest API 的 Python 客户端<br>talkbox：一个用来处理演讲/信号的 Python 库<br>TimeSide：开源 web 音频处理框架。<br>tinytag：一个用来读取MP3, OGG, FLAC 以及 Wave 文件音乐元数据的库。<br>mingus：一个高级音乐理论和曲谱包，支持 MIDI 文件和回放功能。<br>moviepy：一个用来进行基于脚本的视频编辑模块，适用于多种格式，包括动图 GIFs。<br>scikit-video：SciPy 视频处理常用程序。<br>GeoDjango：世界级地理图形 web 框架。<br>GeoIP：MaxMind GeoIP Legacy 数据库的 Python API。<br>geojson：GeoJSON 的 Python 绑定及工具。<br>geopy：Python 地址编码工具箱。<br>pygeoip：纯 Python GeoIP API。<br>django-countries：一个 Django 应用程序，提供用于表格的国家选择功能，国旗图标静态文件以及模型中的国家字段。<br>requests：人性化的HTTP请求库。<br>grequests：requests 库 + gevent ，用于异步 HTTP 请求.<br>httplib2：全面的 HTTP 客户端库。<br>treq：类似 requests 的Python API 构建于 Twisted HTTP 客户端之上。<br>urllib3：一个具有线程安全连接池，支持文件 post，清晰友好的 HTTP 库。<br>pickleDB：一个简单，轻量级键值储存数据库。<br>PipelineDB：流式 SQL 数据库。<br>TinyDB：一个微型的，面向文档型数据库。<br>ZODB：一个 Python 原生对象数据库。一个键值和对象图数据库。<br>MySQL：awesome-mysql系列<br>mysql-python：Python 的 MySQL 数据库连接器。<br>mysqlclient：mysql-python 分支，支持 Python 3。<br>oursql：一个更好的 MySQL 连接器，支持原生预编译指令和 BLOBs.<br>PyMySQL：纯 Python MySQL 驱动，兼容 mysql-python。<br>PostgreSQL<br>psycopg2：Python 中最流行的 PostgreSQL 适配器。<br>queries：psycopg2 库的封装，用来和 PostgreSQL 进行交互。<br>txpostgres：基于 Twisted 的异步 PostgreSQL 驱动。<br>apsw：另一个 Python SQLite封装。<br>dataset：在数据库中存储Python字典：可以协同SQLite，MySQL，和 PostgreSQL工作。<br>pymssql- 一个简单的Microsoft SQL Server数据库接口。<br>cassandra-python-driver：Cassandra 的 Python 驱动。<br>HappyBase：一个为 Apache HBase 设计的，对开发者友好的库。<br>Plyvel：一个快速且功能丰富的 LevelDB 的 Python 接口。<br>py2neo：Neo4j restful 接口的Python 封装客户端。<br>pycassa：Cassandra 的 Python Thrift 驱动。<br>PyMongo：MongoDB 的官方 Python 客户端。<br>redis-py：Redis 的 Python 客户端。<br>telephus：基于 Twisted 的 Cassandra 客户端。<br>txRedis：基于 Twisted 的 Redis 客户端。<br>Django Models：Django 的一部分。<br>SQLAlchemy：Python SQL 工具以及对象关系映射工具。<br>awesome-sqlalchemy系列<br>Peewee：一个小巧，富有表达力的 ORM。<br>PonyORM：提供面向生成器的 SQL 接口的 ORM。<br>python-sql：编写 Python 风格的 SQL 查询。<br>django-mongodb-engine：Django MongoDB 后端。<br>PynamoDB：Amazon DynamoDB 的一个 Python 风格接口。<br>flywheel：Amazon DynamoDB 的对象映射工具。<br>MongoEngine：一个Python 对象文档映射工具，用于 MongoDB。<br>hot-redis：为 Redis 提供 Python 丰富的数据类型。<br>redisco：一个 Python 库，提供可以持续存在在 Redis 中的简单模型和容器。<br>butterdb：Google Drive 电子表格的 Python ORM。<br>Django：Python 界最流行的 web 框架。<br>awesome-django系列<br>Flask：一个 Python 微型框架。<br>Pyramid：一个小巧，快速，接地气的开源Python web 框架。<br>Bottle：一个快速小巧，轻量级的 WSGI 微型 web 框架。<br>CherryPy：一个极简的 Python web 框架，服从 HTTP/1.1 协议且具有WSGI 线程池。<br>TurboGears：一个可以扩展为全栈解决方案的微型框架。<br>web.py：一个 Python 的 web 框架，既简单，又强大。<br>web2py：一个全栈 web 框架和平台，专注于简单易用。<br>Tornado：一个web 框架和异步网络库。<br>django-guardian：Django 1.2+ 实现了单个对象权限。<br>django-rules：一个小巧但是强大的应用，提供对象级别的权限管理，且不需要使用数据库。<br>django-cms：一个开源的，企业级 CMS，基于 Django。<br>djedi-cms：一个轻量级但却非常强大的 Django CMS ，考虑到了插件，内联编辑以及性能。<br>FeinCMS：基于 Django 构建的最先进的内容管理系统之一。<br>Kotti：一个高级的，Python 范的 web 应用框架，基于 Pyramid 构建。<br>Mezzanine：一个强大的，持续的，灵活的内容管理平台。<br>Opps：一个为杂志，报纸网站以及大流量门户网站设计的 CMS 平台，基于 Django。<br>Plone：一个构建于开源应用服务器 Zope 之上的 CMS。<br>Quokka：灵活，可扩展的小型 CMS，基于 Flask 和 MongoDB。<br>Wagtail：一个 Django 内容管理系统。<br>Widgy：最新的 CMS 框架，基于 Django。<br>django-oscar：一个用于 Django 的开源的电子商务框架。<br>django-shop：一个基于 Django 的店铺系统。<br>Cartridge：一个基于 Mezzanine 构建的购物车应用。<br>shoop：一个基于 Django 的开源电子商务平台。<br>alipay：非官方的 Python 支付宝 API。<br>merchant：一个可以接收来自多种支付平台支付的 Django 应用。<br>money：货币类库with optional CLDR-backed locale-aware formatting and an extensible currency exchange solution.<br>python-currencies：显示货币格式以及它的数值。<br>django-rest-framework：一个强大灵活的工具，用来构建 web API。<br>django-tastypie：为Django 应用开发API。<br>django-formapi：为 Django 的表单验证，创建 JSON APIs 。<br>flask-api：为 flask 开发的，可浏览 Web APIs 。<br>flask-restful：为 flask 快速创建REST APIs 。<br>flask-restless：为 SQLAlchemy 定义的数据库模型创建 RESTful APIs 。<br>flask-api-utils：为 Flask 处理 API 表示和验证。<br>eve：REST API 框架，由 Flask, MongoDB 等驱动。<br>Pyramid<br>cornice：一个Pyramid 的 REST 框架 。<br>与框架无关的<br>falcon：一个用来建立云 API 和 web app 后端的噶性能框架。<br>sandman：为现存的数据库驱动系统自动创建 REST APIs 。<br>restless：框架无关的 REST 框架 ，基于从 Tastypie 学到的知识。<br>ripozo：快速创建 REST/HATEOAS/Hypermedia APIs。<br>Authomatic：简单但是强大的框架，身份验证/授权客户端。<br>django-allauth：Django 的验证应用。<br>django-oauth-toolkit：为 Django 用户准备的 OAuth2。<br>django-oauth2-provider：为 Django 应用提供 OAuth2 接入。<br>Flask-OAuthlib：OAuth 1.0/a, 2.0 客户端实现，供 Flask 使用。<br>OAuthLib：一个 OAuth 请求-签名逻辑通用、 完整的实现。<br>python-oauth2：一个完全测试的抽象接口。用来创建 OAuth 客户端和服务端。<br>python-social-auth：一个设置简单的社会化验证方式。<br>rauth：OAuth 1.0/a, 2.0, 和 Ofly 的 Python 库。<br>sanction：一个超级简单的OAuth2 客户端实现。<br>jose：JavaScript 对象签名和加密草案的实现。<br>PyJWT：JSON Web 令牌草案 01。<br>python-jws：JSON Web 签名草案 02 的实现。<br>python-jwt：一个用来生成和验证 JSON Web 令牌的模块。<br>Jinja2：一个现代的，对设计师友好的模板引擎。<br>Chameleon：一个 HTML/XML 模板引擎。 模仿了 ZPT（Zope Page Templates）, 进行了速度上的优化。<br>Genshi：Python 模板工具，用以生成 web 感知的结果。<br>Mako：Python 平台的超高速轻量级模板。<br>celery：一个异步任务队列/作业队列，基于分布式消息传递。<br>huey：小型多线程任务队列。<br>mrq：Mr. Queue -一个 Python 的分布式 worker 任务队列， 使用 Redis 和 gevent。<br>rq：简单的 Python 作业队列。<br>simpleq：一个简单的，可无限扩张的，基于亚马逊 SQS 的队列。<br>django-haystack：Django 模块化搜索。<br>elasticsearch-py：Elasticsearch 的官方底层 Python 客户端。<br>elasticsearch-dsl-py -Elasticsearch 的官方高级 Python 客户端。<br>solrpy：solr的 Python 客户端。<br>Whoosh：一个快速的纯 Python 搜索引擎库。<br>django-activity-stream：从你的站点行为中生成通用活动信息流。<br>Stream-Framework：使用 Cassandra 和 Redis 创建动态消息和通知系统。<br>django-compressor：将链接和内联的 JavaScript 或 CSS 压缩到一个单独的缓存文件中。<br>django-storages：一个针对 Django 的自定义存储后端的工具集合。<br>fanstatic：打包、优化，并且把静态文件依赖作为 Python 的包来提供。<br>File Conveyor：一个后台驻留的程序，用来发现和同步文件到 CDNs, S3 和 FTP。<br>Flask-Assets：帮你将 web 资源整合到你的 Flask app 中。<br>jinja-assets-compressor：一个 Jinja 扩展，用来编译和压缩你的资源。<br>webassets：为你的静态资源打包、优化和管理生成独一无二的缓存 URL。<br>Beaker：一个缓存和会话库，可以用在 web 应用和独立 Python脚本和应用上。<br>django-cache-machine：Django 模型的自动缓存和失效。<br>django-cacheops- 具有自动颗粒化事件驱动失效功能的 ORM。<br>django-viewlet：渲染模板，同时具有额外的缓存控制功能。<br>dogpile.cache：dogpile.cache 是 Beaker 的下一代替代品，由同一作者开发。<br>HermesCache：Python 缓存库，具有基于标签的失效和 dogpile effect 保护功能。<br>johnny-cache：django应用缓存框架。<br>pylibmc：libmemcached 接口的 Python 封装。<br>django-celery-ses：带有 AWS SES 和 Celery 的 Django email 后端。<br>envelopes：供人类使用的电子邮件库。<br>flanker：一个 email 地址和 Mime 解析库。<br>imbox：Python IMAP 库<br>inbox.py：Python SMTP 服务器。<br>inbox：一个开源电子邮件工具箱。<br>lamson：Python 风格的 SMTP 应用服务器。<br>mailjet：Mailjet API 实现，用来提供批量发送邮件，统计等功能。<br>marrow.mailer：高性能可扩展邮件分发框架。<br>modoboa：一个邮件托管和管理平台，具有现代的、简约的 Web UI。<br>pyzmail：创建，发送和解析电子邮件。<br>Talon：Mailgun 库，用来抽取信息和签名。<br>Babel：一个Python 的国际化库。<br>Korean：一个韩语词态库。<br>furl：一个让处理 URL 更简单小型 Python 库。<br>purl：一个简单的，不可变的URL类，具有简洁的 API 来进行询问和处理。<br>pyshorteners：一个纯 Python URL 缩短库。<br>shorturl- 生成短小 URL 和类似短链的Python 实现。<br>webargs：一个解析 HTTP 请求参数的库，内置对流行 web 框架的支持，包括 Flask, Django, Bottle, Tornado和 Pyramid。<br>BeautifulSoup：以 Python 风格的方式来对 HTML 或 XML 进行迭代，搜索和修改。<br>bleach：一个基于白名单的 HTML 清理和文本链接库。<br>cssutils：一个 Python 的 CSS 库。<br>html5lib：一个兼容标准的 HTML 文档和片段解析及序列化库。<br>lxml：一个非常快速，简单易用，功能齐全的库，用来处理 HTML 和 XML。<br>MarkupSafe：为Python 实现 XML/HTML/XHTML 标记安全字符串。<br>pyquery：一个解析 HTML 的库，类似 jQuery。<br>untangle：将XML文档转换为Python对象，使其可以方便的访问。<br>xhtml2pdf：HTML/CSS 转 PDF 工具。<br>xmltodict：像处理 JSON 一样处理 XML。<br>Scrapy：一个快速高级的屏幕爬取及网页采集框架。<br>cola：一个分布式爬虫框架。<br>Demiurge：基于PyQuery 的爬虫微型框架。<br>feedparser：通用 feed 解析器。<br>Grab：站点爬取框架。<br>MechanicalSoup：用于自动和网络站点交互的 Python 库。<br>portia：Scrapy 可视化爬取。<br>pyspider：一个强大的爬虫系统。<br>RoboBrowser：一个简单的，Python 风格的库，用来浏览网站，而不需要一个独立安装的浏览器。<br>Haul：一个可以扩展的图像爬取工具。<br>html2text：将 HTML 转换为 Markdown 格式文本<br>lassie：人性化的网页内容检索库。<br>micawber -一个小型网页内容提取库，用来从 URLs 提取富内容。<br>newspaper：使用 Python 进行新闻提取，文章提取以及内容策展。<br>opengraph：一个用来解析开放内容协议(Open Graph Protocol)的 Python模块。<br>python-goose：HTML内容/文章提取器。<br>python-readability- arc90 公司 readability 工具的 Python 高速端口<br>sanitize：为杂乱的数据世界带来调理性。<br>sumy：一个为文本文件和 HTML 页面进行自动摘要的模块。<br>textract：从任何格式的文档中提取文本，Word，PowerPoint，PDFs 等等。<br>Deform：Python HTML 表单生成库，受到了 formish 表单生成库的启发。<br>django-bootstrap3- 集成了 Bootstrap 3 的 Django。<br>django-crispy-forms：一个 Django 应用，他可以让你以一种非常优雅且 DRY（Don’t repeat yourself） 的方式来创建美观的表单。<br>django-remote-forms- 一个平台独立的 Django 表单序列化工具。<br>WTForms：一个灵活的表单验证和呈现库。<br>WTForms-JSON- 一个 WTForms 扩展，用来处理 JSON 数据。<br>Cerberus：A mappings-validator with a variety of rules, normalization-features and simple customization that uses a pythonic schema-definition.<br>colander：一个用于对从 XML, JSON，HTML 表单获取的数据或其他同样简单的序列化数据进行验证和反序列化的系统。<br>kmatch：一种用于匹配/验证/筛选 Python 字典的语言。<br>schema -一个用于对 Python 数据结构进行验证的库。<br>Schematics：数据结构验证。<br>valideer：轻量级可扩展的数据验证和适配库。<br>voluptuous：一个 Python 数据验证库。主要是为了验证传入 Python的 JSON，YAML 等数据。<br>django-simple-captcha：一个简单、高度可定制的Django 应用，可以为任何Django表单添加验证码。<br>django-simple-spam-blocker- 一个用于Django的简单的电子垃圾屏蔽工具。<br>django-taggit：简单的 Django 标记工具。<br>Ajenti：一个你的服务器值得拥有的管理面板。<br>django-suit：Django 管理界面的一个替代品 (仅对于非商业用途是免费的)。<br>django-xadmin：Django admin 的一个替代品，具有很多不错的功能。<br>flask-admin：一个用于 Flask 的简单可扩展的管理界面框架。<br>flower：一个对 Celery 集群进行实时监控和提供 web 管理界面的工具。<br>Grappelli：Django 管理界面的一个漂亮的皮肤。<br>Wooey：一个 Django 应用，可以为 Python 脚本创建 web 用户界面。<br>Pelican：使用 Markdown 或 ReST 来处理内容， Jinja 2 来制作主题。支持 DVCS, Disqus.。AGPL 许可。<br>Cactus：为设计师设计的静态站点生成器。<br>Hyde：基于 Jinja2 的静态站点生成器。<br>Nikola：一个静态网站和博客生成器。<br>Tinkerer：Tinkerer 是一个博客引擎/静态站点生成器，由Sphinx驱动。<br>Lektor：一个简单易用的静态 CMS 和博客引擎。<br>envoy：比 Python subprocess 模块更人性化。<br>sarge：另一 种 subprocess 模块的封装。<br>sh：一个完备的 subprocess 替代库。<br>multiprocessing：(Python 标准库) 基于进程的“线程”接口。<br>threading：(Python 标准库)更高层的线程接口。<br>eventlet：支持 WSGI 的异步框架。<br>gevent：一个基于协程的 Python 网络库，使用greenlet。<br>Tomorrow：用于产生异步代码的神奇的装饰器语法实现。<br>asyncio：(Python 标准库) 异步 I/O, 事件循环, 协程以及任务。<br>Twisted：一个事件驱动的网络引擎。<br>pulsar：事件驱动的并发框架。<br>diesel：基于Greenlet 的事件 I/O 框架。<br>pyzmq：一个 ZeroMQ 消息库的 Python 封装。<br>txZMQ：基于 Twisted 的 ZeroMQ 消息库的 Python 封装。<br>AutobahnPython：给 Python 、使用的 WebSocket &amp; WAMP 基于 Twisted 和 asyncio。<br>Crossbar：开源统一应用路由(Websocket &amp; WAMP for Python on Autobahn).<br>django-socketio：给 Django 用的 WebSockets。<br>WebSocket-for-Python：为Python2/3 以及 PyPy 编写的 WebSocket 客户端和服务器库。<br>gunicorn：Pre-forked, 部分是由 C 语言编写的。<br>uwsgi：uwsgi 项目的目的是开发一组全栈工具，用来建立托管服务， 由 C 语言编写。<br>bjoern：异步，非常快速，由 C 语言编写。<br>fapws3：异步 (仅对于网络端)，由 C 语言编写。<br>meinheld：异步，部分是由 C 语言编写的。<br>netius：异步，非常快速。<br>paste：多线程，稳定，久经考验。<br>rocket：多线程。<br>waitress：多线程, 是它驱动着 Pyramid 框架。<br>Werkzeug：一个 WSGI 工具库，驱动着 Flask ，而且可以很方便大嵌入到你的项目中去。<br>SimpleJSONRPCServer：这个库是 JSON-RPC 规范的一个实现。<br>SimpleXMLRPCServer：(Python 标准库) 简单的 XML-RPC 服务器实现，单线程。<br>zeroRPC：zerorpc 是一个灵活的 RPC 实现，基于 ZeroMQ 和 MessagePack。<br>cryptography：这个软件包意在提供密码学基本内容和方法提供给 Python 开发者。<br>hashids：在 Python 中实现 hashids 。<br>Paramiko：SSHv2 协议的 Python (2.6+, 3.3+) ，提供客户端和服务端的功能。<br>Passlib：安全密码存储／哈希库，<br>PyCrypto：Python 密码学工具箱。<br>PyNacl：网络和密码学(NaCl) 库的 Python 绑定。<br>curses：内建的 ncurses 封装，用来创建终端图形用户界面。<br>enaml：使用类似 QML 的Declaratic语法来创建美观的用户界面。<br>kivy：一个用来创建自然用户交互（NUI）应用程序的库，可以运行在 Windows, Linux, Mac OS X, Android 以及 iOS平台上。<br>pyglet：一个Python 的跨平台窗口及多媒体库。<br>PyQt：跨平台用户界面框架 Qt 的 Python 绑定 ，支持Qt v4 和 Qt v5。<br>PySide：P跨平台用户界面框架 Qt 的 Python 绑定 ，支持Qt v4。<br>Tkinter：Tkinter 是 Python GUI 的一个事实标准库。<br>Toga：一个 Python 原生的, 操作系统原生的 GUI 工具包。<br>urwid：一个用来创建终端 GUI 应用的库，支持组件，事件和丰富的色彩等。<br>wxPython：wxPython 是 wxWidgets C++ 类库和 Python 语言混合的产物。<br>PyGObject：GLib/GObject/GIO/GTK+ (GTK+3) 的 Python 绑定<br>Flexx：Flexx 是一个纯 Python 语言编写的用来创建 GUI 程序的工具集，它使用 web 技术进行界面的展示。<br>Cocos2d：cocos2d 是一个用来开发 2D 游戏， 示例和其他图形/交互应用的框架。基于 pyglet。<br>Panda3D：由迪士尼开发的 3D 游戏引擎，并由卡内基梅陇娱乐技术中心负责维护。使用C++编写, 针对 Python 进行了完全的封装。<br>Pygame：Pygame 是一组 Python 模块，用来编写游戏。<br>PyOgre：Ogre 3D 渲染引擎的 Python 绑定，可以用来开发游戏和仿真程序等任何 3D 应用。<br>PyOpenGL：OpenGL 的 Python 绑定及其相关 APIs。<br>PySDL2：SDL2 库的封装，基于 ctypes。<br>RenPy：一个视觉小说（visual novel）引擎。<br>logging：(Python 标准库) 为 Python 提供日志功能。<br>logbook：Logging 库的替代品。<br>Eliot：为复杂的和分布式系统创建日志。<br>Raven：Sentry的 Python 客户端。<br>Sentry：实时记录和收集日志的服务器。<br>unittest：(Python 标准库) 单元测试框架。<br>nose：nose 扩展了 unittest 的功能。<br>contexts：一个 Python 3.3+ 的 BDD 框架。受到C#：Machine.Specifications的启发。<br>hypothesis：Hypothesis 是一个基于先进的 Quickcheck 风格特性的测试库。<br>mamba：Python 的终极测试工具， 拥护BDD。<br>PyAutoGUI：PyAutoGUI 是一个人性化的跨平台 GUI 自动测试模块。<br>pyshould- Should 风格的断言，基于 PyHamcrest。<br>pytest- 一个成熟的全功能 Python 测试工具。<br>green- 干净，多彩的测试工具。<br>pyvows- BDD 风格的测试工具，受Vows.js的启发。<br>Robot Framework：一个通用的自动化测试框架。<br>Selenium：Selenium WebDriver 的 Python 绑定。<br>locust：使用 Python 编写的，可扩展的用户加载测试工具。<br>sixpack：一个和语言无关的 A/B 测试框架。<br>splinter：开源的 web 应用测试工具。<br>mock：(Python 标准库) 一个用于伪造测试的库。<br>doublex：Python 的一个功能强大的 doubles 测试框架。<br>freezegun：通过伪造日期模块来生成不同的时间。<br>httmock：针对 Python 2.6+ 和 3.2+ 生成 伪造请求的库。<br>httpretty：Python 的 HTTP 请求 mock 工具。<br>responses：伪造 Python 中的 requests 库的一个通用库。<br>VCR.py：在你的测试中记录和重放 HTTP 交互。<br>factoryboy：一个 Python 用的测试固件 (test fixtures) 替代库。<br>mixer：另外一个测试固件 (test fixtures) 替代库，支持 Django, Flask, SQLAlchemy, Peewee 等。<br>modelmommy：为 Django 测试创建随机固件<br>coverage：代码覆盖率测量。<br>faker：一个 Python 库，用来生成伪数据。<br>fake2db：伪数据库生成器。<br>radar：生成随机的日期/时间。<br>FuckIt.py：FuckIt.py 使用最先进的技术来保证你的 Python 代码无论对错都能继续运行。<br>code2flow：把你的 Python 和 JavaScript 代码转换为流程图。<br>pycallgraph -这个库可以把你的Python 应用的流程(调用图)进行可视化。<br>pysonar2：Python 类型推断和检索工具。<br>Flake8：模块化源码检查工具: pep8, pyflakes 以及 co。<br>Pylint：一个完全可定制的源码分析器。<br>pylama：Python 和 JavaScript 的代码审查工具。<br>ipdb：IPython 启用的 pdb。<br>pudb：全屏，基于控制台的 Python 调试器。<br>pyringe：可以在 Python 进程中附加和注入代码的调试器。<br>wdb：一个奇异的 web 调试器，通过 WebSockets 工作。<br>winpdb：一个具有图形用户界面的 Python 调试器，可以进行远程调试，基于 rpdb2。<br>django-debug-toolbar：为 Django 显示各种调试信息。<br>django-devserver：一个 Django 运行服务器的替代品。<br>flask-debugtoolbar：django-debug-toolbar 的 flask 版。<br>lineprofiler：逐行性能分析。<br>memoryprofiler：监控 Python 代码的内存使用。<br>profiling：一个交互式 Python 性能分析工具。<br>pyelftools：解析和分析 ELF 文件以及 DWARF 调试信息。<br>python-statsd：statsd 服务器的 Python 客户端。<br>astropy：一个天文学 Python 库。<br>bcbio-nextgen：这个工具箱为全自动高通量测序分析提供符合最佳实践的处理流程。<br>bccb：生物分析相关代码集合<br>Biopython：Biopython 是一组可以免费使用的用来进行生物计算的工具。<br>blaze：NumPy 和 Pandas 的大数据接口。<br>cclib：一个用来解析和解释计算化学软件包输出结果的库。<br>NetworkX：一个为复杂网络设计的高性能软件。<br>Neupy：执行和测试各种不同的人工神经网络算法。<br>Numba：Python JIT (just in time) 编译器，针对科学用的 Python ，由Cython 和 NumPy 的开发者开发。<br>NumPy：使用 Python 进行科学计算的基础包。<br>Open Babel：一个化学工具箱，用来描述多种化学数据。<br>Open Mining：使用 Python 挖掘商业情报 (BI) (Pandas web 接口)。<br>orange：通过可视化编程或 Python 脚本进行数据挖掘，数据可视化，分析和机器学习。<br>Pandas：提供高性能，易用的数据结构和数据分析工具。<br>PyDy：PyDy 是 Python Dynamics 的缩写，用来为动力学运动建模工作流程提供帮助， 基于 NumPy, SciPy, IPython 和 matplotlib。<br>PyMC：马尔科夫链蒙特卡洛采样工具。<br>RDKit：化学信息学和机器学习软件。<br>SciPy：由一些基于 Python ，用于数学，科学和工程的开源软件构成的生态系统。<br>statsmodels：统计建模和计量经济学。<br>SymPy：一个用于符号数学的 Python 库。<br>zipline：一个 Python 算法交易库。<br>matplotlib：一个 Python 2D 绘图库。<br>bokeh：用 Python 进行交互式 web 绘图。<br>ggplot：ggplot2 给 R 提供的 API 的 Python 版本。<br>plotly：协同 Python 和 matplotlib 工作的 web 绘图库。<br>pygal：一个 Python SVG 图表创建工具。<br>pygraphviz：Graphviz 的 Python 接口。<br>PyQtGraph：交互式实时2D/3D/图像绘制及科学/工程学组件。<br>SnakeViz：一个基于浏览器的 Python’s cProfile 模块输出结果查看工具。<br>vincent：把 Python 转换为 Vega 语法的转换工具。<br>VisPy：基于 OpenGL 的高性能科学可视化工具。<br>OpenCV：开源计算机视觉库。<br>SimpleCV：一个用来创建计算机视觉应用的开源框架。<br>Crab：灵活、快速的推荐引擎。<br>gensim：人性化的话题建模库。<br>hebel：GPU 加速的深度学习库。<br>NuPIC：智能计算 Numenta 平台。<br>pattern：Python 网络挖掘模块。<br>PyBrain：另一个 Python 机器学习库。<br>Pylearn2：一个基于 Theano 的机器学习库。<br>python-recsys：一个用来实现推荐系统的 Python 库。<br>scikit-learn：基于 SciPy 构建的机器学习 Python 模块。<br>pydeep：Python 深度学习库。<br>vowpalporpoise：轻量级 Vowpal Wabbit 的 Python 封装。<br>skflow：一个 TensorFlow 的简化接口(模仿 scikit-learn)。<br>dpark：Spark 的 Python 克隆版，一个类似 MapReduce 的框架。<br>dumbo：这个 Python 模块可以让人轻松的编写和运行 Hadoop 程序。<br>luigi：这个模块帮你构建批处理作业的复杂流水线。<br>mrjob：在 Hadoop 或 Amazon Web Services 上运行 MapReduce 任务。<br>PySpark：Spark 的 Python API 。<br>streamparse：运行针对事实数据流的 Python 代码。集成了Apache Storm。<br>CyToolz：Toolz 的 Cython 实现 : 高性能函数式工具。<br>fn.py：在 Python 中进行函数式编程 : 实现了一些享受函数式编程缺失的功能。<br>funcy：炫酷又实用的函数式工具。<br>Toolz：一组用于迭代器，函数和字典的函数式编程工具。<br>apache-libcloud：一个为各种云设计的 Python 库。<br>boto：Amazon Web Services 的 Python 接口。<br>django-wordpress：WordPress models and views for Django.<br>facebook-sdk：Facebook 平台的 Python SDK.<br>facepy：Facepy 让和 Facebook’s Graph API 的交互变得更容易。<br>gmail：Gmail 的 Python 接口。<br>google-api-python-client：Python 用的 Google APIs 客户端库。<br>gspread：Google 电子表格的 Python API.<br>twython：Twitter API 的封装。<br>DevOps 工具<br>Ansible：一个非常简单的 IT 自动化平台。<br>SaltStack：基础设施自动化和管理系统。<br>OpenStack：用于构建私有和公有云的开源软件。<br>Docker Compose：快速，分离的开发环境，使用 Docker。<br>Fabric：一个简单的，Python 风格的工具，用来进行远程执行和部署。<br>cuisine：为 Fabric 提供一系列高级函数。<br>Fabtools：一个用来编写超赞的 Fabric 文件的工具。<br>gitapi：Git 的纯 Python API。<br>hgapi：Mercurial 的纯 Python API。<br>honcho：Foreman的 Python 克隆版，用来管理基于Procfile的应用。<br>pexpect：Controlling interactive programs in a pseudo-terminal like 在一个伪终端中控制交互程序，就像 GNU expect 一样。<br>psutil：一个跨平台进程和系统工具模块。<br>supervisor：UNIX 的进程控制系统。<br>APScheduler：轻巧但强大的进程内任务调度，使你可以调度函数。<br>django-schedule：一个 Django 排程应用。<br>doit：一个任务执行和构建工具。<br>gunnery：分布式系统使用的多用途任务执行工具 ，具有 web 交互界面。<br>Joblib：一组为 Python 提供轻量级作业流水线的工具。<br>Plan：如有神助地编写 crontab 文件。<br>schedule：人性化的 Python 任务调度库。<br>Spiff：使用纯 Python 实现的强大的工作流引擎。<br>TaskFlow：一个可以让你方便执行任务的 Python 库，一致并且可靠。<br>cffi：用来调用 C 代码的外来函数接口。<br>ctypes：(Python 标准库) 用来调用 C 代码的外来函数接口。<br>PyCUDA：Nvidia CUDA API 的封装。<br>SWIG：简化的封装和接口生成器。<br>Cython：优化的 Python 静态编译器。使用类型混合使 Python 编译成 C 或 C++ 模块来获得性能的极大提升。<br>PeachPy：嵌入 Python 的 x86-64 汇编器。可以被用作 Python 内联的汇编器或者是独立的汇编器，用于 Windows, Linux, OS X, Native Client 或者 Go 。<br>PyPy：使用 Python 实现的 Python。解释器使用黑魔法加快 Python 运行速度且不需要加入额外的类型信息。<br>Pyston：使用 LLVM 和现代 JIT 技术构建的 Python 实现，目标是为了获得很好的性能。<br>Stackless Python：一个强化版的 Python。<br>Python(x,y)：面向科学应用的 Python 发行版，基于 Qt 和 Spyder。<br>pythonlibs：非官方的 Windows 平台 Python 扩展二进制包。<br>PythonNet：Python 与 .NET 公共语言运行库 (CLR)的集成。<br>PyWin32：针对 Windows 的Python 扩展。<br>WinPython：Windows 7/8 系统下便携式开发环境。<br>Mininet：一款流行的网络模拟器以及用 Python 编写的 API。<br>POX：一个针对基于 Python 的软件定义网络应用（例如 OpenFlow SDN 控制器）的开源开发平台。<br>Pyretic：火热的 SDN 编程语言中的一员，为网络交换机和模拟器提供强大的抽象能力。<br>SDX Platform：基于 SDN 的 IXP 实现，影响了 Mininet, POX 和 Pyretic。<br>ino -操作Arduino的命令行工具。<br>Pyro：Python 机器人编程库。<br>PyUserInput：跨平台的，控制鼠标和键盘的模块。<br>scapy：一个非常棒的操作数据包的库。<br>wifi：一个 Python 库和命令行工具用来在 Linux 平台上操作WiFi。<br>Pingo：Pingo 为类似Raspberry Pi，pcDuino， Intel Galileo等设备提供统一的API用以编程。<br>Python-Future：这就是 Python 2 和 Python 3 之间丢失的那个兼容性层。<br>Python-Modernize：使 Python 代码更加现代化以便最终迁移到 Python 3。<br>Six：Python 2 和 3 的兼容性工具。<br>blinker：一个快速的 Python 进程内信号/事件分发系统。<br>itsdangerous：一系列辅助工具用来将可信的数据传入不可信的环境。<br>pluginbase：一个简单但是非常灵活的 Python 插件系统。<br>Pychievements：一个用来创建和追踪成就的 Python 框架。<br>Tryton：一个通用商务框架。<br>algorithms -一个 Python 算法模块<br>python-patterns：Python 设计模式的集合。<br>sortedcontainers：快速，纯 Python 实现的SortedList，SortedDict 和 SortedSet 类型。<br>Elpy：Emacs Python 开发环境。<br>Sublime Text<br>SublimeJEDI：一个 Sublime Text 插件，用来使用超赞的自动补全库 Jedi。<br>Anaconda：Anaconda 把你的 Sublime Text 3 变成一个功能齐全的 Python IDE。<br>Vim<br>YouCompleteMe：引入基于 Jedi 的 Python 自动补全引擎。<br>Jedi-vim：绑定 Vim 和 Jedi 自动补全库对 Python 进行自动补全。<br>Python-mode：将 Vim 变成 Python IDE 的一款多合一插件。<br>Visual Studio<br>PTVS：Visual Studio 的 Python 工具<br>PyCharm：商业化的 Python IDE ，由 JetBrains 开发。也有免费的社区版提供。<br>LiClipse：基于 Eclipse 的免费多语言 IDE 。使用 PyDev 来支持 Python 。<br>Spyder：开源 Python IDE。<br>Travis CI：一个流行的工具，为你的开源和私人项目提供持续集成服务。(仅支持 GitHub)<br>CircleCI：一个持续集成工具，可以非常快速的进行并行测试。 (仅支持 GitHub)<br>Vexor CI：一个为私人 app 提供持续集成的工具，支持按分钟付费。<br>Wercker：基于 Docker 平台，用来构建和部署微服务。<br>Codacy：自动化代码审查，更加快速的发布高质量代码。对于开源项目是免费的。<br>QuantifiedCode：一个数据驱动、自动、持续的代码审查工具。<br>Tornado： 和其他Python框架的架构可谓大相径庭，Request的处理方式也很舒服，特别适合REST，谁用谁知道<br>Mako： 个人认为是最好的Template，简单 性能好<br>SQLAlchemy: 快一统ORM了吧<br>Quixote：其实还是蛮好用的<br>pyQuery: 用jQuery的语法写爬虫 略爽</p>
@@ -355,47 +396,6 @@
 ]]></content>
       <tags>
         <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>linux常用命令</title>
-    <url>/2020/04/09/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>批量解压<br><code>zip: find -maxdepth 1 -name  &quot;*.zip&quot;|xargs -i unzip -n -O GBK {}</code><br><code>rar: find -maxdepth 1 -name  &quot;*.rar&quot;|xargs -i unrar x {}</code></p>
-]]></content>
-      <tags>
-        <tag>linux</tag>
-        <tag>ubuntu</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>cpp学习笔记</title>
-    <url>/2020/04/03/cpp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>struct name cpp中用于定义类</p>
-<p>命名空间,防止同名实体.在不同的命令空间使用相同的实体名互不影响.它可以存在多个不同的文件中.<br>namespace 命名空间名<br>{<br>    … 这里的内容都在名字为namespace的作用域下<br>}</p>
-<p>使用命名空间内实体的格式:<br>命名空间名::实体名   —-其中 :: 叫”作用域运算符”</p>
-<p>同时编译的方法:<br>g++ 文件名.cpp 文件名.cpp 文件名.h -o 文件.o<br>即可同时编译</p>
-<p>c++标准库是c++的重要组成部分<br>iostream库 输入输出流<br>命名空间名字:std<br>cout: c out (console output),这是std下的”标准输出”对象<br>&lt;&lt;和cout一起运用时作用被重载为”输出运算符”,不再是”左移”<br>std::endl 和 “\n” 是有区别的,<br>std::endl 是个模板函数名,相当于函数指针<br>std::endl 可以(1)输出换行符 (2)强制刷新输出缓冲区,执行到这里就会输出到屏幕<br>如果不用则会在(1)缓冲区满了 (2)程序执行到main的return (3)系统不太繁忙的时候 三种情况下输出到屏幕<br>每个”std::cout &lt;&lt;”返回的是一个cout对象<br>std::cout &lt;&lt; x– &lt;&lt; x–; //编译器不同执行结果可能不同,有的会输出43有的是34<br>避免在一个表达式中多次改变一个变量的值<br>std::cin 标准输入</p>
-<p>初始化 int a = 1;  等价于 int a {1}; 或 int a = {1}<br>初始化数组 可以直接 int a[] {3,5,7};<br>如果 int a = 3.5f a会直接截断为 a = 3 但 int a {3.5f} 会报错</p>
-<p>auto: 变量的自动类型判断<br>auto可以在声明变量的时候根据变量初始值自动选择相匹配的变量类型,auto在编译期间执行,不会降低程序效率<br>auto a = true; //bool<br>auto a = ‘a’; //char<br>auto a = 1.2f; //float</p>
-<p>头文件防卫<br>头文件互相include的时候可能会造成 重定义 的问题<br>在头文件中使用 ifndef define endif 来保证不会重定义</p>
-<p>引用: 为变量起了另外一个名字,一般用&amp;符号表示,起别名后,别名和变量本身我们就看成是同一个变量<br>int a = 1;<br>int $b = a; // a的别名就是b, &amp;在这里不是求地址运算符, 只是起标识作用,<br>            // 定义引用在编译器看来使用同一块内存<br>            // 定义引用的时候必须初始化<br>int a = 1;<br>int &amp;b = a;  //引用&amp;在=的左边<br>int *p = &a;  //地址符&amp;在 = 右边<br>int b = 1;<br>定义func(int $a),在func中对a修改,调用func(b),会修改b的值.</p>
-<p>常量:<br>const int var = 7; //命名var常量,声明不会去改变,后面直接赋值会报错, ##不要给常量加强制引用<br>constexpr: 也是常量,在编译的时候求值,提升性能<br>constexpr int var =1;<br>constexpr 写在func前就是常量函数</p>
-<p>范围for语句:用于遍历一个序列<br>int v[] {2,3,4,5,6,7,8};<br>for (auto x: v) // 数组ｖ中每个元素，依次拷贝放入ｘ中并打印ｘ值<br>for (auto ＆x: v) // 省了拷贝动作，提高了系统效率<br>{<br>    std::cout &lt;&lt; x &lt;&lt; std::endl;<br>}</p>
-<p>动态内存分配: 供程序使用的存储空间，有程序区，静态存储区，动态存储区<br>ｃ＋＋中，内存详细分为五个区<br>(1)栈　一般函数内的局部变量都会放在这里，由编译器自动分配和释放<br>(2)堆　程序员malloc/new分配,用free/delete来释放.忘记释放会在程序结束时回收<br>(3)全局/静态存储区:放全局变量和静态变量static 程序结束时系统释放<br>(4)常量存储区<br>(5)程序代码区<br>堆和栈不同的用途和区别<br>(1)栈 空间有限.这是系统规定的 int a = 4 分配速度很快<br>(2)堆 只要不超出实际物理内存,也在系统允许分配最大内存大小内,都可以分配,分配速度比栈慢. 随时可以用malloc/new分配,用free/delete来释放,灵活<br>malloc和free 是函数 在c语言中使用. new和delete是关键字 在cpp中使用<br>一般形式 void *malloc(int NumBytes); 分配成功则返回指向被分配内存的指针,分配失败则返回NULL. void *可以接受任何类型的赋值,可以强制转换赋值给任何类型的变量,这个要注意<br>当分配的内存不使用时,用free释放. void free(void *FirstByte)<br>int *p = NULL;<br>p = (int *)malloc(sizeof(int));<br>if(p != NULL)<br>{   // 分配成功<br>    *p = 5;<br>    std::count &lt;&lt; *p &lt;&lt; std::endl;<br>    free(p);<br>}<br>char *p = NULL;<br>p = (char *)malloc(10000 * sizeof(char));<br>if(p != NULL)<br>{   // 分配成功<br>    strcpy(p, “hello”); //c语言下使用,vs2017后不建议使用 ,而且拷贝时内存溢出(溢出导致拷贝到超出分配内存地址的覆盖)也不会报错<br>    strcpy_s(p, “hello”); //cpp中使用,将”hello”拷贝入p, 相比strcpy,使用strcpy_s超出内存会报错, linux g++编译strcpy_s会报错<br>    std::cout &lt;&lt; *p &lt;&lt; std::endl;<br>    free(p);<br>}<br>new和delete: 运算符(标识符) cpp中就用neww和delete不用malloc和free,new和delete在分配和释放内存时还做了更多的事<br>new一般使用格式<br>(1)指针变量名 = new 类型标识符<br>(2)指针类型名 = new 类型标识符(初始值)       //这里是圆括号,代表初始值<br>(3)指针类型名 = new 类型标识符[内存单元个数]  //这里是中括号, 代表分配一个数组<br>int *a = new int(18);<br>cout &lt;&lt; *a &lt;&lt; endl;<br>delete a;<br>int *pa = new int[100]; //开辟一个大小为100的整形数组空间<br>delete[] pa; //new 有 [] 时 delete也得有, delete[]中不写数组大小<br>注意: 配对使用,切忌重复调用</p>
-<p>nullptr: c++ 11 中引入的新关键字,代表的也是空指针<br>char *p = NULL;<br>char *q = nullptr;<br>int a = nullptr; //不可行!<br>int b = NULL; //做if判断时 b==nullptr,<br>int *p = nullptr; //做if判断时 p==NULL,<br>使用nullptr能够避免在整数和指针之间发生混淆h<br>事实上NULL(int类型)和nullptr(std::nullptr_t类型)是不同的类型<br>对于指针的初始化,以及用到和指针有关的NULL的场合,能用nullptr全用nullptr取代NULL</p>
-<p>结构:自定义的数据类型<br>struct student {<br>    int number; //学号<br>    char name[100];<br>};<br>void func(student xxx){ //形参用结构变量<br>    xxx.number=100;<br>    return;<br>};<br>当在func(student)时,实参会拷贝到形参的地址,在func里修改xxx不会影响到传进去的student</p>
-]]></content>
-      <tags>
-        <tag>cpp学习笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>写在开始</title>
-    <url>/2020/01/22/%E5%86%99%E5%9C%A8%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>自工作以来，一直想有地方记录自己的所见所得，遂开此博客。</p>
-]]></content>
-      <tags>
-        <tag>随记</tag>
       </tags>
   </entry>
 </search>
