@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>基于Ubuntu的tensorflow之C++环境搭建</title>
+    <url>/2020/05/01/tensorflow%E4%B9%8BC-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="必要依赖库"><a href="#必要依赖库" class="headerlink" title="必要依赖库"></a>必要依赖库</h1><p><code>sudo apt-get install autoconf automake libtool curl make g++ unzip zlib1g-dev git curl python3</code></p>
+<h3 id="将python3链接至python"><a href="#将python3链接至python" class="headerlink" title="将python3链接至python"></a>将python3链接至python</h3><p><code>ln -s /usr/bin/python3 /usr/bin/python</code></p>
+<h1 id="下载tensorflow源码"><a href="#下载tensorflow源码" class="headerlink" title="下载tensorflow源码"></a>下载tensorflow源码</h1><p>例如下载1.12版本参考<br><code>git clone -b r1.12 https://github.com/tensorflow/tensorflow.git</code></p>
+<h1 id="下载bazel"><a href="#下载bazel" class="headerlink" title="下载bazel"></a>下载bazel</h1><p>tensorflow/.bazelversion下可找到tensorflow版本对应的bazel版本<br>下载地址：<a href="https://github.com/bazelbuild/bazel/releases" target="_blank" rel="noopener">https://github.com/bazelbuild/bazel/releases</a><br>下载bazel–installer-linux-x86_64.sh</p>
+<h1 id="安装bazel"><a href="#安装bazel" class="headerlink" title="安装bazel"></a>安装bazel</h1><p><code>chmod +x ./bazelxxxxxxx.sh</code><br><code>/bazelxxxxxxx.sh</code></p>
+<h1 id="编译安装libtensorflow-cc-so"><a href="#编译安装libtensorflow-cc-so" class="headerlink" title="编译安装libtensorflow_cc.so"></a>编译安装libtensorflow_cc.so</h1><p>进入下载好的tensoflow源码文件夹<br><code>./configure</code><br>可根据提示自行修改对应路径、各种选装支持等<br>成功后执行<br><code>bazel build //tensorflow:libtensorflow_cc.so</code><br>这个过程会自动下载一些依赖库，下载不成功会报错，多试几次会下载好然后执行编译<br>安装<br><code>source tensorflow/contrib/makefile/build_all_linux.sh</code></p>
+<h1 id="拷贝到系统目录下（建议）"><a href="#拷贝到系统目录下（建议）" class="headerlink" title="拷贝到系统目录下（建议）"></a>拷贝到系统目录下（建议）</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo mkdir -p &#x2F;usr&#x2F;local&#x2F;include&#x2F;tf&#x2F;tensorflow</span><br><span class="line">sudo cp -r bazel-genfiles&#x2F; &#x2F;usr&#x2F;local&#x2F;include&#x2F;tf</span><br><span class="line">sudo cp -r tensorflow&#x2F;cc &#x2F;usr&#x2F;local&#x2F;include&#x2F;tf&#x2F;tensorflow</span><br><span class="line">sudo cp -r tensorflow&#x2F;core &#x2F;usr&#x2F;local&#x2F;include&#x2F;tf&#x2F;tensorflow</span><br><span class="line">sudo cp -r third_party &#x2F;usr&#x2F;local&#x2F;include&#x2F;tf</span><br><span class="line">sudo cp bazel-bin&#x2F;tensorflow&#x2F;libtensorflow_cc.so &#x2F;usr&#x2F;local&#x2F;lib</span><br><span class="line">sudo cp bazel-bin&#x2F;tensorflow&#x2F;libtensorflow_framework.so &#x2F;usr&#x2F;local&#x2F;lib</span><br></pre></td></tr></table></figure>
+<hr>
+<h1 id="如果想要卸载请运行："><a href="#如果想要卸载请运行：" class="headerlink" title="如果想要卸载请运行："></a>如果想要卸载请运行：</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo rm -r &#x2F;usr&#x2F;local&#x2F;include&#x2F;tf</span><br><span class="line">sudo rm &#x2F;usr&#x2F;local&#x2F;lib&#x2F;libtensorflow_*.so</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>tensorflow</tag>
+        <tag>c++</tag>
+        <tag>ubtuntu</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>git使用技巧</title>
     <url>/2020/04/29/git%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="github加速下载"><a href="#github加速下载" class="headerlink" title="github加速下载"></a>github加速下载</h1><p>gitee网站新建仓库，导入github上存在的仓库，在gitee仓库上下载即可加速</p>
@@ -173,6 +191,7 @@
 <h1 id="五-媒体播放器"><a href="#五-媒体播放器" class="headerlink" title="五. 媒体播放器"></a>五. 媒体播放器</h1><p><code>sudo apt-get install vlc</code></p>
 <h1 id="六-VirtualBox虚拟机"><a href="#六-VirtualBox虚拟机" class="headerlink" title="六. VirtualBox虚拟机"></a>六. VirtualBox虚拟机</h1><p><code>sudo apt-get install virtualbox virtualbox-ext-pack</code></p>
 <h1 id="七-网易云音乐"><a href="#七-网易云音乐" class="headerlink" title="七. 网易云音乐"></a>七. 网易云音乐</h1><p><a href="https://github.com/InNoob/netease-cloud-music/releases" target="_blank" rel="noopener">https://github.com/InNoob/netease-cloud-music/releases</a> 下载deb安装<br><code>sudo dpkg -i netease-cloud-musicxxxxxxxxxxxxx.deb</code></p>
+<h1 id="八、下载工具"><a href="#八、下载工具" class="headerlink" title="八、下载工具"></a>八、下载工具</h1><p><a href="https://www.freedownloadmanager.org" target="_blank" rel="noopener">https://www.freedownloadmanager.org</a></p>
 <hr>
 <p>想到什么再补充</p>
 ]]></content>
@@ -402,6 +421,7 @@
     <title>linux常用命令</title>
     <url>/2020/04/09/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>批量解压<br><code>zip: find -maxdepth 1 -name  &quot;*.zip&quot;|xargs -i unzip -n -O GBK {}</code><br><code>rar: find -maxdepth 1 -name  &quot;*.rar&quot;|xargs -i unrar x {}</code></p>
+<p>添加软链接<br><code>ln -s /usr/bin/python3 /usr/bin/python</code></p>
 ]]></content>
       <tags>
         <tag>linux</tag>
