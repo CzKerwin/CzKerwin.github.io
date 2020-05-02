@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://czkerwin.github.io/"/>
-  <updated>2020-05-01T12:14:33.242Z</updated>
+  <updated>2020-05-02T15:20:04.655Z</updated>
   <id>http://czkerwin.github.io/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>基于Ubuntu的tensorflow之C++环境搭建</title>
-    <link href="http://czkerwin.github.io/2020/05/01/tensorflow%E4%B9%8BC-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-    <id>http://czkerwin.github.io/2020/05/01/tensorflow%E4%B9%8BC-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+    <title>基于Ubuntu的cpp机器视觉环境搭建Opencv篇</title>
+    <link href="http://czkerwin.github.io/2020/05/02/%E5%9F%BA%E4%BA%8EUbuntu%E7%9A%84cpp%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAOpencv%E7%AF%87/"/>
+    <id>http://czkerwin.github.io/2020/05/02/%E5%9F%BA%E4%BA%8EUbuntu%E7%9A%84cpp%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAOpencv%E7%AF%87/</id>
+    <published>2020-05-02T15:05:25.000Z</published>
+    <updated>2020-05-02T15:20:04.655Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="ubtuntu" scheme="http://czkerwin.github.io/tags/ubtuntu/"/>
+    
+      <category term="cpp" scheme="http://czkerwin.github.io/tags/cpp/"/>
+    
+      <category term="opencv" scheme="http://czkerwin.github.io/tags/opencv/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于Ubuntu的cpp机器视觉环境搭建Tensorflow篇</title>
+    <link href="http://czkerwin.github.io/2020/05/01/%E5%9F%BA%E4%BA%8EUbuntu%E7%9A%84cpp%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BATensorflow%E7%AF%87/"/>
+    <id>http://czkerwin.github.io/2020/05/01/%E5%9F%BA%E4%BA%8EUbuntu%E7%9A%84cpp%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BATensorflow%E7%AF%87/</id>
     <published>2020-05-01T06:12:06.000Z</published>
-    <updated>2020-05-01T12:14:33.242Z</updated>
+    <updated>2020-05-02T15:05:02.561Z</updated>
     
     <summary type="html">
     
@@ -39,9 +68,9 @@
     
       <category term="tensorflow" scheme="http://czkerwin.github.io/tags/tensorflow/"/>
     
-      <category term="c++" scheme="http://czkerwin.github.io/tags/c/"/>
-    
       <category term="ubtuntu" scheme="http://czkerwin.github.io/tags/ubtuntu/"/>
+    
+      <category term="cpp" scheme="http://czkerwin.github.io/tags/cpp/"/>
     
   </entry>
   
@@ -500,31 +529,6 @@
       <category term="python" scheme="http://czkerwin.github.io/tags/python/"/>
     
       <category term="pip" scheme="http://czkerwin.github.io/tags/pip/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python常用库简介</title>
-    <link href="http://czkerwin.github.io/2020/04/11/python%E5%B8%B8%E7%94%A8%E5%BA%93%E7%AE%80%E4%BB%8B/"/>
-    <id>http://czkerwin.github.io/2020/04/11/python%E5%B8%B8%E7%94%A8%E5%BA%93%E7%AE%80%E4%BB%8B/</id>
-    <published>2020-04-11T06:43:55.000Z</published>
-    <updated>2020-04-11T06:44:22.799Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="python" scheme="http://czkerwin.github.io/tags/python/"/>
     
   </entry>
   
