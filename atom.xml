@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://czkerwin.github.io/"/>
-  <updated>2020-05-02T15:20:04.655Z</updated>
+  <updated>2020-05-03T15:35:48.033Z</updated>
   <id>http://czkerwin.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CMakeLists使用</title>
+    <link href="http://czkerwin.github.io/2020/05/03/CMakeLists%E4%BD%BF%E7%94%A8/"/>
+    <id>http://czkerwin.github.io/2020/05/03/CMakeLists%E4%BD%BF%E7%94%A8/</id>
+    <published>2020-05-03T15:30:26.000Z</published>
+    <updated>2020-05-03T15:35:48.033Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="cpp" scheme="http://czkerwin.github.io/tags/cpp/"/>
+    
+  </entry>
   
   <entry>
     <title>基于Ubuntu的cpp机器视觉环境搭建Opencv篇</title>
@@ -502,33 +527,6 @@
       <category term="blog" scheme="http://czkerwin.github.io/tags/blog/"/>
     
       <category term="markdown" scheme="http://czkerwin.github.io/tags/markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python发布自己的库到pip</title>
-    <link href="http://czkerwin.github.io/2020/04/11/python%E5%8F%91%E5%B8%83%E8%87%AA%E5%B7%B1%E7%9A%84%E5%BA%93%E5%88%B0pip/"/>
-    <id>http://czkerwin.github.io/2020/04/11/python%E5%8F%91%E5%B8%83%E8%87%AA%E5%B7%B1%E7%9A%84%E5%BA%93%E5%88%B0pip/</id>
-    <published>2020-04-11T07:10:17.000Z</published>
-    <updated>2020-04-22T02:26:03.203Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="python" scheme="http://czkerwin.github.io/tags/python/"/>
-    
-      <category term="pip" scheme="http://czkerwin.github.io/tags/pip/"/>
     
   </entry>
   

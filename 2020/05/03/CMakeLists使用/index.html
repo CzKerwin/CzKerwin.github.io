@@ -9,7 +9,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    基于Ubuntu的cpp机器视觉环境搭建Opencv篇 |  Kerwin&#39;s Blog
+    CMakeLists使用 |  Kerwin&#39;s Blog
   </title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   
@@ -42,7 +42,7 @@
   <div id="app">
     <main class="content on">
       <section class="outer">
-  <article id="post-基于Ubuntu的cpp机器视觉环境搭建Opencv篇" class="article article-type-post" itemscope
+  <article id="post-CMakeLists使用" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
   <div class="article-inner">
@@ -50,7 +50,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  基于Ubuntu的cpp机器视觉环境搭建Opencv篇
+  CMakeLists使用
 </h1>
  
 
@@ -59,8 +59,8 @@
 
     
     <div class="article-meta">
-      <a href="/2020/05/02/%E5%9F%BA%E4%BA%8EUbuntu%E7%9A%84cpp%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAOpencv%E7%AF%87/" class="article-date">
-  <time datetime="2020-05-02T15:05:25.000Z" itemprop="datePublished">2020-05-02</time>
+      <a href="/2020/05/03/CMakeLists%E4%BD%BF%E7%94%A8/" class="article-date">
+  <time datetime="2020-05-03T15:30:26.000Z" itemprop="datePublished">2020-05-03</time>
 </a>
       
       
@@ -70,7 +70,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">178</span>
+            <span class="post-count">251</span>
         </span>
     </span>
 
@@ -104,14 +104,10 @@
       
 
       
-      <h1 id="安装依赖环境"><a href="#安装依赖环境" class="headerlink" title="安装依赖环境"></a>安装依赖环境</h1><p><code>apt-get install g++ cmake</code></p>
-<h1 id="下载解压opencv"><a href="#下载解压opencv" class="headerlink" title="下载解压opencv"></a>下载解压opencv</h1><p><a href="https://opencv.org/releases.html" target="_blank" rel="noopener">https://opencv.org/releases.html</a></p>
-<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>进入opencv目录</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">mkdir release</span><br><span class="line">cd release</span><br><span class="line">cmake ..</span><br><span class="line">make</span><br><span class="line">make install</span><br></pre></td></tr></table></figure>
-<p>注意可能需要sudo权限，且期间可能在cmake时下载ippicv卡住，下面是我安装opencv3.3.4对应的ippicv_2019_lnx_intel64_general_20180723.tgz<br><a href="https://pan.baidu.com/s/1SPLRWlIGlRf0YMri2l7MOQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1SPLRWlIGlRf0YMri2l7MOQ</a> 提取码 haas<br>下载好后将 opencv/3rdparty/ippicv/ippicv.cmake中，第47行<br><code>&quot;httpsxxxxxxxxxx&quot;</code>改为<code>&quot;file://存放目录/&quot;</code>继续执行后续安装</p>
-<h1 id="配置环境变量"><a href="#配置环境变量" class="headerlink" title="配置环境变量"></a>配置环境变量</h1><p><code>sudo gedit /etc/ld.so.conf.d/opencv.conf</code><br>添加一行<code>/usr/local/lib</code><br>更新系统的共享链接库<code>sudo ldconfig</code></p>
-<p>在bashrc里末尾加入以下两行：<br><code>sudo gedit /etc/bash.bashrc</code></p>
-<p><code>export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig</code><br><code>export LD_LIBRARY_PATH=..................opencv-3.4.4/release/lib:$LD_LIBRARY_PATH</code><br>执行<code>source /etc/bash.bashrc</code></p>
+      <h1 id="编写动态库"><a href="#编写动态库" class="headerlink" title="编写动态库"></a>编写动态库</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">#指定CMake编译最低要求版本</span><br><span class="line">CMAKE_MINIMUM_REQUIRED(VERSION 3.14)</span><br><span class="line">#给项目命名</span><br><span class="line">PROJECT(MYPRINT)</span><br><span class="line">#收集c&#x2F;c++文件并赋值给变量SRC_LIST_CPP  $&#123;PROJECT_SOURCE_DIR&#125;代表区当前项目录</span><br><span class="line">FILE(GLOB SRC_LIST_CPP $&#123;PROJECT_SOURCE_DIR&#125;&#x2F;src&#x2F;*.cpp)</span><br><span class="line">FILE(GLOB SRC_LIST_C $&#123;PROJECT_SOURCE_DIR&#125;&#x2F;src&#x2F;*.c)</span><br><span class="line">#指定头文件目录</span><br><span class="line">INCLUDE_DIRECTORIES($&#123;PROJECT_SOURCE_DIR&#125;&#x2F;include)</span><br><span class="line">#指定生成库文件的目录</span><br><span class="line">SET(LIBRARY_OUTPUT_PATH $&#123;PROJECT_SOURCE_DIR&#125;&#x2F;lib)</span><br><span class="line">#去变量SRC_LIST_CPP 与SRC_LIST_C 指定生成libmyprint 动态库   默认生成静态库  SHARED指定生成库类型为动态库</span><br><span class="line">ADD_LIBRARY(myprint SHARED $&#123;SRC_LIST_CPP&#125; $&#123;SRC_LIST_C&#125;)</span><br></pre></td></tr></table></figure>
+
+<h1 id="编译项目并引用之前生成的库"><a href="#编译项目并引用之前生成的库" class="headerlink" title="编译项目并引用之前生成的库"></a>编译项目并引用之前生成的库</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">CMAKE_MINIMUM_REQUIRED(VERSION 3.14)</span><br><span class="line">#指定项目名称</span><br><span class="line">PROJECT(HELLO)</span><br><span class="line"></span><br><span class="line">#将hello.cpp 赋值给SOURCE 变量</span><br><span class="line">SET(SOURCE $&#123;PROJECT_SOURCE_DIR&#125;&#x2F;src&#x2F;hello.cpp)</span><br><span class="line"></span><br><span class="line">#指定头文件目录</span><br><span class="line">INCLUDE_DIRECTORIES($&#123;PROJECT_SOURCE_DIR&#125;&#x2F;include)</span><br><span class="line"></span><br><span class="line">#指定链接库文件目录</span><br><span class="line">LINK_DIRECTORIES($&#123;PROJECT_SOURCE_DIR&#125;&#x2F;lib)</span><br><span class="line"></span><br><span class="line">#将hello.cpp生成可执行文件hello </span><br><span class="line">ADD_EXECUTABLE(hello $&#123;SOURCE&#125;)</span><br><span class="line"></span><br><span class="line">#指定hello 链接库myprint</span><br><span class="line">TARGET_LINK_LIBRARIES(hello myprint)</span><br></pre></td></tr></table></figure>
+<p>LINK_DIRECTORIES相当于g++中的<code>-L</code>，TARGET_LINK_LIBRARIES相当于<code>-l</code></p>
 
       
       <!-- reward -->
@@ -180,14 +176,14 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://czkerwin.github.io/2020/05/02/%E5%9F%BA%E4%BA%8EUbuntu%E7%9A%84cpp%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAOpencv%E7%AF%87/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://czkerwin.github.io/2020/05/03/CMakeLists%E4%BD%BF%E7%94%A8/" alt="微信分享二维码">
     </div>
 </div>
 
 <div id="share-mask"></div>
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/cpp/" rel="tag">cpp</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/opencv/" rel="tag">opencv</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ubtuntu/" rel="tag">ubtuntu</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/cpp/" rel="tag">cpp</a></li></ul>
 
 
     </footer>
@@ -198,19 +194,10 @@
   
   <nav class="article-nav">
     
-      <a href="/2020/05/03/CMakeLists%E4%BD%BF%E7%94%A8/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            CMakeLists使用
-          
-        </div>
-      </a>
     
-    
-      <a href="/2020/05/01/%E5%9F%BA%E4%BA%8EUbuntu%E7%9A%84cpp%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BATensorflow%E7%AF%87/" class="article-nav-link">
+      <a href="/2020/05/02/%E5%9F%BA%E4%BA%8EUbuntu%E7%9A%84cpp%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAOpencv%E7%AF%87/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">基于Ubuntu的cpp机器视觉环境搭建Tensorflow篇</div>
+        <div class="article-nav-title">基于Ubuntu的cpp机器视觉环境搭建Opencv篇</div>
       </a>
     
   </nav>
