@@ -9,7 +9,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    CMakeLists使用 |  Kerwin&#39;s Blog
+    yolov4笔记 |  Kerwin&#39;s Blog
   </title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   
@@ -42,7 +42,7 @@
   <div id="app">
     <main class="content on">
       <section class="outer">
-  <article id="post-CMakeLists使用" class="article article-type-post" itemscope
+  <article id="post-yolov4笔记" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
   <div class="article-inner">
@@ -50,7 +50,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  CMakeLists使用
+  yolov4笔记
 </h1>
  
 
@@ -59,8 +59,8 @@
 
     
     <div class="article-meta">
-      <a href="/2020/05/03/CMakeLists%E4%BD%BF%E7%94%A8/" class="article-date">
-  <time datetime="2020-05-03T15:30:26.000Z" itemprop="datePublished">2020-05-03</time>
+      <a href="/2020/05/09/yolov4%E7%AC%94%E8%AE%B0/" class="article-date">
+  <time datetime="2020-05-09T14:27:47.000Z" itemprop="datePublished">2020-05-09</time>
 </a>
       
       
@@ -70,7 +70,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">251</span>
+            <span class="post-count">464</span>
         </span>
     </span>
 
@@ -90,8 +90,6 @@
 
     
     
-    <div class="tocbot"></div>
-
 
 
 
@@ -104,10 +102,7 @@
       
 
       
-      <h1 id="编写动态库"><a href="#编写动态库" class="headerlink" title="编写动态库"></a>编写动态库</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">#指定CMake编译最低要求版本</span><br><span class="line">CMAKE_MINIMUM_REQUIRED(VERSION 3.14)</span><br><span class="line">#给项目命名</span><br><span class="line">PROJECT(MYPRINT)</span><br><span class="line">#收集c&#x2F;c++文件并赋值给变量SRC_LIST_CPP  $&#123;PROJECT_SOURCE_DIR&#125;代表区当前项目录</span><br><span class="line">FILE(GLOB SRC_LIST_CPP $&#123;PROJECT_SOURCE_DIR&#125;&#x2F;src&#x2F;*.cpp)</span><br><span class="line">FILE(GLOB SRC_LIST_C $&#123;PROJECT_SOURCE_DIR&#125;&#x2F;src&#x2F;*.c)</span><br><span class="line">#指定头文件目录</span><br><span class="line">INCLUDE_DIRECTORIES($&#123;PROJECT_SOURCE_DIR&#125;&#x2F;include)</span><br><span class="line">#指定生成库文件的目录</span><br><span class="line">SET(LIBRARY_OUTPUT_PATH $&#123;PROJECT_SOURCE_DIR&#125;&#x2F;lib)</span><br><span class="line">#去变量SRC_LIST_CPP 与SRC_LIST_C 指定生成libmyprint 动态库   默认生成静态库  SHARED指定生成库类型为动态库</span><br><span class="line">ADD_LIBRARY(myprint SHARED $&#123;SRC_LIST_CPP&#125; $&#123;SRC_LIST_C&#125;)</span><br></pre></td></tr></table></figure>
-
-<h1 id="编译项目并引用之前生成的库"><a href="#编译项目并引用之前生成的库" class="headerlink" title="编译项目并引用之前生成的库"></a>编译项目并引用之前生成的库</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">CMAKE_MINIMUM_REQUIRED(VERSION 3.14)</span><br><span class="line">#指定项目名称</span><br><span class="line">PROJECT(HELLO)</span><br><span class="line"></span><br><span class="line">#将hello.cpp 赋值给SOURCE 变量</span><br><span class="line">SET(SOURCE $&#123;PROJECT_SOURCE_DIR&#125;&#x2F;src&#x2F;hello.cpp)</span><br><span class="line"></span><br><span class="line">#指定头文件目录</span><br><span class="line">INCLUDE_DIRECTORIES($&#123;PROJECT_SOURCE_DIR&#125;&#x2F;include)</span><br><span class="line"></span><br><span class="line">#指定链接库文件目录</span><br><span class="line">LINK_DIRECTORIES($&#123;PROJECT_SOURCE_DIR&#125;&#x2F;lib)</span><br><span class="line"></span><br><span class="line">#将hello.cpp生成可执行文件hello </span><br><span class="line">ADD_EXECUTABLE(hello $&#123;SOURCE&#125;)</span><br><span class="line"></span><br><span class="line">#指定hello 链接库myprint</span><br><span class="line">TARGET_LINK_LIBRARIES(hello myprint)</span><br></pre></td></tr></table></figure>
-<p>LINK_DIRECTORIES相当于g++中的<code>-L</code>，TARGET_LINK_LIBRARIES相当于<code>-l</code></p>
+      <p>1.马赛克裁剪增强<br>2.区域dropout<br>3.label smoothing  […]<em>(1-a) + a/n * [1,1…1]<br>4.CIoU loss在DIoU的基础上增加了长宽比的约束，DIoU在IoU的基础上加了对角线距离以及中心点距离的比值作为loss惩罚项<br>5.DIoU-softmax-NMS<br>6.CmBN结合了mini-bath-normolization和 CBN（通过泰勒多项式去估计几个连续的batch的统计参数，可以在批次比较小的BN的时候对精度的影响更小）<br>7.自对抗训练，self-adversarial Training。对抗样本：给图像加上一些肉眼看不出的扰动让模型分类错误<br>8.网格消除敏感，Eliminate grid sensitivity，将sigmoid乘以一个超过1.0的因子。sigmoid在两端 x 变化很大时y基本不变，但是x到达一定值时y效果就非常好了，没必要继续加大x。<br>9.模拟余弦退火 cosine annealing scheduler。改变学习率的一种方式<br>10.用多个anchor去匹配单个目标框<br>11.随机多尺度训练<br>12.Mish activation，MIsh = x</em>tanh（ln（1+e^x）） 理论上对负值的轻微允许允许更好的梯度流，平滑的激活函数允许更好的信息深入神经网络，从而得到更好的准确性和泛化<br>13.CSP+DarkNet53，CSPNet和PRN都是一个思想，将feature map拆成两个部分，一部分进行卷积操作，另一部分和上一部分卷积操作的结果进行concate。<br>14.SPP，无论输入尺寸多少，产生固定大小的输出。原理：改变池化层的步长以及卷积核size产生固定大小的输出，<br>15.改进的SAM 不仅类似与SEnet在通道上加了注意力机制，空间上也加了注意力机制，yolov4直接在点上增加了注意力机制<br>16.将PANet由相加改为相连</p>
 
       
       <!-- reward -->
@@ -176,14 +171,14 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://czkerwin.github.io/2020/05/03/CMakeLists%E4%BD%BF%E7%94%A8/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://czkerwin.github.io/2020/05/09/yolov4%E7%AC%94%E8%AE%B0/" alt="微信分享二维码">
     </div>
 </div>
 
 <div id="share-mask"></div>
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/cpp/" rel="tag">cpp</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/yolov4/" rel="tag">yolov4</a></li></ul>
 
 
     </footer>
@@ -194,19 +189,10 @@
   
   <nav class="article-nav">
     
-      <a href="/2020/05/09/yolov4%E7%AC%94%E8%AE%B0/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            yolov4笔记
-          
-        </div>
-      </a>
     
-    
-      <a href="/2020/05/02/%E5%9F%BA%E4%BA%8EUbuntu%E7%9A%84cpp%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAOpencv%E7%AF%87/" class="article-nav-link">
+      <a href="/2020/05/03/CMakeLists%E4%BD%BF%E7%94%A8/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">基于Ubuntu的cpp机器视觉环境搭建Opencv篇</div>
+        <div class="article-nav-title">CMakeLists使用</div>
       </a>
     
   </nav>

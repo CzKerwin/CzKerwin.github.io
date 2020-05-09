@@ -490,4 +490,13 @@
         <tag>cpp</tag>
       </tags>
   </entry>
+  <entry>
+    <title>yolov4笔记</title>
+    <url>/2020/05/09/yolov4%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>1.马赛克裁剪增强<br>2.区域dropout<br>3.label smoothing  […]<em>(1-a) + a/n * [1,1…1]<br>4.CIoU loss在DIoU的基础上增加了长宽比的约束，DIoU在IoU的基础上加了对角线距离以及中心点距离的比值作为loss惩罚项<br>5.DIoU-softmax-NMS<br>6.CmBN结合了mini-bath-normolization和 CBN（通过泰勒多项式去估计几个连续的batch的统计参数，可以在批次比较小的BN的时候对精度的影响更小）<br>7.自对抗训练，self-adversarial Training。对抗样本：给图像加上一些肉眼看不出的扰动让模型分类错误<br>8.网格消除敏感，Eliminate grid sensitivity，将sigmoid乘以一个超过1.0的因子。sigmoid在两端 x 变化很大时y基本不变，但是x到达一定值时y效果就非常好了，没必要继续加大x。<br>9.模拟余弦退火 cosine annealing scheduler。改变学习率的一种方式<br>10.用多个anchor去匹配单个目标框<br>11.随机多尺度训练<br>12.Mish activation，MIsh = x</em>tanh（ln（1+e^x）） 理论上对负值的轻微允许允许更好的梯度流，平滑的激活函数允许更好的信息深入神经网络，从而得到更好的准确性和泛化<br>13.CSP+DarkNet53，CSPNet和PRN都是一个思想，将feature map拆成两个部分，一部分进行卷积操作，另一部分和上一部分卷积操作的结果进行concate。<br>14.SPP，无论输入尺寸多少，产生固定大小的输出。原理：改变池化层的步长以及卷积核size产生固定大小的输出，<br>15.改进的SAM 不仅类似与SEnet在通道上加了注意力机制，空间上也加了注意力机制，yolov4直接在点上增加了注意力机制<br>16.将PANet由相加改为相连</p>
+]]></content>
+      <tags>
+        <tag>yolov4</tag>
+      </tags>
+  </entry>
 </search>

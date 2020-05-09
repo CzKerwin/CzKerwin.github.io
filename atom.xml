@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://czkerwin.github.io/"/>
-  <updated>2020-05-03T15:35:48.033Z</updated>
+  <updated>2020-05-09T14:29:55.984Z</updated>
   <id>http://czkerwin.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>yolov4笔记</title>
+    <link href="http://czkerwin.github.io/2020/05/09/yolov4%E7%AC%94%E8%AE%B0/"/>
+    <id>http://czkerwin.github.io/2020/05/09/yolov4%E7%AC%94%E8%AE%B0/</id>
+    <published>2020-05-09T14:27:47.000Z</published>
+    <updated>2020-05-09T14:29:55.984Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="yolov4" scheme="http://czkerwin.github.io/tags/yolov4/"/>
+    
+  </entry>
   
   <entry>
     <title>CMakeLists使用</title>
@@ -500,33 +525,6 @@
     
     
       <category term="blog" scheme="http://czkerwin.github.io/tags/blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Markdown基本语法</title>
-    <link href="http://czkerwin.github.io/2020/04/11/Markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
-    <id>http://czkerwin.github.io/2020/04/11/Markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</id>
-    <published>2020-04-11T07:12:14.000Z</published>
-    <updated>2020-04-18T09:54:59.634Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="blog" scheme="http://czkerwin.github.io/tags/blog/"/>
-    
-      <category term="markdown" scheme="http://czkerwin.github.io/tags/markdown/"/>
     
   </entry>
   
