@@ -9,7 +9,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    PyTorch中的ModuleList和Sequential |  Kerwin&#39;s Blog
+    人脸检测与对齐 |  Kerwin&#39;s Blog
   </title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   
@@ -42,7 +42,7 @@
   <div id="app">
     <main class="content on">
       <section class="outer">
-  <article id="post-PyTorch中的ModuleList和Sequential" class="article article-type-post" itemscope
+  <article id="post-人脸检测与对齐" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
   <div class="article-inner">
@@ -50,7 +50,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  PyTorch中的ModuleList和Sequential
+  人脸检测与对齐
 </h1>
  
 
@@ -59,8 +59,8 @@
 
     
     <div class="article-meta">
-      <a href="/2020/05/10/PyTorch%E4%B8%AD%E7%9A%84ModuleList%E5%92%8CSequential/" class="article-date">
-  <time datetime="2020-05-10T14:05:40.000Z" itemprop="datePublished">2020-05-10</time>
+      <a href="/2020/05/11/%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B%E4%B8%8E%E5%AF%B9%E9%BD%90/" class="article-date">
+  <time datetime="2020-05-11T08:27:18.000Z" itemprop="datePublished">2020-05-11</time>
 </a>
       
       
@@ -70,7 +70,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">607</span>
+            <span class="post-count">383</span>
         </span>
     </span>
 
@@ -90,8 +90,6 @@
 
     
     
-    <div class="tocbot"></div>
-
 
 
 
@@ -104,21 +102,7 @@
       
 
       
-      <h2 id="class-torch-nn-Sequential-args"><a href="#class-torch-nn-Sequential-args" class="headerlink" title="class torch.nn.Sequential(* args)"></a>class torch.nn.Sequential(* args)</h2><p>一个时序容器。<code>Modules</code> 会以他们传入的顺序被添加到容器中。当然，也可以传入一个OrderedDict。<br>nn.Sequential里面的模块按照顺序进行排列的，所以必须确保前一个模块的输出大小和下一个模块的输入大小是一致的。<br>例：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"># Example of using Sequential</span><br><span class="line">model &#x3D; nn.Sequential(</span><br><span class="line">          nn.Conv2d(1,20,5),</span><br><span class="line">          nn.ReLU(),</span><br><span class="line">          nn.Conv2d(20,64,5),</span><br><span class="line">          nn.ReLU()</span><br><span class="line">        )</span><br><span class="line"># Example of using Sequential with OrderedDict</span><br><span class="line">model &#x3D; nn.Sequential(OrderedDict([</span><br><span class="line">          (&#39;conv1&#39;, nn.Conv2d(1,20,5)),</span><br><span class="line">          (&#39;relu1&#39;, nn.ReLU()),</span><br><span class="line">          (&#39;conv2&#39;, nn.Conv2d(20,64,5)),</span><br><span class="line">          (&#39;relu2&#39;, nn.ReLU())</span><br><span class="line">        ]))</span><br><span class="line"># Net</span><br><span class="line">class net_seq(nn.Module):</span><br><span class="line">    def __init__(self):</span><br><span class="line">        super(net_seq, self).__init__()</span><br><span class="line">        self.seq &#x3D; nn.Sequential(</span><br><span class="line">                        nn.Conv2d(1,20,5),</span><br><span class="line">                        nn.ReLU(),</span><br><span class="line">                        nn.Conv2d(20,64,5),</span><br><span class="line">                        nn.ReLU()</span><br><span class="line">                       )      </span><br><span class="line">    def forward(self, x):</span><br><span class="line">        return self.seq(x)</span><br><span class="line">net_seq &#x3D; net_seq()</span><br><span class="line">print(net_seq)</span><br></pre></td></tr></table></figure>
-
-<h2 id="class-torch-nn-ModuleList-modules-None-source"><a href="#class-torch-nn-ModuleList-modules-None-source" class="headerlink" title="class torch.nn.ModuleList(modules=None)[source]"></a>class torch.nn.ModuleList(modules=None)[source]</h2><p>将<code>submodules</code>保存在一个<code>list</code>中。</p>
-<p><code>ModuleList</code>可以像一般的<code>Python list</code>一样被索引。而且<code>ModuleList</code>中包含的<code>modules</code>已经被正确的注册，对所有的<code>module method</code>可见。</p>
-<p>可以把任意 <code>nn.Module</code>的子类 (比如 <code>nn.Conv2d</code>, <code>nn.Linear</code> 等) 加到这个 list 里面，方法和 Python 自带的 list 一样，无非是 extend，append 等操作。但不同于一般的 list，加入到 <code>nn.ModuleList</code> 里面的 <code>module</code> 是会自动注册到整个网络上的，同时 <code>module</code> 的 <code>parameters</code> 也会自动添加到整个网络中。若使用python的list，则会出问题。</p>
-<p>参数说明:</p>
-<ul>
-<li>modules (list, optional) – 将要被添加到<code>MuduleList</code>中的 <code>modules</code> 列表<br>例子:<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">class net_modlist(nn.Module):</span><br><span class="line">    def __init__(self):</span><br><span class="line">        super(net_modlist, self).__init__()</span><br><span class="line">        self.modlist &#x3D; nn.ModuleList([</span><br><span class="line">                        nn.Conv2d(1, 20, 5),</span><br><span class="line">                        nn.ReLU(),</span><br><span class="line">                        nn.Conv2d(20, 64, 5),</span><br><span class="line">                        nn.ReLU()</span><br><span class="line">                        ])</span><br><span class="line"></span><br><span class="line">    def forward(self, x):</span><br><span class="line">        for m in self.modlist:</span><br><span class="line">            x &#x3D; m(x)</span><br><span class="line">        return x</span><br><span class="line"></span><br><span class="line">net_modlist &#x3D; net_modlist()</span><br><span class="line">print(net_modlist)</span><br><span class="line">for param in net_modlist.parameters():</span><br><span class="line">    print(type(param.data), param.size())</span><br></pre></td></tr></table></figure>
-<h1 id="nn-Sequential与nn-ModuleList的区别"><a href="#nn-Sequential与nn-ModuleList的区别" class="headerlink" title="nn.Sequential与nn.ModuleList的区别"></a>nn.Sequential与nn.ModuleList的区别</h1></li>
-<li>nn.Sequential内部实现了forward函数，因此可以不用写forward函数。而nn.ModuleList则没有实现内部forward函数。如果完全直接用 nn.Sequential，确实是可以的，但这么做的代价就是失去了部分灵活性，不能自己去定制 forward 函数里面的内容了。</li>
-<li>nn.Sequential可以使用OrderedDict对每层进行命名</li>
-<li>nn.Sequential里面的模块按照顺序进行排列的，所以必须确保前一个模块的输出大小和下一个模块的输入大小是一致的。而nn.ModuleList 并没有定义一个网络，它只是将不同的模块储存在一起，这些模块之间并没有什么先后顺序可言。</li>
-</ul>
-
+      <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br></pre></td><td class="code"><pre><span class="line">import dlib</span><br><span class="line">import face_recognition</span><br><span class="line">import math</span><br><span class="line">import numpy as np</span><br><span class="line">import cv2</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line">def rect_to_bbox(rect):</span><br><span class="line">    &quot;&quot;&quot;获得人脸矩形的坐标信息&quot;&quot;&quot;</span><br><span class="line">    # print(rect)</span><br><span class="line">    x &#x3D; rect[3]</span><br><span class="line">    y &#x3D; rect[0]</span><br><span class="line">    w &#x3D; rect[1] - x</span><br><span class="line">    h &#x3D; rect[2] - y</span><br><span class="line">    return (x, y, w, h)</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line">def face_alignment(faces):</span><br><span class="line">    # 预测关键点</span><br><span class="line">    predictor &#x3D; dlib.shape_predictor(&quot;dat&#x2F;shape_predictor_68_face_landmarks.dat&quot;)</span><br><span class="line">    faces_aligned &#x3D; []</span><br><span class="line">    for face in faces:</span><br><span class="line">        rec &#x3D; dlib.rectangle(0, 0, face.shape[0], face.shape[1])</span><br><span class="line">        shape &#x3D; predictor(np.uint8(face), rec)</span><br><span class="line">        # left eye, right eye, nose, left mouth, right mouth</span><br><span class="line">        order &#x3D; [36, 45, 30, 48, 54]</span><br><span class="line">        for j in order:</span><br><span class="line">            x &#x3D; shape.part(j).x</span><br><span class="line">            y &#x3D; shape.part(j).y</span><br><span class="line">        # 计算两眼的中心坐标</span><br><span class="line">        eye_center &#x3D;((shape.part(36).x + shape.part(45).x) * 1.&#x2F;2, (shape.part(36).y + shape.part(45).y) * 1.&#x2F;2)</span><br><span class="line">        dx &#x3D; (shape.part(45).x - shape.part(36).x)</span><br><span class="line">        dy &#x3D; (shape.part(45).y - shape.part(36).y)</span><br><span class="line">        # 计算角度</span><br><span class="line">        angle &#x3D; math.atan2(dy, dx) * 180. &#x2F; math.pi</span><br><span class="line">        # 计算仿射矩阵</span><br><span class="line">        RotateMatrix &#x3D; cv2.getRotationMatrix2D(eye_center, angle, scale&#x3D;1)</span><br><span class="line">        # 进行仿射变换，即旋转</span><br><span class="line">        RotImg &#x3D; cv2.warpAffine(face, RotateMatrix, (face.shape[0], face.shape[1]))</span><br><span class="line">        faces_aligned.append(RotImg)</span><br><span class="line">    return faces_aligned</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line">def test(img_path):</span><br><span class="line">    unknown_image &#x3D; face_recognition.load_image_file(img_path)</span><br><span class="line">    # 定位图片中的人脸</span><br><span class="line">    face_locations &#x3D; face_recognition.face_locations(unknown_image)</span><br><span class="line">    # 提取人脸区域的图片并保存</span><br><span class="line">    src_faces &#x3D; []</span><br><span class="line">    src_face_num &#x3D; 0</span><br><span class="line">    for (i, rect) in enumerate(face_locations):</span><br><span class="line">        src_face_num &#x3D; src_face_num + 1</span><br><span class="line">        (x, y, w, h) &#x3D; rect_to_bbox(rect)</span><br><span class="line">        detect_face &#x3D; unknown_image[y:y+h, x:x+w]</span><br><span class="line">        src_faces.append(detect_face)</span><br><span class="line">        detect_face &#x3D; cv2.cvtColor(detect_face, cv2.COLOR_RGBA2BGR)</span><br><span class="line">        cv2.imwrite(&quot;face_align_result&#x2F;face_&quot; + str(src_face_num) + &quot;.jpg&quot;, detect_face)</span><br><span class="line">    # 人脸对齐操作并保存</span><br><span class="line">    faces_aligned &#x3D; face_alignment(src_faces)</span><br><span class="line">    face_num &#x3D; 0</span><br><span class="line">    for faces in faces_aligned:</span><br><span class="line">        face_num &#x3D; face_num + 1</span><br><span class="line">        faces &#x3D; cv2.cvtColor(faces, cv2.COLOR_RGBA2BGR)</span><br><span class="line">        cv2.imwrite(&quot;face_align_result&#x2F;face_align_&quot; + str(face_num) + &quot;.jpg&quot;, faces)</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line">if __name__ &#x3D;&#x3D; &#39;__main__&#39;:</span><br><span class="line">    test(&quot;8.jpg&quot;)</span><br><span class="line">    print(&quot; SUCCEED !!! &quot;)</span><br></pre></td></tr></table></figure>
       
       <!-- reward -->
       
@@ -186,14 +170,14 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://czkerwin.github.io/2020/05/10/PyTorch%E4%B8%AD%E7%9A%84ModuleList%E5%92%8CSequential/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://czkerwin.github.io/2020/05/11/%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B%E4%B8%8E%E5%AF%B9%E9%BD%90/" alt="微信分享二维码">
     </div>
 </div>
 
 <div id="share-mask"></div>
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/PyTorch/" rel="tag">PyTorch</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/face-recognition/" rel="tag">face-recognition</a></li></ul>
 
 
     </footer>
@@ -204,19 +188,10 @@
   
   <nav class="article-nav">
     
-      <a href="/2020/05/11/%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B%E4%B8%8E%E5%AF%B9%E9%BD%90/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            人脸检测与对齐
-          
-        </div>
-      </a>
     
-    
-      <a href="/2020/05/09/yolov4%E7%AC%94%E8%AE%B0/" class="article-nav-link">
+      <a href="/2020/05/10/PyTorch%E4%B8%AD%E7%9A%84ModuleList%E5%92%8CSequential/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">yolov4笔记</div>
+        <div class="article-nav-title">PyTorch中的ModuleList和Sequential</div>
       </a>
     
   </nav>
